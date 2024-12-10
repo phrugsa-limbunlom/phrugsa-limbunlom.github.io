@@ -1,49 +1,92 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am passionate to apply my skills in QA, software development, and AI to design high-quality, efficient human-level intelligence systems. Before starting my master’s program, I worked as a backend developer building robust and scalable software through microservices and API integration. I also gained experience as a quality analyst conducting both manual and automated testing to maintain rigorous software quality standards. My career has included roles at global IT consulting firms, where I contributed to Agile projects and collaborated with cross-functional teams. With a solid foundation in both software development and quality assurance, I am now eager to deepen my expertise in AI. After completing my master’s degree, I plan to pursue a PhD in Cognitive AI and AI reasoning.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Research Interest
+-------------------------------------
+My research focuses on enhancing cognitive function in the current machine intelligence system. I am interested in researching approaches to tackle reasoning challenges in current LLM and multimodel, especially vision-related tasks. I am currently studying the feasibility of leveraging Joint-embedding predictive architecture (JEPA) and energy-based models to address such problems. I aim to build a logical human-level intelligence system that requires a small sample when learning new situations.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Education
+--------------------------------------
+MSc in AI, CSEE, University of Essex, 
+- Grade: Distinction (75%)
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+BSc, Faculty of ICT, Mahidol University
+- Major Computer Science
+- Grade: 3.62/4.0
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Previous Research
+--------------------------------------
+**[SE-GAN: Sentiment-Enhanced GAN for Stock Price Forecasting](https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK-FORECASTING)**
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+**Abstract**
 
-**Markdown generator**
+Stock price prediction is a challenging task due to the inherent volatility of the market and the complexity of price movement. Traditional models still encounter limitations when faced with restricted historical data, which leads to over-fitting problems and poor performance on unseen data. Furthermore, market sentiment is a crucial factor for price fluctuations, yet several models still fail to adequately capture this important factor. To address the issues, the research proposes a novel deep learning network architecture. The approach leverages generative adversarial networks (GANs) to expand the training set and generalize on unseen data by generating synthetic historical data. As the GAN model generates prediction of closing prices, the generated prices can be compared with actual market movements to assess its performance. To capture the impact of market sentiment, the model also integrates sentiment analysis from financial news. This integration allows a more comprehensive technique for price forecasting, considering both quantitative historical data and qualitative sentiment indicators. The model was trained on historical data of Microsoft stock (MSFT) from January 2013 to December 2023. To conduct market sentiment analysis on financial news, FINBERT will be utilized to extract sentiment scores from headlines. Additionally, various index of Microsoft stock (MSFT) are integrated in the training data. The proposed model, Sentiment-Enhanced GAN (SE-GAN), integrates sentiment analysis with generative adversarial networks (GANs) to generate more robust and accurate stock price predictions. The SE-GAN model demonstrates the lowest Root Mean Square Error(RMSE) for overall experiment setting compared to baselines models including Long Short- Term Memory (LSTM) and Gated Recurrent Unit (GRU), as well as TimeGPT as another generative model. The improvement suggests that the SE-GAN approach offers a more effective method for predicting stock prices, leveraging the combined strengths of sentiment analysis and generative adversarial networks (GANs).
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+**Keywords**: Stock Price Prediction, Sentiment Analysis, Generative Adversarial Networks (GANs), FINBERT
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+**MANDY: EMPIRICAL INVESTIGATION AND SUPPORTING PROGRAM FOR MANDIBULAR FRACTURE CLASSIFICATION AND LOCALIZATION ALGORITHMS ON X-RAY IMAGES OF SKULLS**
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+<video width="640" height="360" controls>
+  <source src="Mandy.mp4" type="video/mp4">
+</video>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+**Abstract**
+
+Accidents, especially traffic accidents, are a common occurrence in Thailand, and there are many who encounter fractures to their skull or face. The mandible is a prominent bone in the face that is relatively easy to break, and although treatment can be effective, doctors need to know the fracture location (or locations) immediately to reduce the risk of other injuries. Diagnoses of the fractures is done by X-Ray, and X- Ray films are used as they are low-cost. However, locating fractures in the mandible using X-Ray film can be difficult and often requires the opinion of a specialist. As such, a computer-aided diagnostic tool would lead to faster, more accurate, and less costly analysis. To our knowledge, no research has been undertaken on the effectiveness of such technology in mandibular fracture detection from X-Ray images. Therefore, this project will investigate relevant models and techniques, and deploy algorithms on real X-Rays, which will help non-specialist doctors diagnose mandibular fractures quickly, accurately, and without reference to a specialist. Moreover, the project will support medical research and study the efficiency and effectiveness of web applications in clinical practice.
+
+**KEYWORDS**: NEURAL NETWORK, DEEP LEARNING,MANDIBULAR FRACTURE, X-RAY IMAGE, CLASSIFICATION, LOCALIZATION, WEB APPLICATION
+
+
+Blog Post
+--------------------------------------
+- [What you may miss about the core concept of the GAN model](https://gifttgif.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc)
+
+Professional Experience
+--------------------------------------
+Accenture (Oct 2021 - Aug 2023)
+
+- Packaged App Development Senior Analyst
+
+ThoughtWorks (Jan 2021 - Sep 2021)
+
+- Graduate Quality Analyst 
+
+Siam Commercial Bank (SCB) (Aug 2020 - Dec 2020)
+
+- Quality Assurance Engineer
+
+Awards
+---------------------------------------
+- Academic Excellence International Master Scholarship
+- The Big Essex Bronze Award: Essex Intern, Language for All Express (Chinese)
+- Winner Award issued by The Medical Association of Thailand from **CIGARLESS** application
+
+<video width="640" height="360" controls>
+  <source src="Cigarless.mp4" type="video/mp4">
+</video>
+
+Certificate
+---------------------------------------
+- AI Infrastructure and Operations Fundamentals | NVIDIA
+- Deep Learning Specialization | DeepLearning.AI
+- AWS Cloud Practitioner | AWS
+- Microsoft Technology Associate: Software Development Fundamental | Microsoft
+- Microsoft Technology Associate: Database Administration Fundamental | Microsoft
+- IT Security 2.0 | ECDL Certification
+
+More About Me
+----------------------------------------
+I am passionate about technology and fascinated by how the industry drives core development while leveraging its capabilities to create applications serving real users effectively.
+Apart from technology, I like science, evolution, and history. Visiting museum is my another hobby.
+
+<img src="/images/image1.jpg" alt="Description" style="border-radius: 50%; width: 150px; height: 150px;">
+<img src="/images/image2.jpg" alt="Description" style="border-radius: 50%; width: 150px; height: 150px;">
+<img src="/images/image3.jpg" alt="Description" style="border-radius: 50%; width: 150px; height: 150px;">
