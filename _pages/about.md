@@ -129,16 +129,15 @@ Awards
 </ul>
 <br>
 <p style="font-size: 15px;">
-    <strong>CIGARLESS</strong> is an application that offers a practical process helping smokers can quit smoking effectively. My team and I have researched behaviours of the smokers in the community, after finalized the features in the application including following:
+    <strong>CIGARLESS</strong> is an application that offers a practical process helping smokers can quit smoking effectively. My team and I have researched behaviours of the smokers in the community. Then, we used the collected data to finalize the features included in the application as follows:
 </p>
 <ul style="font-size: 15px;">
     <li>Tracking number of cigarettes reduced per day depending on the subscription of users' choices</li>
     <li> Recommending activities to help smokers reducing their stress</li>
     <li> Connecting between smokers and care takers by chatting as a consultant service</li>
 </ul>
-<br>
 <p style="font-size: 15px;">
-This project aims to help smokers in the Thai society who are willing to stop smoking permanently can achieve their desired goals at ease with the help of technology that is used prevalently in a society nowadays.
+This project aims to help smokers in the Thai society, who are willing to stop smoking permanently, can achieve their desired goals at ease with the help of technology that is used prevalently in a society nowadays.
 </p>
 <br>
 <div style="text-align: center;">
