@@ -47,6 +47,9 @@ Education
  <li>Major: Computer Science</li>
  <li>Grade: 3.62/4.0</li>
 </ul>
+<p style="font-size: 15px;">
+    Certificate of Completion, Sungkyunkwan University
+</p>
 
 Previous Research
 --------------------------------------
