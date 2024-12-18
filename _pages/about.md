@@ -29,7 +29,7 @@ redirect_from:
 Research Interest
 -------------------------------------
 <p style="font-size: 15px; text-align: justify; margin: 0;">
-    My research interest focuses on enhancing cognitive function in the current machine intelligence system. This research aspiration was motivated by my previous researches when the models always suffer from requiring a massive amount of data for learning and cannot generalize to unseen data. After I read a paper <a href="https://openreview.net/pdf?id=BZ5a1r-kVsf" style="font-style: italic;">A Path Towards Autonomous Machine Intelligence</a> by Yann LeCun, I realized the problems are originated by a lack of reasoning in current models that requires further improvement in the cognition mechanism, and without it, we cannot achieve the actual human-level machine intelligence. I am interested in researching approaches to tackle reasoning challenges in current LLM and multimodel, especially vision-related tasks. I am currently studying the feasibility of leveraging Joint-embedding predictive architecture (JEPA) and energy-based models to address such problems. I aim to build a logical human-level intelligence system that requires a small sample when learning new situations.
+    My research interest focuses on enhancing cognitive function in the current machine intelligence system. This research aspiration was motivated by my previous researches when the models always suffer from requiring a massive amount of data for learning and cannot generalize to unseen data (out-of-distribution). After I read a paper <a href="https://openreview.net/pdf?id=BZ5a1r-kVsf" style="font-style: italic;">A Path Towards Autonomous Machine Intelligence</a> by Yann LeCun, I realized the problems are originated by a lack of reasoning in current models that requires further improvement in the cognition mechanism, and without it, we cannot achieve the actual human-level machine intelligence. I am interested in researching approaches to tackle reasoning challenges in current LLM and multimodel, especially vision-related tasks. I am currently studying the feasibility of leveraging Joint-embedding predictive architecture (JEPA) and energy-based models to address such problems. I aim to build a logical human-level intelligence system that requires a small sample when learning new situations.
 </p>
 
 Education
@@ -50,6 +50,10 @@ Education
 <p style="font-size: 15px;">
     Certificate of Completion, Sungkyunkwan University
 </p>
+<ul style="font-size: 15px;">
+ <li>Artificial Intelligence (87%)</li>
+ <li>Engineering Communication (95%)</li>
+</ul>
 
 Previous Research
 --------------------------------------
