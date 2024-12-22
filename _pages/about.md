@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <p style="font-size: 15px; text-align: justify; margin: 0;">
-    I am passionate to apply my skills in QA, software development, and AI to design high-quality, efficient human-level intelligence systems. Before starting my master’s program, I worked as a backend developer building robust and scalable software through microservices and API integration. I also gained experience as a quality analyst conducting both manual and automated testing to maintain rigorous software quality standards. My career has included roles at global IT consulting firms, where I contributed to Agile projects and collaborated with cross-functional teams. With a solid foundation in both software development and quality assurance, I am now eager to deepen my expertise in AI. After completing my master’s degree, I plan to pursue a PhD in Cognitive AI and AI reasoning.
+    I am passionate to apply my skills in QA, software development, and AI to design high-quality, efficient, and reliable intelligence systems. Before starting my master’s program, I worked as a backend developer building robust and scalable software through microservices and API integration. I also gained experience as a quality analyst conducting both manual and automated testing to maintain rigorous software quality. My career has included roles at global IT consulting firms, where I contributed to Agile projects and collaborated with cross-functional teams. With a solid foundation in both software development and quality assurance, I am now eager to deepen my expertise in AI. After completing my master’s degree, I plan to pursue a PhD in Cognitive AI and AI reasoning.
 </p>
 <br>
 
@@ -29,26 +29,25 @@ redirect_from:
 Research Interest
 -------------------------------------
 <p style="font-size: 15px; text-align: justify; margin: 0;">
-    My research interest focuses on enhancing cognitive function in the current machine intelligence system. This research aspiration was motivated by my previous researches when the models always suffer from requiring a massive amount of data for learning and cannot generalize to unseen data (out-of-distribution). After I read a paper <a href="https://openreview.net/pdf?id=BZ5a1r-kVsf" style="font-style: italic;">A Path Towards Autonomous Machine Intelligence</a> by Yann LeCun, I realized the problems are originated by a lack of reasoning in current models that requires further improvement in the cognition mechanism, and without it, we cannot achieve the actual human-level machine intelligence. I am interested in researching approaches to tackle reasoning challenges in current LLM and multimodel, especially vision-related tasks. I am currently studying the feasibility of leveraging Joint-embedding predictive architecture (JEPA) and energy-based models to address such problems. I aim to build a logical human-level intelligence system that requires a small sample when learning new situations.
+    My research interest focuses on enhancing cognitive functions in current machine intelligence systems. This interest was motivated by my previous work, where I observed that models often struggle with requiring vast amounts of data for training and fail to generalize to unseen data that deviates from the training distribution (out-of-distribution generalization). After reading the paper,  <a href="https://openreview.net/pdf?id=BZ5a1r-kVsf" style="font-style: italic;"> A Path Towards Autonomous Machine Intelligence </a>, by Yann LeCun, I realized that these issues stem from a lack of reasoning in current models, which need further improvement in their cognitive mechanisms. I am particularly interested in researching approaches to tackle reasoning challenges in large language models (LLMs) and multimodal systems, especially in vision-related tasks. I am currently exploring the feasibility of leveraging Joint-Embedding Predictive Architecture (JEPA) and energy-based models to address these problems. My goal is to develop an intelligent system that requires a small sample for training to learn new situations.
 </p>
 
 Education
 --------------------------------------
 <p style="font-size: 15px;">
-    MSc in AI, CSEE, University of Essex
+    MSc, Artificial Intelligence and its Applications, CSEE, University of Essex
 </p>
 <ul style="font-size: 15px;">
     <li>Grade: Distinction (75%)</li>
 </ul>
 <p style="font-size: 15px;">
-    BSc, Faculty of ICT, Mahidol University
+    BSc, Major Computer Science, Faculty of ICT, Mahidol University
 </p>
 <ul style="font-size: 15px;">
- <li>Major: Computer Science</li>
- <li>Grade: 3.62/4.0</li>
+ <li>Grade: 3.62/4.00</li>
 </ul>
 <p style="font-size: 15px;">
-    Certificate of Completion, Sungkyunkwan University
+    Certificate of Completion, International Summer Semester 2019, Sungkyunkwan University
 </p>
 <ul style="font-size: 15px;">
  <li>Artificial Intelligence (87%)</li>
@@ -105,33 +104,52 @@ Blog Post
 --------------------------------------
 - [What you may miss about the core concept of the GAN model](https://gifttgif.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc)
 
-Professional Experience
---------------------------------------
-<p style="font-size: 15px;">
-Accenture (Oct 2021 - Aug 2023)
-</p>
-<ul style="font-size: 15px;">
-    <li>Packaged App Development Senior Analyst</li>
-</ul>
-<p style="font-size: 15px;">
-ThoughtWorks (Jan 2021 - Sep 2021)
-</p>
-<ul style="font-size: 15px;">
-    <li>Graduate Quality Analyst</li>
-</ul>
-<p style="font-size: 15px;">
-Siam Commercial Bank (SCB) (Aug 2020 - Dec 2020)
-</p>
-<ul style="font-size: 15px;">
-    <li>Quality Assurance Engineer</li>
-</ul>
+[//]: # (Professional Experience)
+
+[//]: # (--------------------------------------)
+
+[//]: # (<p style="font-size: 15px;">)
+
+[//]: # (Accenture &#40;Oct 2021 - Aug 2023&#41;)
+
+[//]: # (</p>)
+
+[//]: # (<ul style="font-size: 15px;">)
+
+[//]: # (    <li>Packaged App Development Senior Analyst</li>)
+
+[//]: # (</ul>)
+
+[//]: # (<p style="font-size: 15px;">)
+
+[//]: # (ThoughtWorks &#40;Jan 2021 - Sep 2021&#41;)
+
+[//]: # (</p>)
+
+[//]: # (<ul style="font-size: 15px;">)
+
+[//]: # (    <li>Graduate Quality Analyst</li>)
+
+[//]: # (</ul>)
+
+[//]: # (<p style="font-size: 15px;">)
+
+[//]: # (Siam Commercial Bank &#40;SCB&#41; &#40;Aug 2020 - Dec 2020&#41;)
+
+[//]: # (</p>)
+
+[//]: # (<ul style="font-size: 15px;">)
+
+[//]: # (    <li>Quality Assurance Engineer</li>)
+
+[//]: # (</ul>)
 
 
 Awards
 ---------------------------------------
 <ul style="font-size: 15px;">
     <li>Academic Excellence International Master Scholarship from University of Essex</li>
-    <li>The Big Essex Bronze Award: Essex Intern, Language for All Express (Study Basic Chinese)</li>
+    <li>The Big Essex Bronze Award 2024 from University of Essex</li>
     <li>Winner Award for Outstanding Innovation in <i> Free smoking university project </i> issued by The Medical Association of Thailand from <i> CIGARLESS </i> application</li>
 </ul>
 <br>
