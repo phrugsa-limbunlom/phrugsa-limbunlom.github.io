@@ -12,12 +12,12 @@ redirect_from:
 </p>
 <br>
 
-<!-- <div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
+<!--<div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
 <a href="https://github.com/phrugsa-limbunlom" target="_blank" rel="noopener noreferrer">
             <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="30" height="30">
-</a>
+</a> -->
 
-<a href="https://www.linkedin.com/in/phrugsa-limbunlom-5b8995117/" target="_blank" rel="noopener noreferrer">
+<!-- <a href="https://www.linkedin.com/in/phrugsa-limbunlom-5b8995117/" target="_blank" rel="noopener noreferrer">
     <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" width="30" height="30">
 </a>
 
@@ -96,12 +96,7 @@ Previous Research
 Traffic accidents are a serious situation in Thailand. These accidents are prevalent and lead to a number of patients encountering fractures on their facial skulls. The mandible is a prominent bone in the face that is relatively easy to break, and although treatment can be effective, doctors need to know the fracture locations immediately to reduce the risk of other injuries. Diagnoses of the fractures is normally done by X-Ray due to its inexpensive cost. However, locating fractures in the mandible using X-Ray film can be difficult and often requires the opinion of  specialists. As such, a computer-aided diagnostic tool would lead to faster, more accurate, and less costly analysis. To our knowledge, no research has been undertaken on the effectiveness of such technology in mandibular fracture detection from X-Ray images. This research aims to investigate relevant models for images classification using convolutional neural networks (CNNs) and transferring techniques from pre-trained models to identify the names of mandibular fracture, also employ Gradient-weighted Class Activation Mapping (GradCAM) to localize the location of those fractures on x-ray images. Moreover, the trained model was deployed to create a diagnostic system helping non-specialist doctors diagnose mandibular fractures more accurately and efficiently without requiring a reference to specialists, as well as support medical research to study the effectiveness of web applications in clinical practice.
 </p>
 <br>
-<!-- <div style="text-align: center;">
-<video width="360" height="180" controls>
-  <source src="Mandy.mp4" type="video/mp4">
-</video>
-</div> -->
-<!-- <br> -->
+
 <p style="font-size: 15px; text-align: justify; margin: 0;">
     <strong>Keywords:</strong> Convolutional Neural Network, GradCAM, Mandibular Fracture, Classification, Localization, X-ray Image
 </p>
@@ -179,12 +174,14 @@ This project aims to help smokers in the Thai society, who are willing to stop s
 
 Certificate
 ---------------------------------------
-- AI Infrastructure and Operations Fundamentals
-- Deep Learning Specialization
-- AWS Cloud Practitioner
-- Microsoft Technology Associate: Software Development Fundamental 
-- Microsoft Technology Associate: Database Administration Fundamental 
-- IT Security 2.0
+<ul style="font-size: 15px;">
+<li> AI Infrastructure and Operations Fundamentals</li>
+<li> Deep Learning Specialization</li>
+<li> AWS Cloud Practitioner</li>
+<li> Microsoft Technology Associate: Software Development Fundamental</li>
+<li> Microsoft Technology Associate: Database Administration Fundamental</li>
+<li> IT Security 2.0</li>
+</ul>
 
 More About Me
 ----------------------------------------
