@@ -29,7 +29,7 @@ redirect_from:
 Industry-based Project Interest
 -------------------------------------
 <p style="font-size: 15px; text-align: justify; margin: 0;">
- am passionate about developing AI-driven software solutions to address business challenges and drive growth. My primary focus is creating software that seamlessly integrates Generative AI and Agentic AI to optimize and enhance business processes—also aims to create user-friendly software that can solve real-world challenges and make it more convenient for users without a technical background.
+I am passionate about developing AI-driven software solutions to address business challenges and drive growth. My primary focus is creating software that seamlessly integrates Generative AI and Agentic AI to optimize and enhance business processes—also aims to create user-friendly software that can solve real-world challenges and make it more convenient for users without a technical background.
 </p>
 
 Research Interest
@@ -172,7 +172,7 @@ This project aims to help smokers in the Thai society, who are willing to stop s
 </video>
 </div> -->
 
-Certificate
+Certificates
 ---------------------------------------
 <ul style="font-size: 15px;">
 <li> AI Infrastructure and Operations Fundamentals</li>
