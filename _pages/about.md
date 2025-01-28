@@ -8,11 +8,11 @@ redirect_from:
 ---
 
 <p style="font-size: 15px; text-align: justify; margin: 0;">
-    I am passionate to apply my skills in QA, software development, and AI to design high-quality, efficient, and reliable intelligence systems. Before starting my master’s program, I worked as a backend developer building robust and scalable software through microservices and API integration. I also gained experience as a quality analyst conducting both manual and automated testing to maintain rigorous software quality. My career has included roles at global IT consulting firms, where I contributed to Agile projects and collaborated with cross-functional teams. With a solid foundation in both software development and quality assurance, I am now eager to deepen my expertise in AI. After completing my master’s degree, I plan to pursue a PhD in Cognitive AI and AI reasoning.
+    I am passionate to apply my skills in AI, software engineering, and QA to design efficient and reliable intelligence systems. Before starting my master’s program, I worked as a software engineer building robust and scalable software through microservices and API integration. I also gained experience as a quality engineer conducting both manual and automated testing to maintain rigorous software quality. My career has included roles at global IT consulting firms, where I contributed to Agile projects and collaborated with cross-functional teams. With a solid foundation in both software development and quality assurance, I am now eager to deepen my expertise in AI. After completing my master’s degree, I am excited to leverage my skills in developing innovative AI-driven software solutionn, and pursue a PhD in Cognitive AI and AI reasoning.
 </p>
 <br>
 
-<div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
+<!-- <div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
 <a href="https://github.com/phrugsa-limbunlom" target="_blank" rel="noopener noreferrer">
             <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="30" height="30">
 </a>
@@ -24,7 +24,13 @@ redirect_from:
 <a href="https://phrugsa-limbunlom.medium.com/" target="_blank" rel="noopener noreferrer">
     <img src="https://cdn-icons-png.flaticon.com/512/5968/5968906.png" alt="Medium" width="30" height="30">
 </a>
-</div>
+</div> -->
+
+Industry-based Project Interest
+-------------------------------------
+<p style="font-size: 15px; text-align: justify; margin: 0;">
+ am passionate about developing AI-driven software solutions to address business challenges and drive growth. My primary focus is creating software that seamlessly integrates Generative AI and Agentic AI to optimize and enhance business processes—also aims to create user-friendly software that can solve real-world challenges and make it more convenient for users without a technical background.
+</p>
 
 Research Interest
 -------------------------------------
@@ -76,7 +82,7 @@ Previous Research
 <p style="font-size: 15px; text-align: justify; margin: 0;">
     <strong>Keywords</strong>: Stock Price Prediction, Sentiment Analysis, Generative Adversarial Networks (GANs), FINBERT
 </p>
-
+<br>
 <br>
 <div style="text-align: center; font-weight: bold;">
     MANDY: Empirical Investigation And Supporting Program For Mandibular Fracture Classification And Localization Algorithms On X-ray Images Of Skulls
@@ -90,12 +96,12 @@ Previous Research
 Traffic accidents are a serious situation in Thailand. These accidents are prevalent and lead to a number of patients encountering fractures on their facial skulls. The mandible is a prominent bone in the face that is relatively easy to break, and although treatment can be effective, doctors need to know the fracture locations immediately to reduce the risk of other injuries. Diagnoses of the fractures is normally done by X-Ray due to its inexpensive cost. However, locating fractures in the mandible using X-Ray film can be difficult and often requires the opinion of  specialists. As such, a computer-aided diagnostic tool would lead to faster, more accurate, and less costly analysis. To our knowledge, no research has been undertaken on the effectiveness of such technology in mandibular fracture detection from X-Ray images. This research aims to investigate relevant models for images classification using convolutional neural networks (CNNs) and transferring techniques from pre-trained models to identify the names of mandibular fracture, also employ Gradient-weighted Class Activation Mapping (GradCAM) to localize the location of those fractures on x-ray images. Moreover, the trained model was deployed to create a diagnostic system helping non-specialist doctors diagnose mandibular fractures more accurately and efficiently without requiring a reference to specialists, as well as support medical research to study the effectiveness of web applications in clinical practice.
 </p>
 <br>
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
 <video width="360" height="180" controls>
   <source src="Mandy.mp4" type="video/mp4">
 </video>
-</div>
-<br>
+</div> -->
+<!-- <br> -->
 <p style="font-size: 15px; text-align: justify; margin: 0;">
     <strong>Keywords:</strong> Convolutional Neural Network, GradCAM, Mandibular Fracture, Classification, Localization, X-ray Image
 </p>
@@ -164,21 +170,21 @@ Awards
 <p style="font-size: 15px;">
 This project aims to help smokers in the Thai society, who are willing to stop smoking permanently, can achieve their desired goals at ease with the help of technology that is used prevalently in a society nowadays.
 </p>
-<br>
+<!-- <br>
 <div style="text-align: center;">
 <video width="360" height="180" controls>
   <source src="Cigarless.mp4" type="video/mp4">
 </video>
-</div>
+</div> -->
 
 Certificate
 ---------------------------------------
-- AI Infrastructure and Operations Fundamentals | NVIDIA
-- Deep Learning Specialization | DeepLearning.AI
-- AWS Cloud Practitioner | AWS
-- Microsoft Technology Associate: Software Development Fundamental | Microsoft
-- Microsoft Technology Associate: Database Administration Fundamental | Microsoft
-- IT Security 2.0 | ECDL Certification
+- AI Infrastructure and Operations Fundamentals
+- Deep Learning Specialization
+- AWS Cloud Practitioner
+- Microsoft Technology Associate: Software Development Fundamental 
+- Microsoft Technology Associate: Database Administration Fundamental 
+- IT Security 2.0
 
 More About Me
 ----------------------------------------
