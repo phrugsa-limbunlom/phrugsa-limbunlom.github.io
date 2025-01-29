@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <p style="font-size: 15px; text-align: justify; margin: 0;">
-    I am passionate to apply my skills in AI, software engineering, and QA to design efficient and reliable intelligence systems. Before starting my master’s program, I worked as a software engineer building robust and scalable software through microservices and API integration. I also gained experience as a quality engineer conducting both manual and automated testing to maintain rigorous software quality. My career has included roles at global IT consulting firms, where I contributed to Agile projects and collaborated with cross-functional teams. With a solid foundation in both software development and quality assurance, I am now eager to deepen my expertise in AI. After completing my master’s degree, I am excited to leverage my skills in developing innovative AI-driven software solutionn, and pursue a PhD in Cognitive AI and AI reasoning.
+    I am passionate to apply my skills in AI, software engineering, and QA to design efficient and reliable intelligence systems. Before starting my master’s program, I worked as a software engineer building robust and scalable software through microservices and API integration. I also gained experience as a quality engineer conducting both manual and automated testing to maintain rigorous software quality. My career has included roles at global IT consulting firms, where I contributed to Agile projects and collaborated with cross-functional teams. With a solid foundation in both software development and quality assurance, I am now eager to deepen my expertise in AI. After completing my master’s degree, I look forward to utilizing my expertise to create cutting-edge AI-powered solutions and advancing my studies with a PhD in Cognitive AI and AI reasoning.
 </p>
 <br>
 
@@ -37,28 +37,6 @@ Research Interest
 <p style="font-size: 15px; text-align: justify; margin: 0;">
     My research interest focuses on enhancing cognitive functions in current machine intelligence systems. This interest was motivated by my previous work, where I observed that models often struggle with requiring vast amounts of data for training and fail to generalize to unseen data that deviates from the training distribution (out-of-distribution generalization). After reading the paper,  <a href="https://openreview.net/pdf?id=BZ5a1r-kVsf" style="font-style: italic;"> A Path Towards Autonomous Machine Intelligence </a>, by Yann LeCun, I realized that these issues stem from a lack of reasoning in current models, which need further improvement in their cognitive mechanisms. I am particularly interested in researching approaches to tackle reasoning challenges in large language models (LLMs) and multimodal systems, especially in vision-related tasks. I am currently exploring the feasibility of leveraging Joint-Embedding Predictive Architecture (JEPA) and energy-based models to address these problems. My goal is to develop an intelligent system that requires a small sample for training to learn new situations.
 </p>
-
-Education
---------------------------------------
-<p style="font-size: 15px;">
-    MSc, Artificial Intelligence and its Applications, CSEE, University of Essex
-</p>
-<ul style="font-size: 15px;">
-    <li>Grade: Distinction (75%)</li>
-</ul>
-<p style="font-size: 15px;">
-    BSc, Major Computer Science, Faculty of ICT, Mahidol University
-</p>
-<ul style="font-size: 15px;">
- <li>Grade: 3.62/4.00</li>
-</ul>
-<p style="font-size: 15px;">
-    Certificate of Completion, International Summer Semester 2019, Sungkyunkwan University
-</p>
-<ul style="font-size: 15px;">
- <li>Artificial Intelligence (87%)</li>
- <li>Engineering Communication (95%)</li>
-</ul>
 
 Previous Research
 --------------------------------------
@@ -104,6 +82,29 @@ Traffic accidents are a serious situation in Thailand. These accidents are preva
 Blog Post
 --------------------------------------
 - [What you may miss about the core concept of the GAN model](https://gifttgif.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc)
+
+Education
+--------------------------------------
+<p style="font-size: 15px;">
+    MSc, Artificial Intelligence and its Applications, CSEE, University of Essex
+</p>
+<ul style="font-size: 15px;">
+    <li>Grade: Distinction (75%)</li>
+</ul>
+<p style="font-size: 15px;">
+    BSc, Major Computer Science, Faculty of ICT, Mahidol University
+</p>
+<ul style="font-size: 15px;">
+ <li>Grade: 3.62/4.00</li>
+</ul>
+<p style="font-size: 15px;">
+    Certificate of Completion, International Summer Semester 2019, Sungkyunkwan University
+</p>
+<ul style="font-size: 15px;">
+ <li>Artificial Intelligence (87%)</li>
+ <li>Engineering Communication (95%)</li>
+</ul>
+
 
 [//]: # (Professional Experience)
 
