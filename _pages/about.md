@@ -146,6 +146,16 @@ Education
 
 [//]: # (</ul>)
 
+Certificates
+---------------------------------------
+<ul style="font-size: 15px;">
+<li> AI Infrastructure and Operations Fundamentals</li>
+<li> Deep Learning Specialization</li>
+<li> AWS Cloud Practitioner</li>
+<!-- <li> Microsoft Technology Associate: Software Development Fundamental</li>
+<li> Microsoft Technology Associate: Database Administration Fundamental</li>
+<li> IT Security 2.0</li> -->
+</ul>
 
 Awards
 ---------------------------------------
@@ -172,17 +182,6 @@ This project aims to help smokers in the Thai society, who are willing to stop s
   <source src="Cigarless.mp4" type="video/mp4">
 </video>
 </div> -->
-
-Certificates
----------------------------------------
-<ul style="font-size: 15px;">
-<li> AI Infrastructure and Operations Fundamentals</li>
-<li> Deep Learning Specialization</li>
-<li> AWS Cloud Practitioner</li>
-<li> Microsoft Technology Associate: Software Development Fundamental</li>
-<li> Microsoft Technology Associate: Database Administration Fundamental</li>
-<li> IT Security 2.0</li>
-</ul>
 
 More About Me
 ----------------------------------------
