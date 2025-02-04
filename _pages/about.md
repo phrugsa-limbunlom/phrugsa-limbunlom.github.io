@@ -29,8 +29,7 @@ redirect_from:
 Industry-based Project Interest
 -------------------------------------
 <p style="font-size: 15px; text-align: justify; margin: 0;">
-I am passionate about developing AI-driven software solutions to address business challenges and drive growth. My primary focus is creating software that seamlessly integrates Generative AI and Agentic AI to optimize and enhance business processes—also aims to create user-friendly software that can solve real-world challenges and make it more convenient for users without a technical background.
-</p>
+I am passionate about developing AI-driven software solutions to address business challenges and drive growth. My primary focus is creating software that seamlessly integrates Generative and Agentic AI to optimize and enhance business processes. I also aim to develop user-friendly software that can solve real-world challenges and make it more convenient for users without a technical background. Example project : <a href="https://github.com/phrugsa-limbunlom/PickSmart">PickSmart</a></p>
 
 Research Interest
 -------------------------------------
@@ -42,7 +41,7 @@ Previous Research
 --------------------------------------
 <br>
 <div style="text-align: center; font-weight: bold;">
-    SE-GAN: Sentiment-Enhanced GAN for Stock Price Forecasting
+    SE-GAN: Sentiment-Enhanced GAN for Stock Price Forecasting <a href="https://github.com/phrugsa-limbunlom/SeGAN">(SeGAN)</a>
 </div>
 <br>
 <div style="text-align: center">
@@ -52,10 +51,6 @@ Previous Research
 <p style="font-size: 15px; text-align: justify; margin: 0;">
     Stock price prediction is a challenging task due to the inherent volatility of the market and the complexity of price movement. Traditional models still encounter limitations when faced with restricted historical data, which leads to over-fitting problems and poor performance on unseen data. Furthermore, market sentiment is a crucial factor for price fluctuations, yet several models still fail to adequately capture this important factor. To address the issues, the research proposes a novel deep learning network architecture. The approach leverages generative adversarial networks (GANs) to expand the training set and generalize on unseen data by generating synthetic historical data. As the GAN model generates prediction of closing prices, the generated prices can be compared with actual market movements to assess its performance. To capture the impact of market sentiment, the model also integrates sentiment analysis from financial news. This integration allows a more comprehensive technique for price forecasting, considering both quantitative historical data and qualitative sentiment indicators. The model was trained on historical data of Microsoft stock (MSFT) from January 2013 to December 2023. To conduct market sentiment analysis on financial news, FINBERT will be utilized to extract sentiment scores from headlines. Additionally, various index of Microsoft stock (MSFT) are integrated in the training data. The proposed model, Sentiment-Enhanced GAN (SE-GAN), integrates sentiment analysis with generative adversarial networks (GANs) to generate more robust and accurate stock price predictions. The SE-GAN model demonstrates the lowest Root Mean Square Error(RMSE) for overall experiment setting compared to baselines models including Long Short- Term Memory (LSTM) and Gated Recurrent Unit (GRU), as well as TimeGPT as another generative model. The improvement suggests that the SE-GAN approach offers a more effective method for predicting stock prices, leveraging the combined strengths of sentiment analysis and generative adversarial networks (GANs).
 </p>
-<br>
-<div style="text-align: center;">
-    <a href="https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK-FORECASTING" style="font-style: italic;">SE-GAN-FOR-STOCK-FORECASTING</a>
-</div>
 <br>
 <p style="font-size: 15px; text-align: justify; margin: 0;">
     <strong>Keywords</strong>: Stock Price Prediction, Sentiment Analysis, Generative Adversarial Networks (GANs), FINBERT
@@ -73,6 +68,13 @@ Previous Research
 <p style="font-size: 15px; text-align: justify; margin: 0;">
 Traffic accidents are a serious situation in Thailand. These accidents are prevalent and lead to a number of patients encountering fractures on their facial skulls. The mandible is a prominent bone in the face that is relatively easy to break, and although treatment can be effective, doctors need to know the fracture locations immediately to reduce the risk of other injuries. Diagnoses of the fractures is normally done by X-Ray due to its inexpensive cost. However, locating fractures in the mandible using X-Ray film can be difficult and often requires the opinion of  specialists. As such, a computer-aided diagnostic tool would lead to faster, more accurate, and less costly analysis. To our knowledge, no research has been undertaken on the effectiveness of such technology in mandibular fracture detection from X-Ray images. This research aims to investigate relevant models for images classification using convolutional neural networks (CNNs) and transferring techniques from pre-trained models to identify the names of mandibular fracture, also employ Gradient-weighted Class Activation Mapping (GradCAM) to localize the location of those fractures on x-ray images. Moreover, the trained model was deployed to create a diagnostic system helping non-specialist doctors diagnose mandibular fractures more accurately and efficiently without requiring a reference to specialists, as well as support medical research to study the effectiveness of web applications in clinical practice.
 </p>
+<br>
+
+<div style="text-align: center;">
+    <video width="360" height="180" controls>
+    <source src="Mandy.mp4" type="video/mp4">
+    </video>
+</div>
 <br>
 
 <p style="font-size: 15px; text-align: justify; margin: 0;">
@@ -149,7 +151,7 @@ Education
 Certificates
 ---------------------------------------
 <ul style="font-size: 15px;">
-<li> AI Infrastructure and Operations Fundamentals</li>
+<li> AI Infrastructure and Operations Fundamentals (NVIDIA)</li>
 <li> Deep Learning Specialization</li>
 <li> AWS Cloud Practitioner</li>
 <!-- <li> Microsoft Technology Associate: Software Development Fundamental</li>
@@ -162,9 +164,9 @@ Awards
 <ul style="font-size: 15px;">
     <li>Academic Excellence International Master Scholarship from University of Essex</li>
     <li>The Big Essex Bronze Award 2024 from University of Essex</li>
-    <li>Winner Award for Outstanding Innovation in <i> Free smoking university project </i> issued by The Medical Association of Thailand from <i> CIGARLESS </i> application</li>
+    <li>Winner Award for Outstanding Innovation in <i> Free smoking university project 2019 </i> issued by The Medical Association of Thailand from <i><a href="https://www.linkedin.com/in/phrugsa-limbunlom-5b8995117/details/honors/?profileId=ACoAAB0n2hwB2yEe472AMqoa_Ngv5Lql7y1lFHw"> CIGARLESS </a> </i> application</li>
 </ul>
-<br>
+<!-- <br>
 <p style="font-size: 15px;">
     <strong>CIGARLESS</strong> is an application that offers a practical process helping smokers can quit smoking effectively. My team and I have researched behaviours of the smokers in the community. Then, we used the collected data to finalize the features included in the application as follows:
 </p>
@@ -175,7 +177,7 @@ Awards
 </ul>
 <p style="font-size: 15px;">
 This project aims to help smokers in the Thai society, who are willing to stop smoking permanently, can achieve their desired goals at ease with the help of technology that is used prevalently in a society nowadays.
-</p>
+</p> -->
 <!-- <br>
 <div style="text-align: center;">
 <video width="360" height="180" controls>
