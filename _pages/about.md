@@ -164,7 +164,7 @@ Awards
 <ul style="font-size: 15px;">
     <li>Academic Excellence International Master Scholarship from University of Essex</li>
     <li>The Big Essex Bronze Award 2024 from University of Essex</li>
-    <li>Winner Award for Outstanding Innovation in <i> Free smoking university project 2019 </i> issued by The Medical Association of Thailand from <i><a href="https://www.linkedin.com/in/phrugsa-limbunlom-5b8995117/details/honors/?profileId=ACoAAB0n2hwB2yEe472AMqoa_Ngv5Lql7y1lFHw"> CIGARLESS </a> </i> application</li>
+    <li>Winner Award for Outstanding Innovation in <i> Free smoking university project 2019 </i> issued by The Medical Association of Thailand from <i><a href="https://github.com/phrugsa-limbunlom/Cigarless/tree/main"> CIGARLESS </a> </i> application</li>
 </ul>
 <!-- <br>
 <p style="font-size: 15px;">
