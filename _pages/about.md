@@ -88,25 +88,14 @@ Blog Post
 Education
 --------------------------------------
 <p style="font-size: 15px;">
-    MSc, Artificial Intelligence and its Applications, CSEE, University of Essex
+    MSc, Artificial Intelligence and its Applications, CSEE, University of Essex (Distinction)
 </p>
-<ul style="font-size: 15px;">
-    <li>Grade: Distinction (75%)</li>
-</ul>
 <p style="font-size: 15px;">
-    BSc, Major Computer Science, Faculty of ICT, Mahidol University
+    BSc, Major Computer Science, Faculty of ICT, Mahidol University (3.62/4.00)
 </p>
-<ul style="font-size: 15px;">
- <li>Grade: 3.62/4.00</li>
-</ul>
 <p style="font-size: 15px;">
-    Certificate of Completion, International Summer Semester 2019, Sungkyunkwan University
+    Certificate of Completion, Artificial Intelligence (87%), ISS 2019, Sungkyunkwan University
 </p>
-<ul style="font-size: 15px;">
- <li>Artificial Intelligence (87%)</li>
- <li>Engineering Communication (95%)</li>
-</ul>
-
 
 [//]: # (Professional Experience)
 
@@ -151,6 +140,7 @@ Education
 Certificates
 ---------------------------------------
 <ul style="font-size: 15px;">
+<li> Microsoft Certified: Azure AI Engineer Associate (AI-102)</li>
 <li> AI Infrastructure and Operations Fundamentals (NVIDIA)</li>
 <li> Deep Learning Specialization</li>
 <li> AWS Cloud Practitioner</li>
