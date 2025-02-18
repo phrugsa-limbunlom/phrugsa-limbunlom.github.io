@@ -29,7 +29,9 @@ redirect_from:
 Industry-based Project Interest
 -------------------------------------
 <p style="font-size: 15px; text-align: justify; margin: 0;">
-I am passionate about developing AI-driven software solutions to address business challenges and drive growth. My primary focus is creating software that seamlessly integrates Generative and Agentic AI to optimize and enhance business processes. I also aim to develop user-friendly software that can solve real-world challenges and make it more convenient for users without a technical background. Example project : <a href="https://github.com/phrugsa-limbunlom/PickSmart">PickSmart</a></p>
+    My industry-based project interest aligns with developing AI-driven software solutions to address business challenges and drive growth. My primary focus is creating software that seamlessly integrates Generative and Agentic AI to optimize and enhance business processes. I also aim to develop user-friendly software that can solve real-world challenges and make it more convenient for users without a technical background. 
+</p>
+<p style="font-size: 15px; text-align: justify; margin: 0;">One project example is <a href="https://github.com/phrugsa-limbunlom/PickSmart">PickSmart</a>, an AI-powered shopping assistant combining real-time product search with contextual question-answering to deliver personalized recommendations using an agent and the RAG system.</p>
 
 Research Interest
 -------------------------------------
@@ -41,8 +43,11 @@ Previous Research
 --------------------------------------
 <br>
 <div style="text-align: center; font-weight: bold;">
-    SE-GAN: Sentiment-Enhanced GAN for Stock Price Forecasting <a href="https://github.com/phrugsa-limbunlom/SeGAN">(SeGAN)</a>
+    SE-GAN: Sentiment-Enhanced GAN for Stock Price Forecasting
 </div>
+<p style="text-align: center">
+    <a href="https://github.com/phrugsa-limbunlom/SeGAN">(SeGAN)</a>
+</p>
 <br>
 <div style="text-align: center">
     Abstract
@@ -71,7 +76,7 @@ Traffic accidents are a serious situation in Thailand. These accidents are preva
 <br>
 
 <div style="text-align: center;">
-    <video width="360" height="180" controls>
+    <video width="480" height="240" controls>
     <source src="Mandy.mp4" type="video/mp4">
     </video>
 </div>
@@ -83,7 +88,10 @@ Traffic accidents are a serious situation in Thailand. These accidents are preva
 
 Blog Post
 --------------------------------------
-- [What you may miss about the core concept of the GAN model](https://gifttgif.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc)
+<!-- - [What you may miss about the core concept of the GAN model](https://gifttgif.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc) -->
+<div style="text-align: center;">
+    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7268319920931721216" height="515" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+</div>
 
 Education
 --------------------------------------
