@@ -91,6 +91,9 @@ Blog Post
 <p style="font-size: 15px;">
  <a src="https://phrugsa-limbunlom.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc">What you may miss about the core concept of the GAN model</a>
 </p>
+<p style="font-size: 15px;">
+ <a src="https://phrugsa-limbunlom.medium.com/key-takeaways-ai-infrastructure-and-operations-fundamental-by-nvidia-ea7742f0e348">Key Takeaways: AI Infrastructure and Operations Fundamental by NVIDIA.</a>
+</p>
 
 Education
 --------------------------------------
