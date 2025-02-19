@@ -76,7 +76,7 @@ Traffic accidents are a serious situation in Thailand. These accidents are preva
 <br>
 
 <div style="text-align: center;">
-    <video width="480" height="240" controls>
+    <video width="360" height="180" controls>
     <source src="Mandy.mp4" type="video/mp4">
     </video>
 </div>
@@ -90,7 +90,7 @@ Blog Post
 --------------------------------------
 <!-- - [What you may miss about the core concept of the GAN model](https://gifttgif.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc) -->
 <div style="text-align: center;">
-    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7268319920931721216" height="515" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7268319920931721216" height="360" width="480" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 </div>
 
 Education
@@ -191,7 +191,7 @@ More About Me
 </p>
 <br>
 <div style="text-align: center;">
-<img src="/images/image1.jpg" alt="Description" style="border-radius: 50%; width: 150px; height: 150px;">
-<img src="/images/image3.jpg" alt="Description" style="border-radius: 50%; width: 150px; height: 150px;">
-<img src="/images/image2.jpg" alt="Description" style="border-radius: 50%; width: 150px; height: 150px;">
+<img src="/images/image1.jpg" alt="Description" style="border-radius: 50%; width: 100px; height: 100px;">
+<img src="/images/image3.jpg" alt="Description" style="border-radius: 50%; width: 100px; height: 100px;">
+<img src="/images/image2.jpg" alt="Description" style="border-radius: 50%; width: 100px; height: 100px;">
 </div>
