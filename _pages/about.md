@@ -88,10 +88,9 @@ Traffic accidents are a serious situation in Thailand. These accidents are preva
 
 Blog Post
 --------------------------------------
-<!-- - [What you may miss about the core concept of the GAN model](https://gifttgif.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc) -->
-<div style="text-align: center;">
-    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7268319920931721216" height="360" width="400" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-</div>
+<p style="font-size: 15px;">
+ <a src="https://phrugsa-limbunlom.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc">What you may miss about the core concept of the GAN model</a>
+</p>
 
 Education
 --------------------------------------
