@@ -32,6 +32,10 @@ Industry-based Project Interest
     My industry-based project interest aligns with developing AI-driven software solutions to address business challenges and drive growth. My primary focus is creating software that seamlessly integrates Generative and Agentic AI to optimize and enhance business processes. I also aim to develop user-friendly software that can solve real-world challenges and make it more convenient for users without a technical background. 
 </p>
 <p style="font-size: 15px; text-align: justify; margin: 0;">One project example is <a href="https://github.com/phrugsa-limbunlom/PickSmart">PickSmart</a>, an AI-powered shopping assistant combining real-time product search with contextual question-answering for  personalized product recommendations using the multi-agent intelligent system.</p>
+<br>
+<div style="text-align: center">
+    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7299436712282255360" height="300" width="360" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+</div>
 
 Research Interest
 -------------------------------------
