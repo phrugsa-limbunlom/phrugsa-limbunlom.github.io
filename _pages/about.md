@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <p style="font-size: 15px; text-align: justify; margin: 0;">
-    I am passionate to apply my skills in AI, software engineering, and QA to design efficient and reliable intelligence systems. Before starting my master’s program, I worked as a software engineer building robust and scalable software through microservices and API integration. I also gained experience as a quality engineer conducting both manual and automated testing to maintain rigorous software quality. My career has included roles at global IT consulting firms, where I contributed to Agile projects and collaborated with cross-functional teams. With a solid foundation in both software development and quality assurance, I am now eager to deepen my expertise in AI. After completing my master’s degree, I look forward to utilizing my expertise to create cutting-edge AI-powered solutions and advancing my studies with a PhD in Cognitive AI and AI reasoning.
+    I am passionate to apply my skills in AI, software engineering, and QA to design efficient and reliable intelligence systems. Before starting my master’s program, I worked as a software engineer building robust and scalable software through microservices and API integration. I also gained experience as a quality engineer conducting both manual and automated testing to maintain rigorous software quality. My career has included roles at global IT consulting firms, where I contributed to Agile projects and collaborated with cross-functional teams. With a solid foundation in both software development and quality assurance, I am now eager to deepen my expertise in AI. After completing my master’s degree, I look forward to utilizing my expertise to create cutting-edge AI-powered solutions and advancing my research capabilities in Cognitive AI and AI reasoning.
 </p>
 <br>
 
@@ -31,7 +31,7 @@ Industry-based Project Interest
 <p style="font-size: 15px; text-align: justify; margin: 0;">
     My industry-based project interest aligns with developing AI-driven software solutions to address business challenges and drive growth. My primary focus is creating software that seamlessly integrates Generative and Agentic AI to optimize and enhance business processes. I also aim to develop user-friendly software that can solve real-world challenges and make it more convenient for users without a technical background. 
 </p>
-<p style="font-size: 15px; text-align: justify; margin: 0;">One project example is <a href="https://github.com/phrugsa-limbunlom/PickSmart">PickSmart</a>, an AI-powered shopping assistant combining real-time product search with contextual question-answering for  personalized product recommendations using the multi-agent intelligent system.</p>
+<p style="font-size: 15px; text-align: justify; margin: 0;">One project example is <a href="https://github.com/phrugsa-limbunlom/PickSmart">PickSmart</a>, an AI-powered shopping assistant combining real-time product search with contextual question-answering for  personalized product recommendations using the search and analyst agent.</p>
 <br>
 <div style="text-align: center">
     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7299436712282255360" height="300" width="360" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
@@ -109,56 +109,14 @@ Education
     Certificate of Completion, Artificial Intelligence (87%), ISS 2019, Sungkyunkwan University
 </p>
 
-[//]: # (Professional Experience)
-
-[//]: # (--------------------------------------)
-
-[//]: # (<p style="font-size: 15px;">)
-
-[//]: # (Accenture &#40;Oct 2021 - Aug 2023&#41;)
-
-[//]: # (</p>)
-
-[//]: # (<ul style="font-size: 15px;">)
-
-[//]: # (    <li>Packaged App Development Senior Analyst</li>)
-
-[//]: # (</ul>)
-
-[//]: # (<p style="font-size: 15px;">)
-
-[//]: # (ThoughtWorks &#40;Jan 2021 - Sep 2021&#41;)
-
-[//]: # (</p>)
-
-[//]: # (<ul style="font-size: 15px;">)
-
-[//]: # (    <li>Graduate Quality Analyst</li>)
-
-[//]: # (</ul>)
-
-[//]: # (<p style="font-size: 15px;">)
-
-[//]: # (Siam Commercial Bank &#40;SCB&#41; &#40;Aug 2020 - Dec 2020&#41;)
-
-[//]: # (</p>)
-
-[//]: # (<ul style="font-size: 15px;">)
-
-[//]: # (    <li>Quality Assurance Engineer</li>)
-
-[//]: # (</ul>)
-
 Certificates
 ---------------------------------------
 <ul style="font-size: 15px;">
 <li> Microsoft Certified: Azure AI Engineer Associate (AI-102)</li>
-<li> AI Infrastructure and Operations Fundamentals (NVIDIA)</li>
+<li> NVIDIA AI Infrastructure and Operations Fundamentals </li>
 <li> Deep Learning Specialization</li>
 <li> AWS Cloud Practitioner</li>
-<!-- <li> Microsoft Technology Associate: Software Development Fundamental</li>
-<li> Microsoft Technology Associate: Database Administration Fundamental</li>
-<li> IT Security 2.0</li> -->
+<li> IBM Generative AI Engineering with LLM Specialization </li>
 </ul>
 
 Awards
@@ -168,24 +126,6 @@ Awards
     <li>The Big Essex Bronze Award 2024 from University of Essex</li>
     <li>Winner Award for Outstanding Innovation in <i> Free smoking university project 2019 </i> issued by The Medical Association of Thailand from <i><a href="https://github.com/phrugsa-limbunlom/Cigarless/tree/main"> CIGARLESS </a> </i> application</li>
 </ul>
-<!-- <br>
-<p style="font-size: 15px;">
-    <strong>CIGARLESS</strong> is an application that offers a practical process helping smokers can quit smoking effectively. My team and I have researched behaviours of the smokers in the community. Then, we used the collected data to finalize the features included in the application as follows:
-</p>
-<ul style="font-size: 15px;">
-    <li>Tracking number of cigarettes reduced per day depending on the subscription of users' choices</li>
-    <li> Recommending activities to help smokers reducing their stress</li>
-    <li> Connecting between smokers and care takers by chatting as a consultant service</li>
-</ul>
-<p style="font-size: 15px;">
-This project aims to help smokers in the Thai society, who are willing to stop smoking permanently, can achieve their desired goals at ease with the help of technology that is used prevalently in a society nowadays.
-</p> -->
-<!-- <br>
-<div style="text-align: center;">
-<video width="360" height="180" controls>
-  <source src="Cigarless.mp4" type="video/mp4">
-</video>
-</div> -->
 
 More About Me
 ----------------------------------------
