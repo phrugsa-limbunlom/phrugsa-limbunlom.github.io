@@ -112,11 +112,12 @@ Education
 Certificates
 ---------------------------------------
 <ul style="font-size: 15px;">
+<li> AWS Certified: Machine Learning Engineer Associate (MLA-C01)</li>
 <li> Microsoft Certified: Azure AI Engineer Associate (AI-102)</li>
+<li> IBM Generative AI Engineering with LLM Specialization </li>
 <li> NVIDIA AI Infrastructure and Operations Fundamentals </li>
 <li> Deep Learning Specialization</li>
 <li> AWS Cloud Practitioner</li>
-<li> IBM Generative AI Engineering with LLM Specialization </li>
 </ul>
 
 Awards
