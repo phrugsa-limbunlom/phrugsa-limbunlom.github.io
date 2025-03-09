@@ -29,9 +29,14 @@ redirect_from:
 Industry-based Project Interest
 -------------------------------------
 <p style="font-size: 15px; text-align: justify; margin: 0;">
-    My industry-based project interest aligns with developing AI-driven software solutions to address business challenges and drive growth. My primary focus is creating software that seamlessly integrates Generative and Agentic AI to optimize and enhance business processes. I also aim to develop user-friendly software that can solve real-world challenges and make it more convenient for users without a technical background. 
+    My industry-based project interests align with developing AI-driven software solutions to address business challenges and foster growth. My primary focus is on creating software that seamlessly integrates Generative and Agentic AI to optimize and enhance business processes. I also aim to develop user-friendly solutions that can solve real-world challenges, making them more accessible and convenient for users without a technical background.
 </p>
-<p style="font-size: 15px; text-align: justify; margin: 0;">One project example is <a href="https://github.com/phrugsa-limbunlom/PickSmart">PickSmart</a>, an AI-powered shopping assistant combining real-time product search with contextual question-answering for  personalized product recommendations using the search and analyst agent.</p>
+<br>
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/f6c2d2f2-b5bd-462b-9998-e17dae221f3b" width="600" height="450">
+</div>
+<br>
+<p style="font-size: 15px; text-align: justify; margin: 0;">One example is <a href="https://github.com/phrugsa-limbunlom/PickSmart">PickSmart</a>, an AI-powered shopping assistant that combines real-time product search with contextual question-answering to provide personalized product recommendations through a search and analyst agent.</p>
 <br>
 <div style="text-align: center">
     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7299436712282255360" height="300" width="360" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
@@ -52,6 +57,10 @@ Previous Research
 <p style="text-align: center">
     <a href="https://github.com/phrugsa-limbunlom/SeGAN">(SeGAN)</a>
 </p>
+<br>
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/f580fe0a-8418-412c-9064-cba8db7b4f36" width="600" height="450">
+</div>
 <br>
 <div style="text-align: center">
     Abstract
@@ -119,6 +128,12 @@ Certificates
 <li> Deep Learning Specialization</li>
 <li> AWS Cloud Practitioner</li>
 </ul>
+
+<div align="center">
+    <a href="https://www.credly.com/badges/3c9d4fda-e1e2-4bf1-b0a5-1fcf91ca3d71"><img src="https://github.com/user-attachments/assets/a830e95f-8e6d-41f1-ba82-571a0d5ab6bf" width="100" height="100"></a>
+    <a href="https://www.credly.com/badges/aec100a4-3112-4f1b-9616-0eac251071d6"><img src="https://github.com/user-attachments/assets/7d2de5b0-1299-4d81-bcb4-5ac602a7da07" width="100" height="100"></a>
+    <a href="https://learn.microsoft.com/en-us/users/phrugsalimbunlom-0283/credentials/certification/azure-ai-engineer"><img src="https://github.com/user-attachments/assets/9bf9f941-f40a-467a-8543-04bdc8a940a7" width="100" height="100"></a>
+</div>
 
 Awards
 ---------------------------------------
