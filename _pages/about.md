@@ -59,7 +59,7 @@ Previous Research
 </p>
 <br>
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/f580fe0a-8418-412c-9064-cba8db7b4f36" width="600" height="450">
+    <img src="https://github.com/user-attachments/assets/343a2f74-acba-4343-8592-cc851782620c" width="600" height="450">
 </div>
 <br>
 <div style="text-align: center">
