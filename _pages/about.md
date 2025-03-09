@@ -132,7 +132,7 @@ Certificates
 <div align="center">
     <a href="https://www.credly.com/badges/3c9d4fda-e1e2-4bf1-b0a5-1fcf91ca3d71"><img src="https://github.com/user-attachments/assets/a830e95f-8e6d-41f1-ba82-571a0d5ab6bf" width="100" height="100"></a>
     <a href="https://www.credly.com/badges/aec100a4-3112-4f1b-9616-0eac251071d6"><img src="https://github.com/user-attachments/assets/7d2de5b0-1299-4d81-bcb4-5ac602a7da07" width="100" height="100"></a>
-    <a href="https://learn.microsoft.com/en-us/users/phrugsalimbunlom-0283/credentials/certification/azure-ai-engineer"><img src="https://github.com/user-attachments/assets/9bf9f941-f40a-467a-8543-04bdc8a940a7" width="100" height="100"></a>
+    <a href="https://learn.microsoft.com/en-us/users/phrugsalimbunlom-0283/credentials/4e89a1228e27e99d"><img src="https://github.com/user-attachments/assets/9bf9f941-f40a-467a-8543-04bdc8a940a7" width="100" height="100"></a>
 </div>
 
 Awards
