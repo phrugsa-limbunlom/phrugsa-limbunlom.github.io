@@ -33,7 +33,7 @@ Industry-based Project Interest
 </p>
 <br>
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/f6c2d2f2-b5bd-462b-9998-e17dae221f3b" width="600" height="450">
+    <img src="https://github.com/user-attachments/assets/343a2f74-acba-4343-8592-cc851782620c" width="600" height="450">
 </div>
 <br>
 <p style="font-size: 15px; text-align: justify; margin: 0;">One example is <a href="https://github.com/phrugsa-limbunlom/PickSmart">PickSmart</a>, an AI-powered shopping assistant that combines real-time product search with contextual question-answering to provide personalized product recommendations through a search and analyst agent.</p>
@@ -59,7 +59,7 @@ Previous Research
 </p>
 <br>
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/343a2f74-acba-4343-8592-cc851782620c" width="600" height="450">
+    <img src="https://github.com/user-attachments/assets/f580fe0a-8418-412c-9064-cba8db7b4f36" width="600" height="450">
 </div>
 <br>
 <div style="text-align: center">
