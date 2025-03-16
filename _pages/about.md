@@ -32,7 +32,7 @@ Industry-based Project Interest
     My industry-based project interests align with developing AI-driven software solutions to address business challenges and foster growth. My primary focus is on creating software that seamlessly integrates Generative and Agentic AI to optimize and enhance business processes. I also aim to develop user-friendly solutions that can solve real-world challenges, making them more accessible and convenient for users without a technical background.
 </p>
 <br>
-<div align="center">
+<div style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/343a2f74-acba-4343-8592-cc851782620c" width="600" height="450">
 </div>
 <br>
@@ -41,6 +41,15 @@ Industry-based Project Interest
 <div style="text-align: center">
     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7299436712282255360" height="300" width="360" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 </div>
+
+Other Projects
+-------------------------------------
+<ul style="font-size: 15px;">
+    <li><a  href="https://github.com/phrugsa-limbunlom/densenet201-classifier">Wildfire Classification from Satellite Images</a></li>
+     <li><a  href="https://github.com/phrugsa-limbunlom/multi-regressor-ann">2D-landing Control System with Artificial Neural Network</a></li>
+    <li><a  href="https://github.com/phrugsa-limbunlom/mimo-regressor">Feature-Driven Optimization of Syngas Production in Biomass Gasifiers using Machine Learning</a></li>
+    <li><a  href="https://github.com/phrugsa-limbunlom/transformer-machine-translation">Machine Translation from Transformer architecture</a></li>
+</ul>
 
 Research Interest
 -------------------------------------
@@ -58,7 +67,7 @@ Previous Research
     <a href="https://github.com/phrugsa-limbunlom/SeGAN">(SeGAN)</a>
 </p>
 <br>
-<div align="center">
+<div style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/f580fe0a-8418-412c-9064-cba8db7b4f36" width="600" height="450">
 </div>
 <br>
@@ -82,6 +91,9 @@ Previous Research
 <div style="text-align: center; font-weight: bold;">
     MANDY: Empirical Investigation And Supporting Program For Mandibular Fracture Classification And Localization Algorithms On X-ray Images Of Skulls
 </div>
+<p style="text-align: center">
+    <a href="https://github.com/phrugsa-limbunlom/GradCAM/tree/master">(GradCAM)</a>
+</p>
 <br>
 <div style="text-align: center">
     Abstract
