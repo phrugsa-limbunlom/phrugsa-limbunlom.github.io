@@ -104,6 +104,10 @@ Previous Research
     <a href="https://github.com/phrugsa-limbunlom/GradCAM/tree/master">(GradCAM)</a>
 </p>
 <br>
+<div style="text-align: center;">
+    <img src="../Mandy.png" width="600" height="450">
+</div>
+<br>
 <div style="text-align: center">
     Abstract
 </div>
