@@ -58,7 +58,7 @@ Research Interest
 </p>
 <br>
 <div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/7e920aad-c736-4ee3-9c29-665ee7128df7" width="800" height="450">
+    <img src="https://github.com/user-attachments/assets/7e920aad-c736-4ee3-9c29-665ee7128df7" width="650" height="450">
 </div>
 <br>
 
