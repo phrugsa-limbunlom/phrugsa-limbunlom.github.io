@@ -33,7 +33,7 @@ Industry-based Project Interest
 </p>
 <br>
 <div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/343a2f74-acba-4343-8592-cc851782620c" width="600" height="450">
+    <img src="https://github.com/user-attachments/assets/8835285b-72cb-445a-b351-3d18cce026c9" width="600" height="450">
 </div>
 <br>
 <p style="font-size: 15px; text-align: justify; margin: 0;">One example is <a href="https://github.com/phrugsa-limbunlom/PickSmart">PickSmart</a>, an AI-powered shopping assistant that combines real-time product search with contextual question-answering to provide personalized product recommendations through a search and analyst agent.</p>
@@ -68,7 +68,7 @@ Previous Research
 </p>
 <br>
 <div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/f580fe0a-8418-412c-9064-cba8db7b4f36" width="600" height="450">
+    <img src="https://github.com/user-attachments/assets/5a83d6f7-6225-42f2-a544-a17449c91299" width="600" height="450">
 </div>
 <br>
 <div style="text-align: center">
@@ -80,7 +80,7 @@ Previous Research
 </p>
 <br>
 <div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/e1f2b248-86c4-469b-bf4c-915ebb8d36fa">
+    <img src="https://github.com/user-attachments/assets/801ac480-1371-453a-9fc5-f7a823f136ec">
 </div>
 <br>
 <p style="font-size: 15px; text-align: justify; margin: 0;">
