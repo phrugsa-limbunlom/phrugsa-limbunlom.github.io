@@ -56,6 +56,11 @@ Research Interest
 <p style="font-size: 15px; text-align: justify; margin: 0;">
     My research interest focuses on enhancing cognitive functions in current machine intelligence systems. This interest was motivated by my previous work, where I observed that models often struggle with requiring vast amounts of data for training and fail to generalize to unseen data that deviates from the training distribution (out-of-distribution generalization). After reading the paper,  <a href="https://openreview.net/pdf?id=BZ5a1r-kVsf" style="font-style: italic;"> A Path Towards Autonomous Machine Intelligence </a>, by Yann LeCun, I realized that these issues stem from a lack of reasoning in current models, which need further improvement in their cognitive mechanisms. I am particularly interested in researching approaches to tackle reasoning challenges in large language models (LLMs) and multimodal systems, especially in vision-related tasks. I am currently exploring the feasibility of leveraging Joint-Embedding Predictive Architecture (JEPA) and energy-based models to address these problems. My goal is to develop an intelligent system that requires a small sample for training to learn new situations.
 </p>
+<br>
+<div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/7e920aad-c736-4ee3-9c29-665ee7128df7" width="800" height="450">
+</div>
+<br>
 
 Previous Research
 --------------------------------------
@@ -69,6 +74,10 @@ Previous Research
 <br>
 <div style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/5a83d6f7-6225-42f2-a544-a17449c91299" width="600" height="450">
+</div>
+<br>
+<div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/aac2418c-0540-425e-9e1e-f666e4475cbe" width="600" height="450">
 </div>
 <br>
 <div style="text-align: center">
