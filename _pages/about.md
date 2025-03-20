@@ -33,7 +33,7 @@ Industry-based Project Interest
 </p>
 <br>
 <div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/bb4f4639-2a4a-4dc2-a785-7b3803125af4" width="600" height="450">
+    <img src="https://github.com/user-attachments/assets/1bf2a44d-06b2-4599-8b1e-9403e0684424" width="600" height="450">
 </div>
 <br>
 <p style="font-size: 15px; text-align: justify; margin: 0;">One example is <a href="https://github.com/phrugsa-limbunlom/PickSmart">PickSmart</a>, an AI-powered shopping assistant that combines real-time product search with contextual question-answering to provide personalized product recommendations through a search and analyst agent.</p>
@@ -45,7 +45,7 @@ Industry-based Project Interest
 Other Projects
 -------------------------------------
 <ul style="font-size: 15px;">
-    <li><a  href="https://github.com/phrugsa-limbunlom/densenet201-classifier">Wildfire Classification from Satellite Images</a></li>
+    <li><a  href="https://github.com/phrugsa-limbunlom/densenet201-classifier">Wildfire Classification from Satellite Images using DenseNet201 model</a></li>
      <li><a  href="https://github.com/phrugsa-limbunlom/multi-regressor-ann">2D-landing Control System with Artificial Neural Network</a></li>
     <li><a  href="https://github.com/phrugsa-limbunlom/mimo-regressor">Feature-Driven Optimization of Syngas Production in Biomass Gasifiers using Machine Learning</a></li>
     <li><a  href="https://github.com/phrugsa-limbunlom/transformer-machine-translation">Machine Translation from Transformer architecture</a></li>
