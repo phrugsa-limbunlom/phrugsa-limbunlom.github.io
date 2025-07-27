@@ -137,7 +137,7 @@ Blog Post
 --------------------------------------
 <ul style="font-size: 15px;">
     <li><a  href="https://medium.com/@phrugsa-limbunlom/lora-in-vision-language-models-efficient-fine-tuning-with-llava-c8948674d855">LoRA in Vision Language Models: Efficient Fine-tuning with LLaVA</a></li>
-    <li><a  href="https://medium.com/@phrugsa-limbunlom/lora-in-vision-language-models-efficient-fine-tuning-with-llava-c8948674d855">A Simple Method For Building Auto-Tool-Calling Agents Without Third-Party Libraries</a></li>
+    <li><a  href="https://phrugsa-limbunlom.medium.com/a-straightforward-method-for-creating-auto-tool-calling-agents-bcbef40bf505">A Simple Method For Building Auto-Tool-Calling Agents Without Third-Party Libraries</a></li>
     <li><a  href="https://phrugsa-limbunlom.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc">What you may miss about the core concept of the GAN model</a></li>
     <li><a  href="https://phrugsa-limbunlom.medium.com/key-takeaways-ai-infrastructure-and-operations-fundamental-by-nvidia-ea7742f0e348">Key Takeaways: AI Infrastructure and Operations Fundamental by NVIDIA.</a></li>
 </ul>
