@@ -45,6 +45,11 @@ Industry-based Project Interest
 Other Projects
 -------------------------------------
 <ul style="font-size: 15px;">
+    <li><a href="https://github.com/phrugsa-limbunlom/DressMe.AI">DressMe.AI: Multimodal Agent with Image Generation</a></li>
+    <li><a href="https://github.com/phrugsa-limbunlom/SEAD-agent">SEAD-Agent: AI Research Assistant with Tool Calling</a></li>
+    <li><a href="https://github.com/phrugsa-limbunlom/vlm-lora">Low-rank adaptation in VLMs with LLaVA</a></li>
+    <li><a href="https://github.com/phrugsa-limbunlom/sagemaker-llm-deployment">LLM Deployment on AWS Sagemaker</a></li>
+    <li><a  href="https://github.com/phrugsa-limbunlom/mimo-regressor">Feature-Driven Optimization of Syngas Production in Biomass Gasifiers using Machine Learning</a></li>
     <li><a  href="https://github.com/phrugsa-limbunlom/densenet201-classifier">Wildfire Classification from Satellite Images using DenseNet201 model</a></li>
      <li><a  href="https://github.com/phrugsa-limbunlom/multi-regressor-ann">2D-landing Control System with Artificial Neural Network</a></li>
     <li><a  href="https://github.com/phrugsa-limbunlom/mimo-regressor">Feature-Driven Optimization of Syngas Production in Biomass Gasifiers using Machine Learning</a></li>
@@ -131,6 +136,8 @@ Traffic accidents are a serious situation in Thailand. These accidents are preva
 Blog Post
 --------------------------------------
 <ul style="font-size: 15px;">
+    <li><a  href="https://medium.com/@phrugsa-limbunlom/lora-in-vision-language-models-efficient-fine-tuning-with-llava-c8948674d855">LoRA in Vision Language Models: Efficient Fine-tuning with LLaVA</a></li>
+    <li><a  href="https://medium.com/@phrugsa-limbunlom/lora-in-vision-language-models-efficient-fine-tuning-with-llava-c8948674d855">A Simple Method For Building Auto-Tool-Calling Agents Without Third-Party Libraries</a></li>
     <li><a  href="https://phrugsa-limbunlom.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc">What you may miss about the core concept of the GAN model</a></li>
     <li><a  href="https://phrugsa-limbunlom.medium.com/key-takeaways-ai-infrastructure-and-operations-fundamental-by-nvidia-ea7742f0e348">Key Takeaways: AI Infrastructure and Operations Fundamental by NVIDIA.</a></li>
 </ul>
