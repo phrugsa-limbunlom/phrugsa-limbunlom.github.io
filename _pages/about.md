@@ -29,7 +29,7 @@ redirect_from:
 Industry-based Project Interest
 -------------------------------------
 <p style="font-size: 15px; text-align: justify; margin: 0;">
-    My industry-based project interests align with developing AI-driven software solutions to address business challenges and foster growth. My primary focus is on creating software that seamlessly integrates Generative and Agentic AI to optimize and enhance business processes. I also aim to develop user-friendly solutions that can solve real-world challenges, making them more accessible and convenient for users without a technical background.
+    My industry-based project interests align with developing AI-driven software solutions to address business challenges and foster growth. My primary focus is on creating software that seamlessly integrates generative and agentic AI to optimize and enhance business processes. I also aim to develop user-friendly solutions that can solve real-world challenges, making them more accessible and convenient for users without a technical background.
 </p>
 <br>
 <div style="text-align: center;">
@@ -55,6 +55,16 @@ Other Projects
     <li><a  href="https://github.com/phrugsa-limbunlom/mimo-regressor">Feature-Driven Optimization of Syngas Production in Biomass Gasifiers using Machine Learning</a></li>
     <li><a  href="https://github.com/phrugsa-limbunlom/transformer-machine-translation">Machine Translation from Transformer architecture</a></li>
 </ul>
+
+Blog Post
+--------------------------------------
+<ul style="font-size: 15px;">
+    <li><a  href="https://medium.com/@phrugsa-limbunlom/lora-in-vision-language-models-efficient-fine-tuning-with-llava-c8948674d855">LoRA in Vision Language Models: Efficient Fine-tuning with LLaVA</a></li>
+    <li><a  href="https://phrugsa-limbunlom.medium.com/a-straightforward-method-for-creating-auto-tool-calling-agents-bcbef40bf505">A Simple Method For Building Auto-Tool-Calling Agents Without Frameworks</a></li>
+    <li><a  href="https://phrugsa-limbunlom.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc">The Core Concept of the GAN model: An Insight from Financial Forecasting Research</a></li>
+    <li><a  href="https://phrugsa-limbunlom.medium.com/key-takeaways-ai-infrastructure-and-operations-fundamental-by-nvidia-ea7742f0e348">Key Takeaways: AI Infrastructure and Operations Fundamental by NVIDIA.</a></li>
+</ul>
+
 
 Research Interest
 -------------------------------------
@@ -132,15 +142,6 @@ Traffic accidents are a serious situation in Thailand. These accidents are preva
 <p style="font-size: 15px; text-align: justify; margin: 0;">
     <strong>Keywords:</strong> Convolutional Neural Network, GradCAM, Mandibular Fracture, Classification, Localization, X-ray Image
 </p>
-
-Blog Post
---------------------------------------
-<ul style="font-size: 15px;">
-    <li><a  href="https://medium.com/@phrugsa-limbunlom/lora-in-vision-language-models-efficient-fine-tuning-with-llava-c8948674d855">LoRA in Vision Language Models: Efficient Fine-tuning with LLaVA</a></li>
-    <li><a  href="https://phrugsa-limbunlom.medium.com/a-straightforward-method-for-creating-auto-tool-calling-agents-bcbef40bf505">A Simple Method For Building Auto-Tool-Calling Agents Without Third-Party Libraries</a></li>
-    <li><a  href="https://phrugsa-limbunlom.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc">What you may miss about the core concept of the GAN model</a></li>
-    <li><a  href="https://phrugsa-limbunlom.medium.com/key-takeaways-ai-infrastructure-and-operations-fundamental-by-nvidia-ea7742f0e348">Key Takeaways: AI Infrastructure and Operations Fundamental by NVIDIA.</a></li>
-</ul>
 
 Education
 --------------------------------------
