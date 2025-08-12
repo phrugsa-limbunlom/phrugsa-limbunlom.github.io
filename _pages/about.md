@@ -48,8 +48,8 @@ Other Projects
     <li><a href="https://github.com/phrugsa-limbunlom/DressMe.AI">DressMe.AI: Multimodal Agent with Image Generation</a></li>
     <li><a href="https://github.com/phrugsa-limbunlom/SEAD-agent">SEAD-Agent: AI Research Assistant with Tool Calling</a></li>
     <li><a href="https://github.com/phrugsa-limbunlom/vlm-lora">Low-rank adaptation in VLMs with LLaVA</a></li>
+    <li><a href="https://github.com/phrugsa-limbunlom/llm-ptq">8-bit Post-Training Quantization (PTQ)</a></li>
     <li><a href="https://github.com/phrugsa-limbunlom/sagemaker-llm-deployment">LLM Deployment on AWS Sagemaker</a></li>
-    <li><a  href="https://github.com/phrugsa-limbunlom/mimo-regressor">Feature-Driven Optimization of Syngas Production in Biomass Gasifiers using Machine Learning</a></li>
     <li><a  href="https://github.com/phrugsa-limbunlom/densenet201-classifier">Wildfire Classification from Satellite Images using DenseNet201 model</a></li>
      <li><a  href="https://github.com/phrugsa-limbunlom/multi-regressor-ann">2D-landing Control System with Artificial Neural Network</a></li>
     <li><a  href="https://github.com/phrugsa-limbunlom/mimo-regressor">Feature-Driven Optimization of Syngas Production in Biomass Gasifiers using Machine Learning</a></li>
@@ -59,6 +59,7 @@ Other Projects
 Blog Post
 --------------------------------------
 <ul style="font-size: 15px;">
+    <li><a  href="https://medium.com/ai-advances/choosing-the-right-model-size-to-your-memory-understanding-bits-bytes-and-model-quantization-6045f8fc68c3">Choosing the right model size to your memory: Understanding bits & bytes and Model Quantization</a></li>
     <li><a  href="https://medium.com/@phrugsa-limbunlom/lora-in-vision-language-models-efficient-fine-tuning-with-llava-c8948674d855">LoRA in Vision Language Models: Efficient Fine-tuning with LLaVA</a></li>
     <li><a  href="https://phrugsa-limbunlom.medium.com/a-straightforward-method-for-creating-auto-tool-calling-agents-bcbef40bf505">A Simple Method For Building Auto-Tool-Calling Agents Without Frameworks</a></li>
     <li><a  href="https://phrugsa-limbunlom.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc">The Core Concept of the GAN model: An Insight from Financial Forecasting Research</a></li>
