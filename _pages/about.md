@@ -62,6 +62,7 @@ Blog Post
     <li><a  href="https://medium.com/ai-advances/choosing-the-right-model-size-to-your-memory-understanding-bits-bytes-and-model-quantization-6045f8fc68c3">Choosing the right model size to your memory: Understanding bits & bytes and Model Quantization</a></li>
     <li><a  href="https://medium.com/@phrugsa-limbunlom/lora-in-vision-language-models-efficient-fine-tuning-with-llava-c8948674d855">LoRA in Vision Language Models: Efficient Fine-tuning with LLaVA</a></li>
     <li><a  href="https://phrugsa-limbunlom.medium.com/a-straightforward-method-for-creating-auto-tool-calling-agents-bcbef40bf505">A Simple Method For Building Auto-Tool-Calling Agents Without Frameworks</a></li>
+    <li><a  href="https://medium.com/towards-artificial-intelligence/document-summarization-qa-in-rag-without-frameworks-pymupdf-chromadb-5446c6373579">Document Summarization & QA in RAG without Frameworks (PyMuPDF & ChromaDB).</a></li>
     <li><a  href="https://phrugsa-limbunlom.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc">The Core Concept of the GAN model: An Insight from Financial Forecasting Research</a></li>
     <li><a  href="https://phrugsa-limbunlom.medium.com/key-takeaways-ai-infrastructure-and-operations-fundamental-by-nvidia-ea7742f0e348">Key Takeaways: AI Infrastructure and Operations Fundamental by NVIDIA.</a></li>
 </ul>
@@ -72,11 +73,11 @@ Research Interest
 <p style="font-size: 15px; text-align: justify; margin: 0;">
     My research interest focuses on enhancing cognitive functions in current machine intelligence systems. This interest was motivated by my previous work, where I observed that models often struggle with requiring vast amounts of data for training and fail to generalize to unseen data that deviates from the training distribution (out-of-distribution generalization). After reading the paper,  <a href="https://openreview.net/pdf?id=BZ5a1r-kVsf" style="font-style: italic;"> A Path Towards Autonomous Machine Intelligence </a>, by Yann LeCun, I realized that these issues stem from a lack of reasoning in current models, which need further improvement in their cognitive mechanisms. I am particularly interested in researching approaches to tackle reasoning challenges in large language models (LLMs) and multimodal systems, especially in vision-related tasks. I am currently exploring the feasibility of leveraging Joint-Embedding Predictive Architecture (JEPA) and energy-based models to address these problems. My goal is to develop an intelligent system that requires a small sample for training to learn new situations.
 </p>
-<br>
+<!-- <br>
 <div style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/7e920aad-c736-4ee3-9c29-665ee7128df7" width="650" height="450">
 </div>
-<br>
+<br> -->
 
 Previous Research
 --------------------------------------
@@ -168,9 +169,9 @@ Certificates
 </ul>
 
 <div style="text-align: center;">
-    <a href="https://www.credly.com/badges/3c9d4fda-e1e2-4bf1-b0a5-1fcf91ca3d71"><img src="https://github.com/user-attachments/assets/a830e95f-8e6d-41f1-ba82-571a0d5ab6bf" width="100" height="100"></a>
-    <a href="https://www.credly.com/badges/aec100a4-3112-4f1b-9616-0eac251071d6"><img src="https://github.com/user-attachments/assets/7d2de5b0-1299-4d81-bcb4-5ac602a7da07" width="100" height="100"></a>
-    <a href="https://learn.microsoft.com/en-us/users/phrugsalimbunlom-0283/credentials/4e89a1228e27e99d"><img src="https://github.com/user-attachments/assets/9bf9f941-f40a-467a-8543-04bdc8a940a7" width="100" height="100"></a>
+    <a href="https://www.credly.com/badges/3c9d4fda-e1e2-4bf1-b0a5-1fcf91ca3d71"><img src="/images/AWS-ML.png" width="100" height="100"></a>
+    <a href="https://www.credly.com/badges/aec100a4-3112-4f1b-9616-0eac251071d6"><img src="/images/AWS-CLOUD.png" width="100" height="100"></a>
+    <a href="https://learn.microsoft.com/en-us/users/phrugsalimbunlom-0283/credentials/4e89a1228e27e99d"><img src="/images/Azure-AI.png" width="100" height="100"></a>
 </div>
 
 Awards
