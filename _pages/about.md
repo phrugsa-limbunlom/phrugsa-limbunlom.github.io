@@ -56,7 +56,7 @@ Other Projects
     <li><a  href="https://github.com/phrugsa-limbunlom/transformer-machine-translation">Machine Translation from Transformer architecture</a></li>
 </ul>
 
-Blog Post
+Published Articles
 --------------------------------------
 <ul style="font-size: 15px;">
     <li><a  href="https://medium.com/ai-advances/choosing-the-right-model-size-to-your-memory-understanding-bits-bytes-and-model-quantization-6045f8fc68c3">Choosing the right model size to your memory: Understanding bits & bytes and Model Quantization</a></li>
