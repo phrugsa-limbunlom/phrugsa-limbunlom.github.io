@@ -56,6 +56,12 @@ Other Projects
     <li><a  href="https://github.com/phrugsa-limbunlom/transformer-machine-translation">Machine Translation from Transformer architecture</a></li>
 </ul>
 
+Paper
+--------------------------------------
+<ul style="font-size: 15px;">
+    <li><a  href="https://doi.org/10.36227/techrxiv.175742717.74182135/v1">P. Limbunlom, Deep Adversarial Learning for Financial Time-Series Forecasting: An RNN-Based Sentiment-Aware GAN Approach (SE-GAN), TechRxiv, Sep. 9, 2025, doi: 10.36227/techrxiv.175742717.74182135/v1.(Preprint).</a></li>
+</ul>
+
 Published Articles
 --------------------------------------
 <ul style="font-size: 15px;">
