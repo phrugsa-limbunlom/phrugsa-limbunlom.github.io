@@ -10,23 +10,23 @@ redirect_from:
 <p style="font-size: 15px; text-align: justify; margin: 0;">
   My name is Phrugsa (Pruk-sa).
 </p>
-
+<br>
 <p style="font-size: 15px; text-align: justify; margin: 0;">
   I am particularly interested in how intelligent systems can learn, reason, and generalise beyond limited training data and small supervision. My work sits at the intersection of machine learning research and real-world system design, with an emphasis on building AI that is both principled and deployable.
 </p>
-
+<br>
 <p style="font-size: 15px; text-align: justify; margin: 0;">
   I hold an MSc in Artificial Intelligence from the University of Essex, where I worked on predictive modelling, generative modelling, and large language models. My research interests include generative models, AI agents, and robotics, with a particular focus on reasoning, generalisation, and System-2 thinking. I am currently exploring Joint Embedding Predictive Architectures (JEPA) and Energy-Based Models (EBMs) as methodologies to move beyond purely data-hungry approaches and toward more robust, adaptable, and compositional learning.
 </p>
-
+<br>
 <p style="font-size: 15px; text-align: justify; margin: 0;">
   Before and alongside my research work, I gained industry experience as a software engineer and quality engineer, working within Agile development frameworks to design and maintain scalable systems based on microservices and API architectures, while ensuring reliability through both automated and manual testing. This background informs my research perspective to value not only theoretical possibility but also the implementability, empirical evaluation, and long-term sustainability of proposed methods in real-world settings.
 </p>
-
+<br>
 <p style="font-size: 15px; text-align: justify; margin: 0;">
   I currently work as an Analyst Developer at the University of Bedfordshire, where I contribute to AI-driven cloud systems that support the digital transformation of enterprise platforms. My role involves integrating modern AI methods with cloud infrastructure to improve efficiency and decision-making at scale.
 </p>
-
+<br>
 <p style="font-size: 15px; text-align: justify; margin: 0;">
   In parallel, I am an open-source contributor, a freelancer helping start-ups leverage AI capabilities in their products and workflows, and a technical writer publishing in-depth articles for leading AI publications on Medium. I enjoy translating complex ideas into clear explanations without losing technical depth. I am open to research collaborations, particularly on projects with meaningful societal impact.
 </p>
