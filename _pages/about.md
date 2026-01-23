@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+<br>
 <p style="font-size: 15px; text-align: justify; margin: 0;">
   My name is Phrugsa (Pruk-sa).
 </p>
