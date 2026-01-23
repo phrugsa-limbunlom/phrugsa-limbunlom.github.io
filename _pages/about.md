@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 <p style="font-size: 15px; text-align: justify; margin: 0;">
-   I am Phrugsa (Pruk-sa).I am particularly interested in how intelligent systems can learn, reason, and generalise beyond limited training data and small supervision. My work sits at the intersection of machine learning research and real-world system design, with an emphasis on building AI that is both principled and deployable.
+   I am Phrugsa (Pruk-sa). I am particularly interested in how intelligent systems can learn, reason, and generalise beyond limited training data and small supervision. My work sits at the intersection of machine learning research and real-world system design, with an emphasis on building AI that is both principled and deployable.
 <br><br>
   I hold an MSc in Artificial Intelligence from the University of Essex, where I worked on predictive modelling, generative modelling, and large language models. My research interests include generative models, AI agents, and robotics, with a particular focus on reasoning, generalisation, and System-2 thinking. I am currently exploring Joint Embedding Predictive Architectures (JEPA) and Energy-Based Models (EBMs) as methodologies to move beyond purely data-hungry approaches and toward more robust, adaptable, and compositional learning.
 <br><br>
