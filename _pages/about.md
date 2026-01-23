@@ -8,8 +8,24 @@ redirect_from:
 ---
 
 <p style="font-size: 15px; text-align: justify; margin: 0;">
-    I am passionate to apply my skills in AI, software engineering, and QA to design efficient and reliable intelligence systems. Before starting my master’s program, I worked as a software engineer building robust and scalable software through microservices and API integration. I also gained experience as a quality engineer conducting both manual and automated testing to maintain rigorous software quality. My career has included roles at global IT consulting firms, where I contributed to Agile projects and collaborated with cross-functional teams. With a solid foundation in both software development and quality assurance, I am now eager to deepen my expertise in AI. After completing my master’s degree, I look forward to utilizing my expertise to create cutting-edge AI-powered solutions and advancing my research capabilities in Cognitive AI and AI reasoning.
+    
+    My name is Phrugsa (Pruk-sa).
+    
+    I am particualrly interested in how intelligent systems can learn, reason, and generalise beyond limited training data and small supervisation. My work sits at the intersection of machine learning research and real-world system design with an emphasis on building AI that is both principled and deployable.
+
+    I hold an MSc in Artificial Intelligence from the University of Essex, where I worked on predictive modelling, generative modelling, and large language models. My research interests include generative models, AI agents, and robotics, with a particular focus on reasoning, generalisation, and System-2 thinking. I am currently exploring Joint Embedding Predictive Architectures (JEPA) and Energy-Based Models (EBMs) as methodologies to move beyond purely data-hungry approaches and toward more robust, adaptable, and compositional learning.
+
+    Before and alongside my research work, I gained industry experience as a software engineer and quality engineer, working within Agile development frameworks to design and maintain scalable systems based on microservices and API architectures, while ensuring reliability through both automated and manual testing. This background informs my research perspective to value not only theoretical possibility but also the implementability, empirical evaluation, and long-term sustainability of proposed methods in real-world settings.
+
+    I currently work as an Analyst Developer at the University of Bedfordshire, where I contribute to AI-driven cloud systems that support the digital transformation of enterprise platforms. My role involves integrating modern AI methods with cloud infrastructure to improve efficiency and decision-making at scale.
+
+    In parallel, I am an open-source contributor, a freelancer helping start-ups leveraging AI capabilities into their products and workflows, and technical writer publishing in-depth articles for leading AI publications on Medium. I enjoy translating complex ideas into clear explanations without losing technical depth. I am open to research collaborations, particularly on projects with meaningful societal impact.
+
 </p>
+
+<!-- <p style="font-size: 15px; text-align: justify; margin: 0;">
+    I am passionate to apply my skills in AI, software engineering, and QA to design efficient and reliable intelligence systems. Before starting my master’s program, I worked as a software engineer building robust and scalable software through microservices and API integration. I also gained experience as a quality engineer conducting both manual and automated testing to maintain rigorous software quality. My career has included roles at global IT consulting firms, where I contributed to Agile projects and collaborated with cross-functional teams. With a solid foundation in both software development and quality assurance, I am now eager to deepen my expertise in AI. After completing my master’s degree, I look forward to utilizing my expertise to create cutting-edge AI-powered solutions and advancing my research capabilities in Cognitive AI and AI reasoning.
+</p> -->
 <br>
 
 <!--<div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
