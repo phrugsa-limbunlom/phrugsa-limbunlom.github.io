@@ -61,6 +61,7 @@ Other Projects
     <li><a href="https://github.com/phrugsa-limbunlom/SEAD-agent">SEAD-Agent: AI Research Assistant with Tool Calling</a></li>
     <li><a href="https://github.com/phrugsa-limbunlom/vlm-lora">Low-rank adaptation in VLMs with LLaVA</a></li>
     <li><a href="https://github.com/phrugsa-limbunlom/llm-ptq">8-bit Post-Training Quantization (PTQ)</a></li>
+    <li><a href="https://github.com/phrugsa-limbunlom/vlm-grpo">Vision-Language Model Post-Training with Group Relative Policy Optimization (GRPO)</a></li>
     <li><a href="https://github.com/phrugsa-limbunlom/sagemaker-llm-deployment">LLM Deployment on AWS Sagemaker</a></li>
     <li><a  href="https://github.com/phrugsa-limbunlom/densenet201-classifier">Wildfire Classification from Satellite Images using DenseNet201 model</a></li>
      <li><a  href="https://github.com/phrugsa-limbunlom/multi-regressor-ann">2D-landing Control System with Artificial Neural Network</a></li>
