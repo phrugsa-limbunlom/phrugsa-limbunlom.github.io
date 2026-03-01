@@ -6,6 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<div class="about-modern" markdown="1">
+
 <p style="font-size: 15px; text-align: justify; margin: 0;">
    I am Phrugsa (Pruk-sa). I am particularly interested in how intelligent systems can learn, reason, and generalise beyond limited training data and small supervision. My work sits at the intersection of machine learning research and real-world system design, with an emphasis on building AI that is both principled and deployable.
 <br><br>
@@ -19,92 +21,18 @@ redirect_from:
 </p>
 
 
-<!-- <p style="font-size: 15px; text-align: justify; margin: 0;">
-    I am passionate to apply my skills in AI, software engineering, and QA to design efficient and reliable intelligence systems. Before starting my master’s program, I worked as a software engineer building robust and scalable software through microservices and API integration. I also gained experience as a quality engineer conducting both manual and automated testing to maintain rigorous software quality. My career has included roles at global IT consulting firms, where I contributed to Agile projects and collaborated with cross-functional teams. With a solid foundation in both software development and quality assurance, I am now eager to deepen my expertise in AI. After completing my master’s degree, I look forward to utilizing my expertise to create cutting-edge AI-powered solutions and advancing my research capabilities in Cognitive AI and AI reasoning.
-</p> -->
-<br>
-
-<!--<div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
-<a href="https://github.com/phrugsa-limbunlom" target="_blank" rel="noopener noreferrer">
-            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="30" height="30">
-</a> -->
-
-<!-- <a href="https://www.linkedin.com/in/phrugsa-limbunlom-5b8995117/" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" width="30" height="30">
-</a>
-
-<a href="https://phrugsa-limbunlom.medium.com/" target="_blank" rel="noopener noreferrer">
-    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968906.png" alt="Medium" width="30" height="30">
-</a>
-</div> -->
-
-Industry-based Project Interest
--------------------------------------
-<p style="font-size: 15px; text-align: justify; margin: 0;">
-    My industry-based project interests align with developing AI-driven software solutions to address business challenges and foster growth. My primary focus is on creating software that seamlessly integrates generative and agentic AI to optimize and enhance business processes. I also aim to develop user-friendly solutions that can solve real-world challenges, making them more accessible and convenient for users without a technical background.
-</p>
-<br>
-<div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/1bf2a44d-06b2-4599-8b1e-9403e0684424" width="600" height="450">
-</div>
-<br>
-<p style="font-size: 15px; text-align: justify; margin: 0;">One example is <a href="https://github.com/phrugsa-limbunlom/PickSmart">PickSmart</a>, an AI-powered shopping assistant that combines real-time product search with contextual question-answering to provide personalized product recommendations through a search and analyst agent.</p>
-<br>
-<div style="text-align: center">
-    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7299436712282255360" height="300" width="360" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-</div>
-
-Other Projects
--------------------------------------
-<ul style="font-size: 15px;">
-    <li><a href="https://github.com/phrugsa-limbunlom/DressMe.AI">DressMe.AI: Multimodal Agent with Image Generation</a></li>
-    <li><a href="https://github.com/phrugsa-limbunlom/SEAD-agent">SEAD-Agent: AI Research Assistant with Tool Calling</a></li>
-    <li><a href="https://github.com/phrugsa-limbunlom/vlm-lora">Low-rank adaptation in VLMs with LLaVA</a></li>
-    <li><a href="https://github.com/phrugsa-limbunlom/llm-ptq">8-bit Post-Training Quantization (PTQ)</a></li>
-    <li><a href="https://github.com/phrugsa-limbunlom/vlm-grpo">Vision-Language Model Post-Training with Group Relative Policy Optimization (GRPO)</a></li>
-    <li><a href="https://github.com/phrugsa-limbunlom/sagemaker-llm-deployment">LLM Deployment on AWS Sagemaker</a></li>
-    <li><a  href="https://github.com/phrugsa-limbunlom/densenet201-classifier">Wildfire Classification from Satellite Images using DenseNet201 model</a></li>
-     <li><a  href="https://github.com/phrugsa-limbunlom/multi-regressor-ann">2D-landing Control System with Artificial Neural Network</a></li>
-    <li><a  href="https://github.com/phrugsa-limbunlom/mimo-regressor">Feature-Driven Optimization of Syngas Production in Biomass Gasifiers using Machine Learning</a></li>
-    <li><a  href="https://github.com/phrugsa-limbunlom/transformer-machine-translation">Machine Translation from Transformer architecture</a></li>
-</ul>
-
-Paper
---------------------------------------
-<ul style="font-size: 15px;">
-    <li><a  href="https://doi.org/10.36227/techrxiv.175742717.74182135/v1">P. Limbunlom, Deep Adversarial Learning for Financial Time-Series Forecasting: An RNN-Based Sentiment-Aware GAN Approach (SE-GAN), TechRxiv, Sep. 9, 2025, doi: 10.36227/techrxiv.175742717.74182135/v1.(Preprint).</a></li>
-</ul>
-
-Published Articles
---------------------------------------
-<ul style="font-size: 15px;">
-    <li><a  href="https://medium.com/towards-artificial-intelligence/training-your-reasoning-model-with-grpo-a-practical-guide-for-vlms-post-training-with-trl-266411c0b844">Training your reasoning model with GRPO: A practical guide for VLMs Post Training with TRL</a></li>
-    <li><a  href="https://medium.com/ai-advances/choosing-the-right-model-size-to-your-memory-understanding-bits-bytes-and-model-quantization-6045f8fc68c3">Choosing the right model size to your memory: Understanding bits & bytes and Model Quantization</a></li>
-    <li><a  href="https://medium.com/@phrugsa-limbunlom/lora-in-vision-language-models-efficient-fine-tuning-with-llava-c8948674d855">LoRA in Vision Language Models: Efficient Fine-tuning with LLaVA</a></li>
-    <li><a  href="https://phrugsa-limbunlom.medium.com/a-straightforward-method-for-creating-auto-tool-calling-agents-bcbef40bf505">A Simple Method For Building Auto-Tool-Calling Agents Without Frameworks</a></li>
-    <li><a  href="https://medium.com/towards-artificial-intelligence/document-summarization-qa-in-rag-without-frameworks-pymupdf-chromadb-5446c6373579">Document Summarization & QA in RAG without Frameworks (PyMuPDF & ChromaDB).</a></li>
-    <li><a  href="https://phrugsa-limbunlom.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc">The Core Concept of the GAN model: An Insight from Financial Forecasting Research</a></li>
-    <li><a  href="https://phrugsa-limbunlom.medium.com/key-takeaways-ai-infrastructure-and-operations-fundamental-by-nvidia-ea7742f0e348">Key Takeaways: AI Infrastructure and Operations Fundamental by NVIDIA.</a></li>
-</ul>
-
-
 Research Interest
 -------------------------------------
 <p style="font-size: 15px; text-align: justify; margin: 0;">
     My research interest focuses on enhancing cognitive functions in current machine intelligence systems. This interest was motivated by my previous work, where I observed that models often struggle with requiring vast amounts of data for training and fail to generalize to unseen data that deviates from the training distribution (out-of-distribution generalization). After reading the paper,  <a href="https://openreview.net/pdf?id=BZ5a1r-kVsf" style="font-style: italic;"> A Path Towards Autonomous Machine Intelligence </a>, by Yann LeCun, I realized that these issues stem from a lack of reasoning in current models, which need further improvement in their cognitive mechanisms. I am particularly interested in researching approaches to tackle reasoning challenges in large language models (LLMs) and multimodal systems, especially in vision-related tasks. I am currently exploring the feasibility of leveraging Joint-Embedding Predictive Architecture (JEPA) and energy-based models to address these problems. My goal is to develop an intelligent system that requires a small sample for training to learn new situations.
 </p>
-<!-- <br>
-<div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/7e920aad-c736-4ee3-9c29-665ee7128df7" width="650" height="450">
-</div>
-<br> -->
 
 Previous Research
 --------------------------------------
+
+<details class="about-collapsible">
+<summary>SE-GAN: Sentiment-Enhanced GAN for Stock Price Forecasting</summary>
 <br>
-<div style="text-align: center; font-weight: bold;">
-    SE-GAN: Sentiment-Enhanced GAN for Stock Price Forecasting
-</div>
 <p style="text-align: center">
     <a href="https://github.com/phrugsa-limbunlom/SeGAN">(SeGAN)</a>
 </p>
@@ -132,11 +60,11 @@ Previous Research
 <p style="font-size: 15px; text-align: justify; margin: 0;">
     <strong>Keywords</strong>: Stock Price Prediction, Sentiment Analysis, Generative Adversarial Networks (GANs), FINBERT
 </p>
+</details>
+
+<details class="about-collapsible">
+<summary>MANDY: Empirical Investigation And Supporting Program For Mandibular Fracture Classification And Localization Algorithms On X-ray Images Of Skulls</summary>
 <br>
-<br>
-<div style="text-align: center; font-weight: bold;">
-    MANDY: Empirical Investigation And Supporting Program For Mandibular Fracture Classification And Localization Algorithms On X-ray Images Of Skulls
-</div>
 <p style="text-align: center">
     <a href="https://github.com/phrugsa-limbunlom/GradCAM/tree/master">(GradCAM)</a>
 </p>
@@ -164,6 +92,22 @@ Traffic accidents are a serious situation in Thailand. These accidents are preva
 <p style="font-size: 15px; text-align: justify; margin: 0;">
     <strong>Keywords:</strong> Convolutional Neural Network, GradCAM, Mandibular Fracture, Classification, Localization, X-ray Image
 </p>
+</details>
+
+Paper
+--------------------------------------
+<div class="about-card-grid about-card-grid--single">
+    <a href="https://doi.org/10.36227/techrxiv.175742717.74182135/v1" class="about-card-link" target="_blank" rel="noopener">
+    <article class="about-card about-card--paper">
+        <img class="about-card__img" src="/images/paper_sequential.jpg" alt="Sequential input and output prediction">
+        <div class="about-card__body">
+            <span class="about-card__tag about-card__tag--paper">Preprint</span>
+            <h3>Deep Adversarial Learning for Financial Time-Series Forecasting (SE-GAN)</h3>
+            <p>P. Limbunlom, TechRxiv, Sep. 9, 2025</p>
+        </div>
+    </article>
+    </a>
+</div>
 
 Education
 --------------------------------------
@@ -213,4 +157,6 @@ More About Me
 <img src="/images/image1.jpg" alt="Description" style="border-radius: 50%; width: 100px; height: 100px;">
 <img src="/images/image3.jpg" alt="Description" style="border-radius: 50%; width: 100px; height: 100px;">
 <img src="/images/image2.jpg" alt="Description" style="border-radius: 50%; width: 100px; height: 100px;">
+</div>
+
 </div>

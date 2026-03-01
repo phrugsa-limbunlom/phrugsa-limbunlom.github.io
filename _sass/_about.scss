@@ -1,0 +1,240 @@
+.about-modern {
+  background: mix(#fff, $lighter-gray, 92%);
+  border: 1px solid $border-color;
+  border-radius: $border-radius * 2;
+  padding: 1.4rem;
+  box-shadow: $box-shadow;
+
+  @include breakpoint($medium) {
+    padding: 1.8rem;
+  }
+
+  p,
+  li {
+    line-height: 1.75;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.85rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid $border-color;
+    font-size: $type-size-4;
+    letter-spacing: 0.01em;
+  }
+
+  ul {
+    margin-top: 0.4rem;
+    margin-bottom: 1.25rem;
+    padding-left: 1.1rem;
+  }
+
+  img,
+  video,
+  iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: $border-radius * 2;
+  }
+
+  iframe {
+    display: block;
+    margin: 0 auto;
+  }
+
+  a {
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.15em;
+  }
+
+  .about-card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+    margin-bottom: 1.25rem;
+
+    @include breakpoint($medium) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  .about-card-grid--single {
+    @include breakpoint($medium) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* ---- Card base ---- */
+  .about-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid $border-color;
+    border-radius: $border-radius * 2;
+    background: $background-color;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    transition: $global-transition;
+  }
+
+  .about-card:hover {
+    border-color: mix(#000, $border-color, 18%);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.10);
+    transform: translateY(-2px);
+  }
+
+  /* ---- Card image ---- */
+  .about-card__img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 0;          /* override global img radius */
+    border-bottom: 1px solid $border-color;
+  }
+
+  /* ---- Card body ---- */
+  .about-card__body {
+    padding: 0.85rem 1rem 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-card h3 {
+    margin: 0.25rem 0 0;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    font-weight: 600;
+  }
+
+  .about-card p {
+    margin: 0.35rem 0 0;
+    font-size: 0.85rem;
+    line-height: 1.55;
+    color: $gray;
+  }
+
+  /* ---- Category tags ---- */
+  .about-card__tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0.15rem 0.55rem;
+    border-radius: 3px;
+    line-height: 1.6;
+    width: fit-content;
+  }
+
+  .about-card__tag--project {
+    background: mix(#fff, $info-color, 85%);
+    color: $info-color;
+  }
+
+  .about-card__tag--article {
+    background: mix(#fff, $success-color, 82%);
+    color: mix(#000, $success-color, 30%);
+  }
+
+  .about-card__tag--paper {
+    background: mix(#fff, $warning-color, 82%);
+    color: mix(#000, $warning-color, 25%);
+  }
+
+  /* ---- Clickable card wrapper ---- */
+  a.about-card-link {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    border-radius: $border-radius * 2;
+    transition: $global-transition;
+  }
+
+  a.about-card-link:hover,
+  a.about-card-link:focus {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a.about-card-link .about-card {
+    width: 100%;
+  }
+
+  /* ---- Collapsible section ---- */
+  .about-collapsible {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid mix(#fff, $warning-color, 50%);
+    border-top: 3px solid $warning-color;
+    border-radius: $border-radius * 2;
+    background: $background-color;
+    overflow: hidden;
+  }
+
+  .about-collapsible summary {
+    display: flex;
+    align-items: baseline;
+    padding: 0.85rem 1.1rem;
+    font-size: $type-size-5;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    transition: background 0.15s ease;
+    line-height: 1.45;
+    color: mix(#000, $warning-color, 25%);
+  }
+
+  .about-collapsible summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .about-collapsible summary::before {
+    content: '\25B6';
+    display: inline-block;
+    flex-shrink: 0;
+    margin-right: 0.6rem;
+    font-size: 0.7em;
+    color: $warning-color;
+    transition: transform 0.2s ease;
+  }
+
+  .about-collapsible[open] summary::before {
+    transform: rotate(90deg);
+  }
+
+  .about-collapsible summary:hover {
+    background: mix(#fff, $warning-color, 90%);
+  }
+
+  .about-collapsible > *:not(summary) {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+
+  /* ---- Article card ---- */
+  .about-card--article {
+    border-top: 3px solid $success-color;
+  }
+
+  .about-card--article .about-card__img {
+    height: 140px;
+  }
+
+  /* ---- Paper card ---- */
+  .about-card--paper {
+    border-top: 3px solid $warning-color;
+  }
+
+  .about-card--paper .about-card__img {
+    height: 200px;
+  }
+
+  .about-card--paper .about-card__body {
+    padding: 1rem 1.2rem 1.1rem;
+  }
+
+  .about-card--paper h3 {
+    font-size: 1.05rem;
+  }
+}
