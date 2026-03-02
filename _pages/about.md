@@ -22,9 +22,10 @@ redirect_from:
             MSc in Artificial Intelligence from the University of Essex. Exploring generative models, multimodal world models, and AI agents to push the boundaries of machine reasoning and out-of-distribution generalisation.
         </p>
         <div class="wm-hero__actions">
-          <a href="#research" class="wm-btn wm-btn--primary">Explore Research</a>
-          <a href="https://www.linkedin.com/in/phrugsa-limbunlom-5b8995117/" class="wm-btn wm-btn--outline" target="_blank">LinkedIn</a>
-          <a href="https://github.com/phrugsa-limbunlom" class="wm-btn wm-btn--outline" target="_blank">GitHub</a>
+          <a href="#research" class="wm-btn wm-btn--primary">Research</a>
+          <a href="https://www.linkedin.com/in/phrugsa-limbunlom-5b8995117/" class="wm-btn wm-btn--outline" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+          <a href="https://github.com/phrugsa-limbunlom" class="wm-btn wm-btn--outline" target="_blank"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+          <a href="https://phrugsa-limbunlom.medium.com/" class="wm-btn wm-btn--outline" target="_blank"><i class="fab fa-medium" aria-hidden="true"></i> Medium</a>
         </div>
       </div>
       <div class="wm-hero__avatar">
@@ -62,27 +63,27 @@ redirect_from:
       Before and alongside my research work, I gained industry experience as a software engineer and quality engineer, working within Agile development frameworks to design and maintain scalable systems based on microservices and API architectures, while ensuring reliability through both automated and manual testing.
     </p>
     <p>
-      I currently work as an Analyst Developer at the University of Bedfordshire, where I contribute to AI-driven cloud systems that support the digital transformation of enterprise platforms. In parallel, I am an open-source contributor, a freelancer helping start-ups leverage AI capabilities, and a technical writer publishing in-depth articles for leading AI publications on <a href="https://phrugsa-limbunlom.medium.com/" target="_blank">Medium</a>.
+      I currently work as an Analyst Developer at the University of Bedfordshire, where I contribute to AI-driven cloud systems that support the digital transformation of enterprise platforms. In parallel, I am an open-source contributor, a freelancer helping start-ups leverage AI capabilities, and a technical writer publishing in-depth articles for leading AI publications.
     </p>
   </div>
 
   <div class="wm-stats wm-reveal">
-    <div class="wm-stats__item">
+    <a href="#education" class="wm-stats__item wm-stats__item--link">
       <span class="wm-stats__number">MSc</span>
       <span class="wm-stats__label">AI — Essex</span>
-    </div>
-    <div class="wm-stats__item">
+    </a>
+    <a href="#education" class="wm-stats__item wm-stats__item--link">
       <span class="wm-stats__number">6+</span>
       <span class="wm-stats__label">Certifications</span>
-    </div>
-    <div class="wm-stats__item">
-      <span class="wm-stats__number">7+</span>
-      <span class="wm-stats__label">Publications</span>
-    </div>
-    <div class="wm-stats__item">
+    </a>
+    <a href="#projects" class="wm-stats__item wm-stats__item--link">
       <span class="wm-stats__number">10+</span>
       <span class="wm-stats__label">Projects</span>
-    </div>
+    </a>
+        <a href="#articles" class="wm-stats__item wm-stats__item--link">
+      <span class="wm-stats__number">7+</span>
+      <span class="wm-stats__label">Articles</span>
+    </a>
   </div>
 </section>
 
@@ -102,7 +103,7 @@ redirect_from:
         After reading <a href="https://openreview.net/pdf?id=BZ5a1r-kVsf" target="_blank"><em>A Path Towards Autonomous Machine Intelligence by Yann LeCun</em></a>, I became particularly interested in the idea that true machine intelligence requires learning predictive world models—internal representations that capture the underlying structure, dynamics, and causal relationships of the environment across modalities such as vision, language, and action. This perspective reframes intelligence not as next-token prediction alone, but as building coherent, abstract representations that support reasoning, planning, and adaptation.
     </p>
     <p>
-        I am especially interested in advancing multimodal world models that integrate visual and linguistic information into unified latent spaces. In particular, I am exploring the feasibility of leveraging Joint-Embedding Predictive Architectures (JEPA) and energy-based models to learn structured representations that are invariant, predictive, and semantically meaningful. My goal is to design systems that can learn new situations from limited samples by relying on strong prior world knowledge, rather than massive retraining—moving toward more autonomous, generalizable, and cognitively grounded AI systems.
+        I am especially interested in advancing multimodal world models that integrate visual and linguistic information into unified latent spaces. In particular, I am exploring the feasibility of leveraging Joint-Embedding Predictive Architectures (JEPA) and energy-based models to learn structured representations that are invariant, predictive, and semantically meaningful. My goal is to design systems that can learn new situations from limited samples by relying on strong prior world knowledge rather than massive retraining—moving toward more autonomous, generalizable, and cognitively grounded AI systems.
     </p>
   </div>
 </section>
@@ -192,21 +193,19 @@ redirect_from:
     <h2 class="wm-section__title">Projects</h2>
     <p class="wm-section__subtitle">AI-driven software solutions to address business challenges and foster growth.</p>
   </div>
-
+    <div style="text-align: center; margin: 2rem 0;" class="wm-reveal">
+    <img src="https://github.com/user-attachments/assets/1bf2a44d-06b2-4599-8b1e-9403e0684424" style="max-width: 600px; width: 100%; height: auto; border-radius: 12px; border: 1px solid #1e1e1e;" alt="PickSmart">
+  </div>
   <div class="wm-about-text wm-reveal">
     <p>
       My industry-based project interests align with developing AI-driven software solutions to address business challenges and foster growth. My primary focus is on creating software that seamlessly integrates generative and agentic AI to optimize and enhance business processes. One example is <a href="https://github.com/phrugsa-limbunlom/PickSmart" target="_blank">PickSmart</a>, an AI-powered shopping assistant that combines real-time product search with contextual question-answering.
     </p>
   </div>
 
-  <div style="text-align: center; margin: 2rem 0;" class="wm-reveal">
-    <img src="https://github.com/user-attachments/assets/1bf2a44d-06b2-4599-8b1e-9403e0684424" style="max-width: 600px; width: 100%; height: auto; border-radius: 12px; border: 1px solid #1e1e1e;" alt="PickSmart">
-  </div>
-
   <!-- <div style="text-align: center; margin: 2rem 0;" class="wm-reveal">
     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7299436712282255360" height="300" width="360" frameborder="0" allowfullscreen="" title="PickSmart Demo"></iframe>
   </div> -->
-
+  
   <div class="wm-card-grid wm-reveal">
     <a href="https://github.com/phrugsa-limbunlom/DressMe.AI" class="wm-card-link" target="_blank" rel="noopener">
       <div class="wm-card">
@@ -355,9 +354,9 @@ redirect_from:
     <div class="wm-reveal">
       <h3 style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; letter-spacing: 0.06em; text-transform: uppercase; color: #888; margin: 0 0 1rem;">Education</h3>
       <ul class="wm-edu-list">
-        <li><strong>MSc, Artificial Intelligence and its Applications</strong><br>CSEE, University of Essex — Distinction</li>
-        <li><strong>BSc, Major Computer Science</strong><br>Faculty of ICT, Mahidol University — 3.62/4.00</li>
-        <li><strong>Certificate, Artificial Intelligence (87%)</strong><br>ISS 2019, Sungkyunkwan University</li>
+        <li><strong>MSc, Artificial Intelligence and its Applications</strong><br>CSEE, University of Essex — Distinction<br><span class="wm-timeline">2023 – 2024</span></li>
+        <li><strong>BSc, Major Computer Science</strong><br>Faculty of ICT, Mahidol University — 3.62/4.00<br><span class="wm-timeline">2016 – 2020</span></li>
+        <li><strong>Certificate, Artificial Intelligence (87%)</strong><br>ISS 2019, Sungkyunkwan University<br><span class="wm-timeline">2019</span></li>
       </ul>
     </div>
 
@@ -389,9 +388,9 @@ redirect_from:
   </div>
 
   <ul class="wm-award-list wm-reveal">
-    <li>Academic Excellence International Master Scholarship from University of Essex</li>
-    <li>The Big Essex Bronze Award 2024 from University of Essex</li>
-    <li>Winner Award for Outstanding Innovation in <em>Free smoking university project 2019</em> issued by The Medical Association of Thailand from <a href="https://github.com/phrugsa-limbunlom/Cigarless/tree/main" target="_blank">CIGARLESS</a> application</li>
+    <li><span>Academic Excellence International Master Scholarship from University of Essex</span></li>
+    <li><span>The Big Essex Bronze Award 2024 from University of Essex</span></li>
+    <li><span>Winner Award for Outstanding Innovation in <em>Free smoking university project 2019</em> issued by The Medical Association of Thailand from <a href="https://github.com/phrugsa-limbunlom/Cigarless/tree/main" target="_blank">CIGARLESS</a> application</span></li>
   </ul>
 </section>
 
