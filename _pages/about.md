@@ -19,7 +19,7 @@ redirect_from:
           That Reason Beyond Data
         </h1>
         <p class="wm-hero__subtitle">
-            MSc in Artificial Intelligence from the University of Essex. Exploring generative models, multimodal world models, and AI agents to push the boundaries of machine reasoning, abstraction, and out-of-distribution generalisation.
+            MSc in Artificial Intelligence from the University of Essex. Exploring generative models, multimodal world models, and AI agents to push the boundaries of machine reasoning and out-of-distribution generalisation.
         </p>
         <div class="wm-hero__actions">
           <a href="#research" class="wm-btn wm-btn--primary">Explore Research</a>
