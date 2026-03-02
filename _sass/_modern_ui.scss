@@ -1,0 +1,1344 @@
+/* ==========================================================================
+   WORLDMODELS DARK THEME
+   Inspired by worldmodels.dev — dark, modern, full-width, minimal
+   ========================================================================== */
+
+/* ---------- Dark theme variables ---------- */
+$wm-bg:           #0a0a0a;
+$wm-bg-card:      #111111;
+$wm-bg-card-hover:#181818;
+$wm-border:       #1e1e1e;
+$wm-text:         #e0e0e0;
+$wm-text-muted:   #888888;
+$wm-heading:      #ffffff;
+$wm-accent:       #00e5ff;     /* cyan accent like worldmodels */
+$wm-accent-dim:   rgba(0,229,255,0.12);
+$wm-gradient-1:   #00e5ff;
+$wm-gradient-2:   #7c4dff;
+$wm-success:      #4caf50;
+$wm-warning:      #ff9800;
+$wm-mono:         'JetBrains Mono', 'Fira Code', 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+$wm-sans:         'Inter', -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+$wm-radius:       12px;
+$wm-transition:   all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+/* ---------- Override body for .worldmodels-theme ---------- */
+body.worldmodels-theme {
+  background: $wm-bg;
+  color: $wm-text;
+  font-family: $wm-sans;
+  padding-top: 0;            /* remove masthead offset, we handle differently */
+  padding-bottom: 0;
+  min-height: 100vh;
+}
+
+/* ---------- MASTHEAD (dark) ---------- */
+body.worldmodels-theme .masthead {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(10,10,10,0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid $wm-border;
+  z-index: 100;
+  height: 64px;
+
+  .masthead__inner-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    height: 64px;
+
+    @media (max-width: 640px) {
+      padding: 0 1rem;
+    }
+  }
+
+  .masthead__menu {
+    width: 100%;
+  }
+
+  .greedy-nav {
+    display: flex;
+    align-items: center;
+    min-height: 64px;
+    background: transparent;
+
+    /* Let the greedy-nav JS control button visibility via .hidden class */
+    > button {
+      background: transparent;
+      z-index: 110;
+      padding: 0.5rem;
+    }
+  }
+
+  .visible-links {
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
+
+  .masthead__menu-item {
+    a {
+      color: $wm-text-muted;
+      font-family: $wm-mono;
+      font-size: 0.82rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 0.5rem 1rem;
+      transition: color 0.2s;
+
+      &:hover {
+        color: $wm-accent;
+      }
+
+      @media (max-width: 768px) {
+        font-size: 0.75rem;
+        padding: 0.5rem 0.6rem;
+      }
+    }
+
+    &--lg a {
+      color: $wm-heading;
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 0.02em;
+      text-transform: none;
+
+      @media (max-width: 768px) {
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .hidden-links {
+    background: $wm-bg-card;
+    border: 1px solid $wm-border;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    padding: 0.5rem 0;
+    min-width: 180px;
+
+    &:not(.hidden) {
+      @media (max-width: 768px) {
+        display: block !important;
+      }
+    }
+
+    &::before,
+    &::after {
+      border-color: $wm-border transparent !important;
+    }
+
+    &::after {
+      border-color: $wm-bg-card transparent !important;
+    }
+
+    li a {
+      color: $wm-text;
+      display: block;
+      padding: 0.6rem 1.2rem;
+      font-family: $wm-mono;
+      font-size: 0.8rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      transition: background 0.2s, color 0.2s;
+
+      &:hover {
+        color: $wm-accent;
+        background: $wm-bg-card-hover;
+      }
+    }
+  }
+
+  button {
+    .navicon {
+      background: $wm-text;
+
+      &::before,
+      &::after {
+        background: $wm-text;
+      }
+    }
+  }
+}
+
+/* ---------- HERO SECTION ---------- */
+.wm-hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 120px 2rem 80px;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -30%;
+    width: 120%;
+    height: 120%;
+    background: radial-gradient(ellipse at 30% 20%, rgba(0,229,255,0.06) 0%, transparent 55%),
+                radial-gradient(ellipse at 70% 80%, rgba(124,77,255,0.04) 0%, transparent 55%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 1;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    flex-direction: column-reverse;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+
+  &__text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__avatar {
+    flex-shrink: 0;
+    opacity: 0;
+    animation: wm-fadeUp 0.8s ease forwards;
+    animation-delay: 0.15s;
+
+    img {
+      width: 240px;
+      height: 240px;
+      border-radius: 16px;
+      object-fit: cover;
+      border: 3px solid $wm-border;
+      box-shadow: 0 0 30px rgba(0,229,255,0.15);
+      transition: $wm-transition;
+
+      @media (min-width: 768px) {
+        width: 300px;
+        height: 300px;
+      }
+
+      &:hover {
+        border-color: $wm-accent;
+        box-shadow: 0 0 40px rgba(0,229,255,0.25);
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  &__tagline {
+    font-family: $wm-mono;
+    font-size: 0.85rem;
+    color: $wm-accent;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    opacity: 0;
+    animation: wm-fadeUp 0.6s ease forwards;
+    animation-delay: 0.2s;
+  }
+
+  &__title {
+    font-size: clamp(1.6rem, 4vw, 2.8rem);
+    font-weight: 800;
+    line-height: 1.15;
+    color: $wm-heading;
+    margin: 0 0 1.2rem;
+    letter-spacing: -0.02em;
+    opacity: 0;
+    animation: wm-fadeUp 0.8s ease forwards;
+    animation-delay: 0.35s;
+
+    .gradient-text {
+      background: linear-gradient(135deg, $wm-gradient-1, $wm-gradient-2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  }
+
+  &__subtitle {
+    font-size: clamp(0.85rem, 1.6vw, 1.05rem);
+    color: $wm-text-muted;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+    opacity: 0;
+    animation: wm-fadeUp 0.8s ease forwards;
+    animation-delay: 0.5s;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    opacity: 0;
+    animation: wm-fadeUp 0.8s ease forwards;
+    animation-delay: 0.65s;
+  }
+
+  &__badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 3rem;
+    opacity: 0;
+    animation: wm-fadeUp 0.8s ease forwards;
+    animation-delay: 0.8s;
+  }
+}
+
+/* ---------- BUTTONS ---------- */
+.wm-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: $wm-mono;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.75rem 1.8rem;
+  border-radius: 6px;
+  transition: $wm-transition;
+  cursor: pointer;
+  border: none;
+
+  &--primary {
+    background: $wm-accent;
+    color: $wm-bg !important;
+    font-weight: 600;
+
+    &:hover,
+    &:focus {
+      background: lighten($wm-accent, 12%);
+      box-shadow: 0 0 24px rgba(0,229,255,0.35);
+      transform: translateY(-1px);
+      color: $wm-bg !important;
+    }
+
+    &:visited {
+      color: $wm-bg !important;
+    }
+  }
+
+  &--outline {
+    background: transparent;
+    color: $wm-text;
+    border: 1px solid $wm-border;
+
+    &:hover {
+      border-color: $wm-accent;
+      color: $wm-accent;
+      transform: translateY(-1px);
+    }
+  }
+}
+
+/* ---------- BADGE / PILL ---------- */
+.wm-badge {
+  display: inline-block;
+  font-family: $wm-mono;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.9rem;
+  border-radius: 100px;
+  background: $wm-bg-card;
+  border: 1px solid $wm-border;
+  color: $wm-text-muted;
+  transition: $wm-transition;
+
+  &--accent {
+    border-color: rgba(0,229,255,0.3);
+    color: $wm-accent;
+  }
+
+  &--success {
+    border-color: rgba(76,175,80,0.3);
+    color: $wm-success;
+  }
+
+  &--warning {
+    border-color: rgba(255,152,0,0.3);
+    color: $wm-warning;
+  }
+}
+
+/* ---------- SECTION WRAPPER ---------- */
+.wm-section {
+  position: relative;
+  padding: 6rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &--border-top {
+    border-top: 1px solid $wm-border;
+  }
+
+  /* Offset for fixed masthead when scrolling to anchors */
+  scroll-margin-top: 80px;
+
+  &__number {
+    font-family: $wm-mono;
+    font-size: 0.8rem;
+    color: $wm-accent;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.75rem;
+    display: block;
+  }
+
+  &__title {
+    font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+    font-weight: 700;
+    color: $wm-heading;
+    margin: 0 0 0.75rem;
+    letter-spacing: -0.01em;
+  }
+
+  &__subtitle {
+    font-size: 1rem;
+    color: $wm-text-muted;
+    line-height: 1.7;
+    margin-bottom: 3rem;
+  }
+}
+
+/* ---------- Fade-in on scroll ---------- */
+.wm-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+
+  &.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- CARD GRID ---------- */
+.wm-card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &--two {
+    @media (min-width: 640px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+/* ---------- CARD ---------- */
+.wm-card {
+  background: $wm-bg-card;
+  border: 1px solid $wm-border;
+  border-radius: $wm-radius;
+  overflow: hidden;
+  transition: $wm-transition;
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    border-color: #333;
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+  }
+
+  &__img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-bottom: 1px solid $wm-border;
+    flex-shrink: 0;
+  }
+
+  &__body {
+    padding: 1.25rem 1.4rem 1.4rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__tag {
+    display: inline-block;
+    font-family: $wm-mono;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    margin-bottom: 0.6rem;
+    width: fit-content;
+
+    &--project {
+      background: $wm-accent-dim;
+      color: $wm-accent;
+    }
+
+    &--article {
+      background: rgba(76,175,80,0.12);
+      color: $wm-success;
+    }
+
+    &--paper {
+      background: rgba(255,152,0,0.12);
+      color: $wm-warning;
+    }
+
+    &--cert {
+      background: rgba(124,77,255,0.12);
+      color: #b388ff;
+    }
+  }
+
+  &__title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: $wm-heading;
+    margin: 0 0 0.4rem;
+    line-height: 1.4;
+  }
+
+  &__desc {
+    font-size: 0.85rem;
+    color: $wm-text-muted;
+    margin: 0;
+    line-height: 1.55;
+  }
+
+  &__link-arrow {
+    margin-top: auto;
+    padding-top: 0.8rem;
+    font-family: $wm-mono;
+    font-size: 0.78rem;
+    color: $wm-accent;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+
+    &::after {
+      content: '→';
+      transition: transform 0.2s;
+    }
+  }
+
+  &:hover &__link-arrow::after {
+    transform: translateX(4px);
+  }
+}
+
+a.wm-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+
+  .wm-card {
+    width: 100%;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+/* ---------- TIMELINE ---------- */
+.wm-timeline {
+  position: relative;
+  padding-left: 2.5rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: $wm-border;
+  }
+
+  &__item {
+    position: relative;
+    padding-bottom: 2.5rem;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: -2.5rem;
+      top: 6px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: $wm-accent;
+      border: 2px solid $wm-bg;
+      box-shadow: 0 0 0 3px $wm-border;
+    }
+  }
+
+  &__year {
+    font-family: $wm-mono;
+    font-size: 0.75rem;
+    color: $wm-accent;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.4rem;
+  }
+
+  &__title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: $wm-heading;
+    margin: 0 0 0.3rem;
+  }
+
+  &__desc {
+    font-size: 0.88rem;
+    color: $wm-text-muted;
+    line-height: 1.6;
+    margin: 0;
+  }
+}
+
+/* ---------- COLLAPSIBLE (dark) ---------- */
+.wm-collapsible {
+  margin-bottom: 1.25rem;
+  border: 1px solid $wm-border;
+  border-radius: $wm-radius;
+  background: $wm-bg-card;
+  overflow: hidden;
+
+  summary {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.2rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: $wm-heading;
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    transition: background 0.2s;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::before {
+      content: '▶';
+      font-size: 0.6em;
+      color: $wm-accent;
+      margin-right: 0.8rem;
+      transition: transform 0.2s;
+    }
+
+    &:hover {
+      background: $wm-bg-card-hover;
+    }
+  }
+
+  &[open] summary::before {
+    transform: rotate(90deg);
+  }
+
+  &__content {
+    padding: 0 1.2rem 1.2rem;
+    color: $wm-text;
+    font-size: 0.9rem;
+    line-height: 1.75;
+
+    img, video {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 1rem 0;
+    }
+  }
+}
+
+/* ---------- STATS ROW ---------- */
+.wm-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin: 2rem 0;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  &__item {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    background: $wm-bg-card;
+    border: 1px solid $wm-border;
+    border-radius: $wm-radius;
+  }
+
+  &__number {
+    font-family: $wm-mono;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: $wm-accent;
+    display: block;
+  }
+
+  &__label {
+    font-size: 0.78rem;
+    color: $wm-text-muted;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-top: 0.3rem;
+    display: block;
+  }
+}
+
+/* ---------- CERT / BADGE ROW ---------- */
+.wm-certs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin: 1.5rem 0;
+
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    transition: $wm-transition;
+    filter: grayscale(0.2);
+
+    &:hover {
+      filter: grayscale(0);
+      transform: scale(1.08);
+    }
+  }
+}
+
+/* ---------- FOOTER (dark) ---------- */
+body.worldmodels-theme .page__footer {
+  position: relative;
+  background: $wm-bg;
+  border-top: 1px solid $wm-border;
+  color: $wm-text-muted;
+  margin-top: 0;
+  padding: 3rem 0 2rem;
+
+  @media (max-width: 640px) {
+    padding: 2rem 0 1.5rem;
+  }
+
+  footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    @media (max-width: 640px) {
+      padding: 0 1rem;
+    }
+  }
+
+  a {
+    color: $wm-text-muted;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $wm-accent;
+      text-decoration: none;
+    }
+  }
+
+  .page__footer-follow {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    li {
+      font-family: $wm-mono;
+      font-size: 0.78rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    li + li::before {
+      content: none;
+    }
+  }
+
+  .page__footer-copyright {
+    margin-top: 1.5rem;
+    font-family: $wm-mono;
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    color: #555;
+  }
+}
+
+/* ---------- FOOTER GRID ---------- */
+.wm-footer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+
+  @media (min-width: 640px) {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+
+  &__col {
+    h4 {
+      font-family: $wm-mono;
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: $wm-text-muted;
+      margin: 0 0 1rem;
+    }
+
+    p {
+      font-size: 0.88rem;
+      color: $wm-text-muted;
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+
+      a {
+        font-size: 0.85rem;
+        color: $wm-text-muted;
+        transition: color 0.2s;
+
+        &:hover {
+          color: $wm-accent;
+        }
+      }
+    }
+  }
+}
+
+.wm-footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+  border-top: 1px solid $wm-border;
+  font-family: $wm-mono;
+  font-size: 0.72rem;
+  color: #555;
+
+  .wm-status {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    &::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: $wm-success;
+      animation: wm-pulse 2s infinite;
+    }
+  }
+}
+
+/* ---------- ABOUT TEXT ---------- */
+.wm-about-text {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: $wm-text;
+  text-align: left;
+
+  a {
+    color: $wm-accent;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,229,255,0.3);
+    transition: border-color 0.2s;
+
+    &:hover {
+      border-color: $wm-accent;
+    }
+  }
+}
+
+/* ---------- EDUCATION LIST ---------- */
+.wm-edu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    position: relative;
+    padding: 1rem 0 1rem 1.5rem;
+    border-bottom: 1px solid $wm-border;
+    font-size: 0.95rem;
+    color: $wm-text;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &::before {
+      content: '◆';
+      position: absolute;
+      left: 0;
+      color: $wm-accent;
+      font-size: 0.5rem;
+      top: 1.3rem;
+    }
+
+    strong {
+      color: $wm-heading;
+    }
+  }
+}
+
+/* ---------- CERT LIST ---------- */
+.wm-cert-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+
+  li {
+    padding: 0.6rem 0;
+    font-size: 0.9rem;
+    color: $wm-text;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+
+    &::before {
+      content: '✓';
+      color: $wm-accent;
+      font-weight: 700;
+      font-size: 0.8rem;
+    }
+  }
+}
+
+/* ---------- AWARDS LIST ---------- */
+.wm-award-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding: 0.75rem 0;
+    font-size: 0.9rem;
+    color: $wm-text;
+    border-bottom: 1px solid $wm-border;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &::before {
+      content: '★';
+      color: $wm-warning;
+      font-size: 0.85rem;
+      margin-top: 0.1rem;
+    }
+
+    a {
+      color: $wm-accent;
+      text-decoration: none;
+    }
+  }
+}
+
+/* ---------- PHOTO ROW ---------- */
+.wm-photos {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2rem 0;
+
+  img {
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid $wm-border;
+    transition: $wm-transition;
+    filter: grayscale(0.3);
+
+    &:hover {
+      filter: grayscale(0);
+      border-color: $wm-accent;
+      transform: scale(1.06);
+    }
+  }
+}
+
+/* ---------- TWO-COLUMN SPLIT ---------- */
+.wm-split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ---------- ANIMATIONS ---------- */
+@keyframes wm-fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes wm-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+/* ---------- SCROLLBAR (dark) ---------- */
+body.worldmodels-theme {
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+  &::-webkit-scrollbar-track {
+    background: $wm-bg;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 4px;
+    &:hover {
+      background: #555;
+    }
+  }
+}
+
+/* ---------- Hide sidebar on worldmodels pages ---------- */
+body.worldmodels-theme .sidebar {
+  display: none !important;
+}
+
+body.worldmodels-theme #main {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  float: none;
+  width: 100%;
+}
+
+body.worldmodels-theme .page {
+  float: none;
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0;
+  margin: 0;
+}
+
+body.worldmodels-theme .page__inner-wrap {
+  padding: 0;
+  max-width: 100%;
+  float: none;
+  width: 100%;
+}
+
+body.worldmodels-theme .page__content {
+  padding: 0;
+  max-width: 100%;
+  float: none;
+  width: 100%;
+}
+
+body.worldmodels-theme .page__title {
+  display: none; /* we use our own hero title */
+}
+
+body.worldmodels-theme .page__inner-wrap header {
+  display: none; /* hide default page header */
+}
+
+/* Override any default link colors inside dark theme */
+body.worldmodels-theme a {
+  color: $wm-accent;
+
+  &:visited {
+    color: $wm-accent;
+  }
+}
+
+/* ---------- Responsive cleanup ---------- */
+
+/* --- Tablet (max 1024px) --- */
+@media (max-width: 1024px) {
+  .wm-hero {
+    padding: 100px 1.5rem 60px;
+
+    &__title {
+      font-size: clamp(1.8rem, 5vw, 3rem);
+    }
+  }
+
+  .wm-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .wm-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .wm-footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+}
+
+/* --- Mobile (max 640px) --- */
+@media (max-width: 640px) {
+  .wm-hero {
+    padding: 90px 1rem 40px;
+    min-height: auto;
+
+    &__row {
+      flex-direction: column-reverse;
+      gap: 1.5rem;
+      text-align: center;
+    }
+
+    &__avatar img {
+      width: 160px;
+      height: 160px;
+    }
+
+    &__title {
+      font-size: 1.6rem;
+    }
+
+    &__subtitle {
+      font-size: 0.8rem;
+      margin-bottom: 1.5rem;
+    }
+
+    &__actions {
+      justify-content: center;
+      gap: 0.6rem;
+    }
+
+    &__badges {
+      justify-content: center;
+      margin-top: 1.5rem;
+    }
+  }
+
+  .wm-section {
+    padding: 3rem 1rem;
+
+    &__title {
+      font-size: 1.3rem;
+    }
+
+    &__subtitle {
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .wm-about-text {
+    font-size: 0.92rem;
+  }
+
+  .wm-card-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .wm-card__img {
+    height: 140px;
+  }
+
+  .wm-btn {
+    font-size: 0.75rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .wm-badge {
+    font-size: 0.6rem;
+    padding: 0.25rem 0.6rem;
+  }
+
+  .wm-timeline {
+    padding-left: 1.5rem;
+
+    &__item::before {
+      left: -1.5rem;
+    }
+  }
+
+  .wm-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+
+    &__number {
+      font-size: 1.2rem;
+    }
+
+    &__label {
+      font-size: 0.65rem;
+    }
+  }
+
+  .wm-split {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .wm-photos {
+    gap: 0.75rem;
+
+    img {
+      width: 100px;
+      height: 50px;
+    }
+  }
+
+  .wm-footer-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .wm-footer-bottom {
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: center;
+  }
+
+  .wm-certs img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* --- Small phone (max 380px) --- */
+@media (max-width: 380px) {
+  .wm-hero {
+    padding: 80px 0.75rem 30px;
+
+    &__avatar img {
+      width: 140px;
+      height: 140px;
+    }
+
+    &__title {
+      font-size: 1.35rem;
+    }
+
+    &__actions {
+      flex-direction: column;
+      align-items: center;
+
+      .wm-btn {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  }
+
+  .wm-section {
+    padding: 2.5rem 0.75rem;
+  }
+
+  .wm-card__body {
+    padding: 1rem;
+  }
+}
+
+/* ---------- iframe dark ---------- */
+body.worldmodels-theme iframe {
+  border-radius: $wm-radius;
+  border: 1px solid $wm-border;
+}
+
+/* ---------- Global responsive media ---------- */
+body.worldmodels-theme {
+  img,
+  video,
+  iframe {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Prevent horizontal overflow */
+  .wm-section,
+  .wm-hero__inner {
+    overflow-x: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* Ensure collapsible images & videos stay within bounds */
+  .wm-collapsible__content {
+    img, video, iframe {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  /* Touch-friendly minimum tap targets */
+  @media (max-width: 768px) {
+    a.wm-card-link,
+    .wm-btn,
+    .wm-collapsible summary {
+      min-height: 44px;
+    }
+
+    /* Fix inline styles that could overflow */
+    [style*="width"] {
+      max-width: 100% !important;
+    }
+  }
+}

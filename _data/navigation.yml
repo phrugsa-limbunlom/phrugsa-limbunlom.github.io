@@ -5,11 +5,14 @@
 # prevent it from being included in the site.
 
 main:
+  - title: "Research"
+    url: /#previous-research
+
   - title: "Projects"
-    url: /projects/
+    url: /#projects
 
   - title: "Articles"
-    url: /articles/
+    url: /#articles
 
 #  - title: "Research"
 #    url: /research/

@@ -1,0 +1,85 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      html { scroll-behavior: smooth; }
+    </style>
+  </head>
+
+  <body class="worldmodels-theme">
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    {{ content }}
+
+    <div class="page__footer">
+      <footer>
+        <div class="wm-footer-grid">
+          <div class="wm-footer-grid__col">
+            <h4>{{ site.author.name }}</h4>
+            <p>{{ site.author.bio }}</p>
+          </div>
+          <div class="wm-footer-grid__col">
+            <h4>Navigate</h4>
+            <ul>
+              <li><a href="{{ base_path }}/">About</a></li>
+              {% for link in site.data.navigation.main %}
+              <li><a href="{{ base_path }}{{ link.url }}">{{ link.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="wm-footer-grid__col">
+            <h4>Connect</h4>
+            <ul>
+              {% if site.author.email %}<li><a href="mailto:{{ site.author.email }}">Email</a></li>{% endif %}
+              {% if site.author.github %}<li><a href="https://github.com/{{ site.author.github }}" target="_blank">GitHub</a></li>{% endif %}
+              {% if site.author.linkedin %}<li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank">LinkedIn</a></li>{% endif %}
+              {% if site.author.medium %}<li><a href="{{ site.author.medium }}" target="_blank">Medium</a></li>{% endif %}
+              {% if site.author.twitter %}<li><a href="https://twitter.com/{{ site.author.twitter }}" target="_blank">X / Twitter</a></li>{% endif %}
+              {% if site.author.orcid %}<li><a href="{{ site.author.orcid }}" target="_blank">ORCID</a></li>{% endif %}
+            </ul>
+          </div>
+        </div>
+        <div class="wm-footer-bottom">
+          <span>&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. All rights reserved.</span>
+          <span class="wm-status">Portfolio Online</span>
+        </div>
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+    <script>
+    // Intersection Observer for scroll-reveal animations
+    document.addEventListener('DOMContentLoaded', function() {
+      var reveals = document.querySelectorAll('.wm-reveal');
+      if ('IntersectionObserver' in window) {
+        var observer = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+        reveals.forEach(function(el) { observer.observe(el); });
+      } else {
+        reveals.forEach(function(el) { el.classList.add('is-visible'); });
+      }
+    });
+    </script>
+
+  </body>
+</html>
