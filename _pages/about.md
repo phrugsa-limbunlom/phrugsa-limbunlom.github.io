@@ -44,6 +44,34 @@ redirect_from:
   </div>
 </section>
 
+<section class="wm-section wm-section--border-top" id="highlight">
+  <div class="wm-reveal">
+    <h2 class="wm-section__title">Highlight</h2>
+  </div>
+
+  <!-- HIGHLIGHT: Receptr -->
+  <a href="https://receptr.vercel.app/" class="wm-highlight-card wm-reveal" target="_blank" rel="noopener">
+    <div class="wm-highlight-card__body">
+      <div class="wm-highlight-card__meta">
+        <span class="wm-card__tag wm-card__tag--project">Freelance</span>
+        <span class="wm-badge wm-badge--success">Live · Now in Beta</span>
+      </div>
+      <h3 class="wm-highlight-card__title">Receptr</h3>
+      <p class="wm-highlight-card__desc">An AI orchestration platform that manages admin, marketing, and outreach for small business owners and solo founders — no technical setup required. Simply describe what you need and the system deploys specialised agents to handle it.</p>
+      <!-- <ul class="wm-highlight-card__features">
+        <li>Admin &amp; Customer Support Agent — 24/7 auto-replies, multi-language, lead capture</li>
+        <li>Social Media Marketing Agent — 30-day content plans, brand-voice captions, image generation</li>
+        <li>Smart Outreach Agent — personalised cold messages, follow-up sequences, lead tracking</li>
+        <li>Business Memory Layer — stores brand voice, past customers, and engagement history</li>
+      </ul> -->
+      <span class="wm-btn wm-btn--primary" style="align-self: flex-start; pointer-events: none;">Visit Receptr →</span>
+    </div>
+    <div class="wm-highlight-card__preview">
+      <img src="/images/Receptr.png" alt="Receptr — AI Business Assistant preview" loading="lazy">
+    </div>
+  </a>
+</section>
+
 <!-- ═══════ 01 — ABOUT ═══════ -->
 <section class="wm-section wm-section--border-top" id="about">
   <div class="wm-reveal">
@@ -193,7 +221,7 @@ redirect_from:
     <h2 class="wm-section__title">Projects</h2>
     <p class="wm-section__subtitle">AI-driven software solutions to address business challenges and foster growth.</p>
   </div>
-    <div style="text-align: center; margin: 2rem 0;" class="wm-reveal">
+  <div style="text-align: center; margin: 2rem 0;" class="wm-reveal">
     <img src="https://github.com/user-attachments/assets/1bf2a44d-06b2-4599-8b1e-9403e0684424" style="max-width: 600px; width: 100%; height: auto; border-radius: 12px; border: 1px solid #1e1e1e;" alt="PickSmart">
   </div>
   <div class="wm-about-text wm-reveal">
