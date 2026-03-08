@@ -37,10 +37,12 @@ redirect_from:
       <span class="wm-badge wm-badge--accent">AI Agents</span>
       <span class="wm-badge wm-badge--accent">LLMs</span>
       <span class="wm-badge wm-badge--accent">World Models</span>
-      <!-- <span class="wm-badge wm-badge--accent">JEPA</span>
-      <span class="wm-badge wm-badge--accent">Energy-Based Models</span> -->
-      <!-- <span class="wm-badge">Robotics</span> -->
     </div>
+    <blockquote class="wm-quote wm-reveal">
+      <span class="wm-quote__icon" aria-hidden="true">"</span>
+      <p class="wm-quote__text">The only limit is your imagination.</p>
+      <footer class="wm-quote__footer"><cite>Hiro Hamada, Big Hero 6</cite></footer>
+    </blockquote>
   </div>
 </section>
 

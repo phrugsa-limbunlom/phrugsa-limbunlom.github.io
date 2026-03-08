@@ -347,6 +347,63 @@ body.worldmodels-theme .masthead {
   }
 }
 
+/* ---------- QUOTE ---------- */
+.wm-quote {
+  position: relative;
+  margin: 2.5rem 0 0;
+  padding: 1.5rem 2rem 1.5rem 2.5rem;
+  border: none;
+  border-left: 3px solid $wm-accent;
+  background: linear-gradient(135deg, rgba($wm-accent, 0.06), transparent 60%);
+  border-radius: 0 $wm-radius $wm-radius 0;
+  opacity: 0;
+  animation: wm-fadeUp 0.8s ease forwards;
+  animation-delay: 0.9s;
+
+  &__icon {
+    position: absolute;
+    top: -0.3rem;
+    left: 0.75rem;
+    font-size: 3rem;
+    line-height: 1;
+    color: rgba($wm-accent, 0.25);
+    font-family: Georgia, serif;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  &__text {
+    font-size: clamp(0.95rem, 1.6vw, 1.15rem);
+    font-style: italic;
+    color: $wm-heading;
+    line-height: 1.6;
+    margin: 0 0 0.5rem;
+    letter-spacing: 0.01em;
+  }
+
+  &__footer {
+    font-family: $wm-mono;
+    font-size: 0.8rem;
+    color: $wm-text-muted;
+    letter-spacing: 0.04em;
+
+    cite {
+      font-style: italic;
+      color: $wm-accent;
+    }
+  }
+
+  @media (max-width: 767px) {
+    margin-top: 1.75rem;
+    padding: 1.25rem 1.25rem 1.25rem 1.75rem;
+
+    &__icon {
+      font-size: 2.25rem;
+      left: 0.5rem;
+    }
+  }
+}
+
 /* ---------- BUTTONS ---------- */
 .wm-btn {
   display: inline-flex;
