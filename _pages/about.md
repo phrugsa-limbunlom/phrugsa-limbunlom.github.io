@@ -38,11 +38,18 @@ redirect_from:
       <span class="wm-badge wm-badge--accent">LLMs</span>
       <span class="wm-badge wm-badge--accent">World Models</span>
     </div>
-    <blockquote class="wm-quote wm-reveal">
-      <span class="wm-quote__icon" aria-hidden="true">"</span>
-      <p class="wm-quote__text">The only limit is your imagination.</p>
-      <footer class="wm-quote__footer"><cite>Hiro Hamada, Big Hero 6</cite></footer>
-    </blockquote>
+    <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+      <blockquote class="wm-quote wm-reveal" style="flex: 1; min-width: 220px;">
+        <span class="wm-quote__icon" aria-hidden="true">"</span>
+        <p class="wm-quote__text">The only limit is your imagination.</p>
+        <footer class="wm-quote__footer"><cite>Hiro Hamada, Big Hero 6</cite></footer>
+      </blockquote>
+      <blockquote class="wm-quote wm-reveal" style="flex: 1; min-width: 220px;">
+        <span class="wm-quote__icon" aria-hidden="true">"</span>
+        <p class="wm-quote__text">If you can't explain it simply, you don't understand it well enough.</p>
+        <footer class="wm-quote__footer"><cite>Albert Einstein</cite></footer>
+      </blockquote>
+    </div>
   </div>
 </section>
 
