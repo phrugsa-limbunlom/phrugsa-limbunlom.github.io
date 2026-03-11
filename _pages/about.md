@@ -54,7 +54,7 @@ redirect_from:
   </div>
 
   <!-- HIGHLIGHT: Receptr -->
-  <a href="https://receptr.vercel.app/" class="wm-highlight-card wm-reveal" target="_blank" rel="noopener">
+  <a href="https://receptr-ai.com/" class="wm-highlight-card wm-reveal" target="_blank" rel="noopener">
     <div class="wm-highlight-card__body">
       <div class="wm-highlight-card__meta">
         <span class="wm-card__tag wm-card__tag--project">Freelance</span>
