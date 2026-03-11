@@ -438,7 +438,7 @@ redirect_from:
       I am passionate about cutting-edge technology and fascinated by how the industry drives core development while leveraging its capabilities to create applications serving real users effectively. Apart from technology, I like science, evolution, and history. Visiting museums is another hobby of mine.
     </p>
   </div>
-  <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+  <!-- <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;"> -->
       <!-- <blockquote class="wm-quote wm-reveal" style="flex: 1; min-width: 220px;">
         <span class="wm-quote__icon" aria-hidden="true">"</span>
         <p class="wm-quote__text">If you can't explain it simply, you don't understand it well enough.</p>
