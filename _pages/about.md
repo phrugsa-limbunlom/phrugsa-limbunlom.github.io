@@ -239,10 +239,16 @@ redirect_from:
   </div> -->
   
   <div class="wm-card-grid wm-reveal">
-    <a href="https://github.com/phrugsa-limbunlom/DressMe.AI" class="wm-card-link" target="_blank" rel="noopener">
+     <a href="https://github.com/phrugsa-limbunlom/vlm-grpo" class="wm-card-link" target="_blank" rel="noopener">
+        <div class="wm-card">
+          <img class="wm-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/vlm-grpo" alt="VLM GRPO">
+          <div class="wm-card__body"><span class="wm-card__tag wm-card__tag--project">Project</span><h3 class="wm-card__title">VLM GRPO</h3><p class="wm-card__desc">Vision-Language Model Post-Training with GRPO</p><span class="wm-card__link-arrow">View Project</span></div>
+        </div>
+    </a>
+    <a href="https://github.com/phrugsa-limbunlom/vlm-lora" class="wm-card-link" target="_blank" rel="noopener">
       <div class="wm-card">
-        <img class="wm-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/DressMe.AI" alt="DressMe.AI">
-        <div class="wm-card__body"><span class="wm-card__tag wm-card__tag--project">Project</span><h3 class="wm-card__title">DressMe.AI</h3><p class="wm-card__desc">Multimodal Agent with Image Generation</p><span class="wm-card__link-arrow">View Project</span></div>
+        <img class="wm-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/vlm-lora" alt="VLM LoRA">
+        <div class="wm-card__body"><span class="wm-card__tag wm-card__tag--project">Project</span><h3 class="wm-card__title">VLM LoRA</h3><p class="wm-card__desc">Low-rank adaptation in VLMs with LLaVA</p><span class="wm-card__link-arrow">View Project</span></div>
       </div>
     </a>
     <a href="https://github.com/phrugsa-limbunlom/SEAD-agent" class="wm-card-link" target="_blank" rel="noopener">
@@ -251,26 +257,20 @@ redirect_from:
         <div class="wm-card__body"><span class="wm-card__tag wm-card__tag--project">Project</span><h3 class="wm-card__title">SEAD-Agent</h3><p class="wm-card__desc">AI Research Assistant with Tool Calling</p><span class="wm-card__link-arrow">View Project</span></div>
       </div>
     </a>
-    <a href="https://github.com/phrugsa-limbunlom/vlm-lora" class="wm-card-link" target="_blank" rel="noopener">
-      <div class="wm-card">
-        <img class="wm-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/vlm-lora" alt="VLM LoRA">
-        <div class="wm-card__body"><span class="wm-card__tag wm-card__tag--project">Project</span><h3 class="wm-card__title">VLM LoRA</h3><p class="wm-card__desc">Low-rank adaptation in VLMs with LLaVA</p><span class="wm-card__link-arrow">View Project</span></div>
-      </div>
-    </a>
   </div>
 
   <div id="more-projects" style="display: none;">
     <div class="wm-card-grid wm-reveal" style="margin-top: 1.25rem;">
+      <a href="https://github.com/phrugsa-limbunlom/DressMe.AI" class="wm-card-link" target="_blank" rel="noopener">
+        <div class="wm-card">
+          <img class="wm-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/DressMe.AI" alt="DressMe.AI">
+          <div class="wm-card__body"><span class="wm-card__tag wm-card__tag--project">Project</span><h3 class="wm-card__title">DressMe.AI</h3><p class="wm-card__desc">Multimodal Agent with Image Generation</p><span class="wm-card__link-arrow">View Project</span></div>
+        </div>
+      </a>
       <a href="https://github.com/phrugsa-limbunlom/llm-ptq" class="wm-card-link" target="_blank" rel="noopener">
         <div class="wm-card">
           <img class="wm-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/llm-ptq" alt="LLM PTQ">
           <div class="wm-card__body"><span class="wm-card__tag wm-card__tag--project">Project</span><h3 class="wm-card__title">LLM PTQ</h3><p class="wm-card__desc">8-bit Post-Training Quantization (PTQ)</p><span class="wm-card__link-arrow">View Project</span></div>
-        </div>
-      </a>
-      <a href="https://github.com/phrugsa-limbunlom/vlm-grpo" class="wm-card-link" target="_blank" rel="noopener">
-        <div class="wm-card">
-          <img class="wm-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/vlm-grpo" alt="VLM GRPO">
-          <div class="wm-card__body"><span class="wm-card__tag wm-card__tag--project">Project</span><h3 class="wm-card__title">VLM GRPO</h3><p class="wm-card__desc">Vision-Language Model Post-Training with GRPO</p><span class="wm-card__link-arrow">View Project</span></div>
         </div>
       </a>
       <a href="https://github.com/phrugsa-limbunlom/sagemaker-llm-deployment" class="wm-card-link" target="_blank" rel="noopener">
