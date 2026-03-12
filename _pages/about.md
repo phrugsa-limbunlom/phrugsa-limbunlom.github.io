@@ -1,4 +1,4 @@
----
+﻿---
 permalink: /
 title: "About"
 layout: saas-landing
@@ -82,12 +82,12 @@ redirect_from:
           <span class="sl-card__tag sl-card__tag--project">Founder</span>
           <span class="sl-badge sl-badge--success">Live Â· Now in Beta</span>
         </div>
-        <h3 class="sl-highlight-card__title">Receptr â€“ AI Agent Platform for Non-Technical Businesses</h3>
+        <h3 class="sl-highlight-card__title">Receptr - AI Agent Platform for Non-Technical Businesses</h3>
         <p class="sl-highlight-card__desc">Receptr is an AI platform designed to help non-technical founders deploy intelligent agents that can perform operational tasks such as customer support, marketing assistance, and business data analysis. The system focuses on simplifying AI adoption for small businesses by providing an orchestration layer that allows agents to understand business context and execute tasks autonomously. This project explores how agent architectures can reduce operational overhead for small companies.</p>
-        <span class="sl-btn sl-btn--primary" style="align-self: flex-start; pointer-events: none;">Visit Receptr â†’</span>
+        <span class="sl-btn sl-btn--primary" style="align-self: flex-start; pointer-events: none;">Visit Receptr</span>
       </div>
       <div class="sl-highlight-card__preview">
-        <img src="/images/Receptr.png?v=2" alt="Receptr â€” AI Agent Platform preview" loading="lazy">
+        <img src="/images/Receptr.png?v=2" alt="Receptr” AI Agent Platform preview" loading="lazy">
       </div>
     </a>
   </div>
