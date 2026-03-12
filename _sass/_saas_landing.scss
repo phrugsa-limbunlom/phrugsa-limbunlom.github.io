@@ -1,0 +1,2151 @@
+/* ==========================================================================
+   PREMIUM SAAS LANDING PAGE
+   Design system inspired by Stripe, Linear, Vercel, Notion, Apple
+   8px grid · Inter/SF Pro typography · Refined color palette
+   ========================================================================== */
+
+/* ---------- Design Tokens ---------- */
+$saas-white:        #ffffff;
+$saas-bg:           #fafafa;
+$saas-bg-subtle:    #f5f5f7;
+$saas-bg-elevated:  #ffffff;
+$saas-border:       #e8e8ec;
+$saas-border-light: #f0f0f3;
+$saas-text:         #1d1d1f;
+$saas-text-secondary: #6e6e73;
+$saas-text-tertiary:  #aeaeb2;
+$saas-accent:       #2563eb;    /* blue theme */
+$saas-accent-hover: #1d4ed8;
+$saas-accent-subtle: rgba(37, 99, 235, 0.07);
+$saas-accent-glow:  rgba(37, 99, 235, 0.12);
+$saas-gradient-1:   #2563eb;
+$saas-gradient-2:   #60a5fa;
+
+/* Neutral dark for buttons */
+$saas-btn-dark:       #1d1d1f;
+$saas-btn-dark-hover: #000000;
+$saas-success:      #34c759;
+$saas-shadow-sm:    0 1px 2px rgba(0,0,0,0.04), 0 1px 3px rgba(0,0,0,0.02);
+$saas-shadow-md:    0 4px 6px rgba(0,0,0,0.04), 0 2px 4px rgba(0,0,0,0.02);
+$saas-shadow-lg:    0 12px 40px rgba(0,0,0,0.06), 0 4px 12px rgba(0,0,0,0.03);
+$saas-shadow-xl:    0 24px 80px rgba(0,0,0,0.08), 0 8px 24px rgba(0,0,0,0.04);
+$saas-glass:        rgba(255, 255, 255, 0.72);
+$saas-glass-border: rgba(255, 255, 255, 0.5);
+
+$saas-sans:   'Inter', -apple-system, 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+$saas-mono:   'JetBrains Mono', 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+
+$saas-radius-sm: 8px;
+$saas-radius:    12px;
+$saas-radius-lg: 16px;
+$saas-radius-xl: 20px;
+$saas-radius-pill: 100px;
+
+$saas-ease: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+$saas-transition: all 0.25s $saas-ease;
+$saas-transition-slow: all 0.4s $saas-ease;
+
+/* ---------- BASE ---------- */
+body.saas-landing {
+  background: $saas-white;
+  color: $saas-text;
+  font-family: $saas-sans;
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  img, video, iframe {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* ---------- CONTAINER ---------- */
+.sl-container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 16px;
+  width: 100%;
+
+  @media (min-width: 480px) {
+    padding: 0 24px;
+  }
+
+  @media (min-width: 768px) {
+    padding: 0 40px;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 0 24px;
+  }
+}
+
+.sl-container--wide {
+  max-width: 1280px;
+}
+
+.sl-container--narrow {
+  max-width: 720px;
+}
+
+/* ---------- TYPOGRAPHY ---------- */
+.sl-overline {
+  font-family: $saas-mono;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $saas-accent;
+  margin: 0 0 8px;
+  display: block;
+}
+
+.sl-headline {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: $saas-text;
+  margin: 0 0 12px;
+
+  &--lg {
+    font-size: clamp(2rem, 5vw, 3rem);
+    letter-spacing: -0.035em;
+  }
+
+  &--sm {
+    font-size: clamp(1.25rem, 2.5vw, 1.6rem);
+    letter-spacing: -0.02em;
+  }
+}
+
+.sl-subtext {
+  font-size: clamp(0.875rem, 1.3vw, 1rem);
+  color: $saas-text-secondary;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 400;
+}
+
+.sl-gradient-text {
+  background: linear-gradient(135deg, $saas-gradient-1, $saas-gradient-2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ---------- NAVIGATION ---------- */
+body.saas-landing .masthead {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: $saas-glass;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid $saas-border-light;
+  z-index: 100;
+  height: 64px;
+
+  .masthead__inner-wrap {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    height: 64px;
+
+    @media (min-width: 768px) {
+      padding: 0 40px;
+    }
+
+    @media (min-width: 1200px) {
+      padding: 0 24px;
+    }
+  }
+
+  .masthead__menu {
+    width: 100%;
+  }
+
+  .greedy-nav {
+    display: flex;
+    align-items: center;
+    min-height: 64px;
+    background: transparent;
+
+    > button {
+      background: transparent;
+      z-index: 110;
+      padding: 0.5rem;
+    }
+  }
+
+  .visible-links {
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
+
+  .masthead__menu-item {
+    a {
+      color: $saas-text-secondary;
+      font-family: $saas-sans;
+      font-size: 0.875rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      padding: 0.5rem 1rem;
+      transition: color 0.2s;
+      text-transform: none;
+
+      &:hover {
+        color: $saas-text;
+      }
+    }
+
+    &--lg a {
+      color: $saas-text;
+      font-weight: 600;
+      font-size: 1rem;
+      letter-spacing: -0.02em;
+    }
+  }
+
+  .hidden-links {
+    background: $saas-white;
+    border: 1px solid $saas-border;
+    border-radius: $saas-radius;
+    box-shadow: $saas-shadow-lg;
+    padding: 8px 0;
+    min-width: 200px;
+
+    &::before,
+    &::after {
+      border-color: $saas-border transparent !important;
+    }
+
+    &::after {
+      border-color: $saas-white transparent !important;
+    }
+
+    li a {
+      color: $saas-text-secondary;
+      display: block;
+      padding: 8px 16px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: background 0.15s, color 0.15s;
+      text-transform: none;
+
+      &:hover {
+        color: $saas-text;
+        background: $saas-bg-subtle;
+      }
+    }
+  }
+
+  button .navicon {
+    background: $saas-text;
+    &::before, &::after {
+      background: $saas-text;
+    }
+  }
+}
+
+/* ---------- HERO SECTION ---------- */
+.sl-hero {
+  position: relative;
+  padding: 120px 0 72px;
+  text-align: center;
+  overflow: hidden;
+
+  @media (max-width: 640px) {
+    padding: 100px 0 48px;
+  }
+
+  /* Subtle ambient gradient */
+  &::before {
+    content: '';
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140%;
+    height: 100%;
+    background: radial-gradient(ellipse at 50% 0%, rgba(37,99,235,0.05) 0%, transparent 60%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* Fine grid pattern overlay */
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(0,0,0,0.02) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,0,0,0.02) 1px, transparent 1px);
+    background-size: 48px 48px;
+    pointer-events: none;
+    z-index: 0;
+    mask-image: radial-gradient(ellipse at center, black 30%, transparent 70%);
+    -webkit-mask-image: radial-gradient(ellipse at center, black 30%, transparent 70%);
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: $saas-accent-subtle;
+    border: 1px solid rgba(37,99,235,0.12);
+    border-radius: $saas-radius-pill;
+    padding: 6px 16px 6px 8px;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: $saas-accent;
+    margin-bottom: 32px;
+    transition: $saas-transition;
+
+    &:hover {
+      background: rgba(37,99,235,0.12);
+      transform: translateY(-1px);
+    }
+
+    .sl-hero__pill-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: $saas-accent;
+      animation: sl-pulse 2.5s ease infinite;
+    }
+  }
+
+  &__title {
+    font-size: clamp(1.75rem, 5vw, 2.75rem);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    color: $saas-text;
+    margin: 0 0 16px;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-wrap: break-word;
+    word-break: break-word;
+
+    @media (max-width: 640px) {
+      font-size: clamp(1.25rem, 6vw, 1.75rem);
+    }
+  }
+
+  &__subtitle {
+    font-size: clamp(0.9rem, 1.5vw, 1.05rem);
+    color: $saas-text-secondary;
+    line-height: 1.6;
+    max-width: 520px;
+    margin: 0 auto 32px;
+    font-weight: 400;
+
+    @media (max-width: 640px) {
+      font-size: 0.875rem;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+
+    @media (max-width: 640px) {
+      gap: 6px;
+      margin-bottom: 24px;
+    }
+
+    @media (max-width: 380px) {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+
+  &__trusted {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    opacity: 0;
+    animation: sl-fadeUp 0.8s ease forwards;
+    animation-delay: 0.8s;
+
+    &-label {
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: $saas-text-tertiary;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    &-logos {
+      display: flex;
+      gap: 32px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      svg {
+        height: 20px;
+        opacity: 0.3;
+        transition: opacity 0.2s;
+
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}
+
+/* ---------- BUTTONS ---------- */
+.sl-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: $saas-sans;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: $saas-radius-sm;
+  transition: $saas-transition;
+  cursor: pointer;
+  border: none;
+  white-space: nowrap;
+  line-height: 1.4;
+
+  @media (max-width: 640px) {
+    padding: 8px 14px;
+    font-size: 0.75rem;
+  }
+
+  &--primary {
+    background: $saas-btn-dark;
+    color: $saas-white !important;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.06);
+
+    &:hover {
+      background: $saas-btn-dark-hover;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.06);
+      transform: translateY(-1px);
+      color: $saas-white !important;
+      text-decoration: none;
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+
+    &:visited {
+      color: $saas-white !important;
+    }
+  }
+
+  &--secondary {
+    background: $saas-white;
+    color: $saas-text !important;
+    border: 1px solid $saas-border;
+    box-shadow: $saas-shadow-sm;
+
+    &:hover {
+      border-color: darken($saas-border, 8%);
+      box-shadow: $saas-shadow-md;
+      transform: translateY(-1px);
+      color: $saas-text !important;
+      text-decoration: none;
+    }
+
+    &:visited {
+      color: $saas-text !important;
+    }
+  }
+
+  &--ghost {
+    background: transparent;
+    color: $saas-text-secondary;
+    padding: 12px 16px;
+
+    &:hover {
+      color: $saas-text;
+      background: $saas-bg-subtle;
+    }
+  }
+
+  .sl-btn__arrow {
+    transition: transform 0.2s;
+  }
+
+  &:hover .sl-btn__arrow {
+    transform: translateX(3px);
+  }
+}
+
+/* ---------- PRODUCT PREVIEW ---------- */
+.sl-preview {
+  position: relative;
+  padding: 0 0 96px;
+
+  @media (max-width: 640px) {
+    padding: 0 0 64px;
+  }
+
+  &__frame {
+    position: relative;
+    background: $saas-bg-subtle;
+    border: 1px solid $saas-border;
+    border-radius: $saas-radius-lg;
+    overflow: hidden;
+    box-shadow: $saas-shadow-xl;
+    transition: $saas-transition-slow;
+
+    &:hover {
+      box-shadow: 0 32px 100px rgba(0,0,0,0.1), 0 12px 36px rgba(0,0,0,0.05);
+      transform: translateY(-4px);
+    }
+
+    /* Browser chrome dots */
+    &::before {
+      content: '';
+      display: block;
+      height: 48px;
+      background: linear-gradient(to bottom, $saas-white, $saas-bg-subtle);
+      border-bottom: 1px solid $saas-border-light;
+      position: relative;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 18px;
+      left: 20px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #ff5f57;
+      box-shadow: 20px 0 0 #ffbd2e, 40px 0 0 #28c940;
+    }
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+
+  &__placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    background: linear-gradient(135deg, $saas-bg-subtle 0%, $saas-white 50%, $saas-bg-subtle 100%);
+    color: $saas-text-tertiary;
+    font-size: 0.875rem;
+    padding: 40px;
+
+    @media (max-width: 640px) {
+      min-height: 240px;
+    }
+  }
+
+  /* Ambient glow */
+  &__glow {
+    position: absolute;
+    inset: 20%;
+    background: radial-gradient(ellipse, rgba(108,92,231,0.08) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: -1;
+    filter: blur(60px);
+  }
+}
+
+/* ---------- SECTION ---------- */
+.sl-section {
+  padding: 64px 0;
+  position: relative;
+
+  @media (max-width: 640px) {
+    padding: 32px 0;
+  }
+
+  &--gray {
+    background: $saas-bg-subtle;
+  }
+
+  &--border {
+    border-top: 1px solid $saas-border;
+  }
+
+  &__header {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 40px;
+
+    @media (max-width: 640px) {
+      margin-bottom: 28px;
+    }
+  }
+
+  &__header--left {
+    text-align: left;
+    max-width: none;
+    margin: 0 0 40px;
+  }
+}
+
+/* ---------- ICON ---------- */
+.sl-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: $saas-radius;
+  background: $saas-accent-subtle;
+  color: $saas-accent;
+  flex-shrink: 0;
+  transition: $saas-transition;
+
+  svg {
+    width: 24px;
+    height: 24px;
+    stroke-width: 1.5;
+  }
+
+  &--sm {
+    width: 40px;
+    height: 40px;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &--lg {
+    width: 56px;
+    height: 56px;
+
+    svg {
+      width: 28px;
+      height: 28px;
+    }
+  }
+}
+
+/* ---------- FEATURE GRID ---------- */
+.sl-features {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ---------- FEATURE CARD (Glass) ---------- */
+.sl-feature {
+  position: relative;
+  background: $saas-white;
+  border: 1px solid $saas-border;
+  border-radius: $saas-radius;
+  padding: 24px;
+  transition: $saas-transition;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  @media (max-width: 640px) {
+    padding: 20px;
+  }
+
+  &:hover {
+    border-color: darken($saas-border, 6%);
+    box-shadow: $saas-shadow-lg;
+    transform: translateY(-2px);
+
+    .sl-icon {
+      background: rgba(108,92,231,0.12);
+    }
+  }
+
+  &__title {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: $saas-text;
+    margin: 0;
+    line-height: 1.35;
+    letter-spacing: -0.01em;
+  }
+
+  &__desc {
+    font-size: 0.8125rem;
+    color: $saas-text-secondary;
+    margin: 0;
+    line-height: 1.6;
+  }
+}
+
+/* ---------- HOW IT WORKS (Numbered Steps) ---------- */
+.sl-steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  counter-reset: step-counter;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+  }
+}
+
+.sl-step {
+  position: relative;
+  counter-increment: step-counter;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    text-align: left;
+  }
+
+  &__number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: $saas-accent-subtle;
+    font-family: $saas-mono;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $saas-accent;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: $saas-text;
+    margin: 0 0 8px;
+    letter-spacing: -0.01em;
+  }
+
+  &__desc {
+    font-size: 0.9375rem;
+    color: $saas-text-secondary;
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  /* Connector line between steps (desktop only) */
+  @media (min-width: 768px) {
+    &:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      top: 20px;
+      right: -24px;
+      width: calc(100% - 40px);
+      height: 1px;
+      background: $saas-border;
+      transform: translateX(100%);
+      max-width: 40px;
+    }
+  }
+}
+
+/* ---------- PRODUCT EXPLAINER (Split) ---------- */
+.sl-explainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
+
+  &--reverse {
+    @media (min-width: 768px) {
+      direction: rtl;
+
+      > * {
+        direction: ltr;
+      }
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__visual {
+    position: relative;
+    border-radius: $saas-radius-lg;
+    overflow: hidden;
+    background: $saas-bg-subtle;
+    border: 1px solid $saas-border;
+    box-shadow: $saas-shadow-lg;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 0.9375rem;
+      color: $saas-text-secondary;
+      line-height: 1.55;
+
+      svg {
+        flex-shrink: 0;
+        width: 20px;
+        height: 20px;
+        color: $saas-accent;
+        margin-top: 2px;
+      }
+    }
+  }
+}
+
+/* ---------- TESTIMONIAL / SOCIAL PROOF ---------- */
+.sl-testimonials {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.sl-testimonial {
+  background: $saas-white;
+  border: 1px solid $saas-border;
+  border-radius: $saas-radius;
+  padding: 24px;
+  transition: $saas-transition;
+
+  &:hover {
+    box-shadow: $saas-shadow-md;
+    transform: translateY(-2px);
+  }
+
+  &__quote {
+    font-size: 0.875rem;
+    color: $saas-text;
+    line-height: 1.6;
+    margin: 0 0 20px;
+    font-style: normal;
+  }
+
+  &__author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: $saas-bg-subtle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: $saas-accent;
+    flex-shrink: 0;
+  }
+
+  &__name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $saas-text;
+  }
+
+  &__role {
+    font-size: 0.8125rem;
+    color: $saas-text-tertiary;
+  }
+}
+
+/* ---------- STATS ROW ---------- */
+.sl-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  &__item {
+    text-align: center;
+    padding: 24px 16px;
+  }
+
+  &__number {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 700;
+    color: $saas-text;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    display: block;
+  }
+
+  &__label {
+    font-size: 0.75rem;
+    color: $saas-text-tertiary;
+    margin-top: 4px;
+    display: block;
+  }
+}
+
+/* ---------- CTA SECTION ---------- */
+.sl-cta {
+  position: relative;
+  text-align: center;
+  padding: 64px 0;
+  overflow: hidden;
+
+  @media (max-width: 640px) {
+    padding: 40px 0;
+  }
+
+  &--dark {
+    background: $saas-text;
+    color: $saas-white;
+
+    .sl-headline {
+      color: $saas-white;
+    }
+
+    .sl-subtext {
+      color: rgba(255,255,255,0.6);
+    }
+  }
+
+  &--accent {
+    background: $saas-accent;
+    color: $saas-white;
+
+    .sl-headline {
+      color: $saas-white;
+    }
+
+    .sl-subtext {
+      color: rgba(255,255,255,0.8);
+    }
+
+    .sl-btn--primary {
+      background: $saas-white;
+      color: $saas-accent !important;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+
+      &:hover {
+        box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        color: $saas-accent !important;
+      }
+
+      &:visited {
+        color: $saas-accent !important;
+      }
+    }
+  }
+
+  /* Subtle radial glow */
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 400px;
+    background: radial-gradient(ellipse, $saas-accent-glow 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 32px;
+    flex-wrap: wrap;
+  }
+}
+
+/* ---------- FAQ ---------- */
+.sl-faq {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.sl-faq-item {
+  border: 1px solid $saas-border;
+  border-radius: $saas-radius;
+  background: $saas-white;
+  overflow: hidden;
+  transition: $saas-transition;
+
+  &:hover {
+    border-color: darken($saas-border, 4%);
+  }
+
+  summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 24px;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: $saas-text;
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    transition: background 0.15s;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::after {
+      content: '+';
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: $saas-text-tertiary;
+      transition: transform 0.2s;
+      flex-shrink: 0;
+      margin-left: 16px;
+    }
+
+    &:hover {
+      background: $saas-bg-subtle;
+    }
+  }
+
+  &[open] summary::after {
+    content: '−';
+  }
+
+  &__answer {
+    padding: 0 24px 20px;
+    font-size: 0.9375rem;
+    color: $saas-text-secondary;
+    line-height: 1.65;
+  }
+}
+
+/* ---------- FOOTER ---------- */
+.sl-footer {
+  border-top: 1px solid $saas-border;
+  padding: 48px 0 32px;
+  background: $saas-white;
+
+  @media (max-width: 640px) {
+    padding: 32px 0 24px;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+    }
+
+    @media (max-width: 480px) {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  }
+
+  &__brand {
+    p {
+      font-size: 0.8125rem;
+      color: $saas-text-secondary;
+      line-height: 1.6;
+      margin: 8px 0 0;
+      max-width: 280px;
+    }
+  }
+
+  &__logo {
+    font-size: 1rem;
+    font-weight: 700;
+    color: $saas-text;
+    letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &__col {
+    h4 {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: $saas-text;
+      margin: 0 0 12px;
+      letter-spacing: -0.01em;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        margin-bottom: 8px;
+      }
+
+      a {
+        font-size: 0.8125rem;
+        color: $saas-text-secondary;
+        text-decoration: none;
+        transition: color 0.15s;
+
+        &:hover {
+          color: $saas-text;
+        }
+      }
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    border-top: 1px solid $saas-border;
+    font-size: 0.8125rem;
+    color: $saas-text-tertiary;
+
+    @media (max-width: 640px) {
+      flex-direction: column;
+      gap: 12px;
+      text-align: center;
+    }
+  }
+
+  &__social {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+    a {
+      color: $saas-text-tertiary;
+      transition: color 0.15s;
+      display: flex;
+      align-items: center;
+
+      &:hover {
+        color: $saas-text;
+      }
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+/* ---------- GLASS CARD ---------- */
+.sl-glass {
+  background: $saas-glass;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid $saas-glass-border;
+  border-radius: $saas-radius;
+  box-shadow: $saas-shadow-sm;
+}
+
+/* ---------- DIVIDER ---------- */
+.sl-divider {
+  height: 1px;
+  background: $saas-border;
+  border: none;
+  margin: 0;
+}
+
+/* ---------- BADGE ---------- */
+.sl-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: $saas-radius-pill;
+  background: $saas-accent-subtle;
+  color: $saas-accent;
+
+  @media (max-width: 640px) {
+    font-size: 0.625rem;
+    padding: 2px 8px;
+  }
+
+  &--success {
+    background: rgba(52,199,89,0.08);
+    color: $saas-success;
+  }
+}
+
+/* ---------- LOGO BAR ---------- */
+.sl-logo-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+  padding: 24px 0;
+
+  @media (max-width: 640px) {
+    gap: 24px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    opacity: 0.35;
+    transition: opacity 0.2s;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: $saas-text;
+    letter-spacing: -0.01em;
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+/* ---------- INTEGRATIONS / BENTO GRID ---------- */
+.sl-bento {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+  }
+
+  &__card {
+    background: $saas-white;
+    border: 1px solid $saas-border;
+    border-radius: $saas-radius;
+    padding: 32px;
+    transition: $saas-transition;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    &:hover {
+      border-color: darken($saas-border, 6%);
+      box-shadow: $saas-shadow-md;
+    }
+
+    &--wide {
+      @media (min-width: 1024px) {
+        grid-column: span 2;
+      }
+    }
+
+    &--tall {
+      @media (min-width: 1024px) {
+        grid-row: span 2;
+      }
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: $saas-text;
+      margin: 0;
+    }
+
+    p {
+      font-size: 0.875rem;
+      color: $saas-text-secondary;
+      margin: 0;
+      line-height: 1.6;
+    }
+  }
+}
+
+/* ---------- SCROLL REVEAL ---------- */
+.sl-reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+
+  &.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sl-reveal--delay-1 { transition-delay: 0.1s; }
+.sl-reveal--delay-2 { transition-delay: 0.2s; }
+.sl-reveal--delay-3 { transition-delay: 0.3s; }
+.sl-reveal--delay-4 { transition-delay: 0.4s; }
+
+/* ---------- ANIMATIONS ---------- */
+@keyframes sl-fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes sl-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+/* ---------- UTILITY ---------- */
+.sl-text-center { text-align: center; }
+.sl-text-left   { text-align: left; }
+.sl-mx-auto     { margin-left: auto; margin-right: auto; }
+
+.sl-mt-0  { margin-top: 0; }
+.sl-mt-8  { margin-top: 8px; }
+.sl-mt-16 { margin-top: 16px; }
+.sl-mt-24 { margin-top: 24px; }
+.sl-mt-32 { margin-top: 32px; }
+.sl-mt-48 { margin-top: 48px; }
+.sl-mt-64 { margin-top: 64px; }
+.sl-mb-0  { margin-bottom: 0; }
+.sl-mb-8  { margin-bottom: 8px; }
+.sl-mb-16 { margin-bottom: 16px; }
+.sl-mb-24 { margin-bottom: 24px; }
+.sl-mb-32 { margin-bottom: 32px; }
+.sl-mb-48 { margin-bottom: 48px; }
+
+/* ---------- HIDE DEFAULT THEME ELEMENTS ---------- */
+body.saas-landing .sidebar,
+body.saas-landing .page__footer,
+body.saas-landing .page__title,
+body.saas-landing .page__inner-wrap > header {
+  display: none !important;
+}
+
+body.saas-landing #main {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  float: none;
+  width: 100%;
+}
+
+body.saas-landing .page {
+  float: none;
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0;
+  margin: 0;
+}
+
+body.saas-landing .page__inner-wrap {
+  padding: 0;
+  max-width: 100%;
+  float: none;
+  width: 100%;
+}
+
+body.saas-landing .page__content {
+  padding: 0;
+  max-width: 100%;
+  float: none;
+  width: 100%;
+}
+
+body.saas-landing a {
+  text-decoration: none;
+}
+
+/* ---------- SCROLLBAR ---------- */
+body.saas-landing {
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+  &::-webkit-scrollbar-track {
+    background: $saas-bg;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $saas-border;
+    border-radius: 4px;
+    &:hover {
+      background: darken($saas-border, 15%);
+    }
+  }
+}
+
+/* ==========================================================================
+   PERSONAL PROFILE EXTENSIONS
+   Additional components for portfolio/personal landing pages
+   ========================================================================== */
+
+/* ---------- HERO with avatar (profile variant) ---------- */
+.sl-hero--profile {
+  text-align: left;
+  padding: 120px 0 56px;
+
+  @media (max-width: 767px) {
+    text-align: center;
+    padding: 88px 0 32px;
+  }
+
+  .sl-hero__row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row;
+
+    @media (max-width: 767px) {
+      flex-direction: column-reverse;
+      gap: 16px;
+    }
+  }
+
+  .sl-hero__text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .sl-hero__avatar {
+    flex-shrink: 0;
+    opacity: 0;
+    animation: sl-fadeUp 0.7s ease 0.15s forwards;
+
+    @media (max-width: 767px) {
+      display: flex;
+      justify-content: center;
+    }
+
+    img {
+      width: 280px;
+      height: 280px;
+      border-radius: $saas-radius-lg;
+      object-fit: cover;
+      border: 1px solid $saas-border;
+      box-shadow: $saas-shadow-lg;
+      transition: $saas-transition;
+
+      @media (max-width: 767px) {
+        width: 140px;
+        height: 140px;
+      }
+
+      &:hover {
+        box-shadow: $saas-shadow-xl;
+        transform: scale(1.03);
+      }
+    }
+  }
+
+  .sl-hero__title {
+    text-align: inherit;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: none;
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
+    overflow-wrap: break-word;
+    word-break: break-word;
+
+    @media (max-width: 767px) {
+      font-size: clamp(1.1rem, 5vw, 1.35rem);
+    }
+  }
+
+  .sl-hero__subtitle {
+    text-align: inherit;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 520px;
+    font-size: clamp(0.8125rem, 1.3vw, 0.9375rem);
+
+    @media (max-width: 767px) {
+      max-width: none;
+      font-size: 0.8rem;
+    }
+  }
+
+  .sl-hero__actions {
+    justify-content: flex-start;
+
+    @media (max-width: 767px) {
+      justify-content: center;
+    }
+  }
+}
+
+/* ---------- BADGE VARIANTS ---------- */
+.sl-badge--accent {
+  background: $saas-accent-subtle;
+  color: $saas-accent;
+  border: 1px solid rgba(37,99,235,0.15);
+}
+
+.sl-badge--warning {
+  background: rgba(234,88,12,0.08);
+  color: #ea580c;
+  border: 1px solid rgba(234,88,12,0.15);
+}
+
+/* ---------- BADGES ROW ---------- */
+.sl-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 16px;
+
+  @media (max-width: 767px) {
+    justify-content: center;
+    gap: 4px;
+  }
+}
+
+/* ---------- QUOTE ---------- */
+.sl-quote {
+  position: relative;
+  margin: 24px 0 0;
+  padding: 20px 24px 20px 32px;
+  border: none;
+  border-left: 3px solid $saas-accent;
+  background: linear-gradient(135deg, $saas-accent-subtle, transparent 60%);
+  border-radius: 0 $saas-radius $saas-radius 0;
+
+  &__icon {
+    position: absolute;
+    top: -4px;
+    left: 12px;
+    font-size: 2rem;
+    line-height: 1;
+    color: rgba(37,99,235,0.18);
+    font-family: Georgia, serif;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  &__text {
+    font-size: clamp(0.85rem, 1.3vw, 0.95rem);
+    font-style: italic;
+    color: $saas-text;
+    line-height: 1.6;
+    margin: 0 0 6px;
+  }
+
+  &__footer {
+    font-family: $saas-mono;
+    font-size: 0.7rem;
+    color: $saas-text-secondary;
+
+    cite {
+      font-style: italic;
+      color: $saas-accent;
+    }
+  }
+
+  @media (max-width: 767px) {
+    padding: 20px 20px 20px 28px;
+  }
+}
+
+/* ---------- HIGHLIGHT CARD ---------- */
+.sl-highlight-card {
+  display: flex;
+  gap: 32px;
+  align-items: stretch;
+  background: $saas-white;
+  border: 1px solid $saas-border;
+  border-radius: $saas-radius;
+  padding: 32px;
+  text-decoration: none !important;
+  color: $saas-text;
+  transition: $saas-transition;
+  margin-bottom: 24px;
+  cursor: pointer;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  &:hover {
+    border-color: darken($saas-border, 8%);
+    box-shadow: $saas-shadow-lg;
+    transform: translateY(-3px);
+    color: $saas-text;
+    text-decoration: none;
+  }
+
+  &__meta {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+
+  &__body {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: clamp(1.1rem, 2vw, 1.4rem);
+    font-weight: 700;
+    color: $saas-text;
+    margin: 0 0 8px;
+    letter-spacing: -0.02em;
+  }
+
+  &__desc {
+    font-size: 0.8125rem;
+    color: $saas-text-secondary;
+    line-height: 1.65;
+    margin-bottom: 12px;
+  }
+
+  &__preview {
+    flex-shrink: 0;
+    width: 340px;
+    border-radius: $saas-radius-sm;
+    overflow: hidden;
+    border: 1px solid $saas-border;
+    align-self: center;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+  }
+
+  &:hover &__preview img {
+    transform: scale(1.03);
+  }
+}
+
+/* ---------- CARD GRID ---------- */
+.sl-card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &--two {
+    @media (min-width: 640px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+/* ---------- CARD ---------- */
+.sl-card {
+  background: $saas-white;
+  border: 1px solid $saas-border;
+  border-radius: $saas-radius;
+  overflow: hidden;
+  transition: $saas-transition;
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    border-color: darken($saas-border, 6%);
+    transform: translateY(-3px);
+    box-shadow: $saas-shadow-lg;
+  }
+
+  &__img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    border-bottom: 1px solid $saas-border;
+    flex-shrink: 0;
+  }
+
+  &__body {
+    padding: 16px 20px 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__tag {
+    display: inline-block;
+    font-family: $saas-mono;
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+    width: fit-content;
+
+    &--project {
+      background: $saas-accent-subtle;
+      color: $saas-accent;
+    }
+
+    &--article {
+      background: rgba(52,199,89,0.08);
+      color: $saas-success;
+    }
+
+    &--paper {
+      background: rgba(234,88,12,0.08);
+      color: #ea580c;
+    }
+
+    &--cert {
+      background: rgba(37,99,235,0.08);
+      color: #2563eb;
+    }
+  }
+
+  &__title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $saas-text;
+    margin: 0 0 4px;
+    line-height: 1.4;
+  }
+
+  &__desc {
+    font-size: 0.8125rem;
+    color: $saas-text-secondary;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  &__link-arrow {
+    display: none;
+  }
+
+  &:hover &__link-arrow::after {
+    transform: translateX(4px);
+  }
+}
+
+a.sl-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+
+  .sl-card {
+    width: 100%;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+/* ---------- COLLAPSIBLE ---------- */
+.sl-collapsible {
+  margin-bottom: 12px;
+  border: 1px solid $saas-border;
+  border-radius: $saas-radius;
+  background: $saas-white;
+  overflow: hidden;
+
+  summary {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: $saas-text;
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+    transition: background 0.15s;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::before {
+      content: '▸';
+      font-size: 0.75em;
+      color: $saas-accent;
+      margin-right: 12px;
+      transition: transform 0.2s;
+    }
+
+    &:hover {
+      background: $saas-bg-subtle;
+    }
+  }
+
+  &[open] summary::before {
+    transform: rotate(90deg);
+  }
+
+  &__content {
+    padding: 0 16px 16px;
+    color: $saas-text-secondary;
+    font-size: 0.8125rem;
+    line-height: 1.7;
+
+    img, video {
+      max-width: 100%;
+      height: auto;
+      border-radius: $saas-radius-sm;
+      margin: 16px 0;
+      border: 1px solid $saas-border;
+    }
+
+    p strong {
+      color: $saas-text;
+    }
+  }
+}
+
+/* ---------- STATS (clickable profile variant) ---------- */
+.sl-stats--profile {
+  .sl-stats__item {
+    background: $saas-white;
+    border: 1px solid $saas-border;
+    border-radius: $saas-radius;
+    transition: $saas-transition;
+    text-decoration: none;
+
+    &:hover {
+      border-color: darken($saas-border, 8%);
+      box-shadow: $saas-shadow-md;
+      transform: translateY(-2px);
+    }
+  }
+
+  .sl-stats__number {
+    color: $saas-accent;
+    font-family: $saas-mono;
+  }
+
+  .sl-stats__label {
+    color: $saas-text-secondary;
+  }
+}
+
+/* ---------- TWO-COLUMN SPLIT ---------- */
+.sl-split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ---------- EDUCATION LIST ---------- */
+.sl-edu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    position: relative;
+    padding: 12px 0 12px 20px;
+    border-bottom: 1px solid $saas-border;
+    font-size: 0.8125rem;
+    color: $saas-text-secondary;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 22px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: $saas-accent;
+    }
+
+    strong {
+      color: $saas-text;
+    }
+  }
+}
+
+.sl-timeline-label {
+  display: inline-block;
+  font-family: $saas-mono;
+  font-size: 0.75rem;
+  color: $saas-accent;
+  letter-spacing: 0.05em;
+  margin-top: 4px;
+  opacity: 0.85;
+}
+
+/* ---------- CERT LIST ---------- */
+.sl-cert-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  li {
+    padding: 8px 0;
+    font-size: 0.8125rem;
+    color: $saas-text-secondary;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    svg {
+      width: 14px;
+      height: 14px;
+      color: $saas-accent;
+      flex-shrink: 0;
+    }
+  }
+}
+
+/* ---------- CERT IMAGES ---------- */
+.sl-certs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin: 20px 0;
+
+  img {
+    width: 64px;
+    height: 64px;
+    border-radius: $saas-radius-sm;
+    border: 1px solid $saas-border;
+    transition: $saas-transition;
+
+    &:hover {
+      box-shadow: $saas-shadow-md;
+      transform: scale(1.06);
+    }
+  }
+}
+
+/* ---------- AWARDS LIST ---------- */
+.sl-award-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding: 10px 0;
+    font-size: 0.8125rem;
+    color: $saas-text-secondary;
+    border-bottom: 1px solid $saas-border;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    svg {
+      width: 14px;
+      height: 14px;
+      color: #ea580c;
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+
+    a {
+      color: $saas-accent;
+      text-decoration: none;
+      transition: color 0.15s;
+
+      &:hover {
+        color: $saas-accent-hover;
+      }
+    }
+  }
+}
+
+/* ---------- PROSE TEXT ---------- */
+.sl-prose {
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: $saas-text-secondary;
+
+  p {
+    margin: 0 0 12px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  a {
+    color: $saas-accent;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(37,99,235,0.3);
+    transition: border-color 0.2s;
+
+    &:hover {
+      border-color: $saas-accent;
+    }
+  }
+
+  ul, ol {
+    padding-left: 18px;
+    margin: 6px 0 12px;
+
+    li {
+      margin-bottom: 4px;
+      line-height: 1.6;
+    }
+  }
+
+  em {
+    color: $saas-text;
+  }
+
+  strong {
+    color: $saas-text;
+    font-weight: 600;
+  }
+}
+
+/* ---------- SECTION LABEL ---------- */
+.sl-section-label {
+  font-family: $saas-mono;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $saas-text-secondary;
+  margin: 0 0 12px;
+}
+
+/* ---------- Responsive fine-tuning ---------- */
+@media (max-width: 480px) {
+  .sl-feature {
+    padding: 20px;
+  }
+
+  .sl-testimonial {
+    padding: 24px;
+  }
+
+  .sl-stats__number {
+    font-size: 1.75rem;
+  }
+
+  .sl-card__img {
+    height: 140px;
+  }
+
+  .sl-card__body {
+    padding: 16px;
+  }
+
+  .sl-highlight-card {
+    padding: 20px;
+  }
+}
