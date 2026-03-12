@@ -1,15 +1,15 @@
 ---
 permalink: /articles/
-title: "Published Articles"
+title: "Technical Publications"
 layout: modern-ui
 author_profile: false
 ---
 
 <section class="wm-section" style="padding-top: 120px;">
   <div class="wm-reveal">
-    <span class="wm-section__number">ARTICLES</span>
-    <h2 class="wm-section__title">Published Articles</h2>
-    <p class="wm-section__subtitle">In-depth technical writing for leading AI publications on Medium.</p>
+    <span class="wm-section__number">PUBLICATIONS</span>
+    <h2 class="wm-section__title">Technical Publications</h2>
+    <p class="wm-section__subtitle">I regularly publish articles explaining advanced AI engineering topics including reasoning optimisation, multimodal model training, and retrieval-augmented generation. These articles focus on practical implementation techniques for modern AI systems and are read by developers interested in applied machine learning.</p>
   </div>
 
   <div class="wm-card-grid wm-reveal">
