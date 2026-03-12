@@ -1,4 +1,4 @@
-﻿---
+---
 permalink: /
 title: "About"
 layout: saas-landing
@@ -75,12 +75,11 @@ redirect_from:
     <div class="sl-section__header--left sl-reveal">
       <h2 class="sl-headline sl-headline--sm">Highlight</h2>
     </div>
-
-    <a href="https://receptr-ai.com/" class="sl-highlight-card sl-reveal" target="_blank" rel="noopener">
+      <a href="https://receptr-ai.com/" class="sl-highlight-card sl-reveal" target="_blank" rel="noopener">
       <div class="sl-highlight-card__body">
         <div class="sl-highlight-card__meta">
           <span class="sl-card__tag sl-card__tag--project">Founder</span>
-          <span class="sl-badge sl-badge--success">Live Â· Now in Beta</span>
+          <span class="sl-badge sl-badge--success">Live · Now in Beta</span>
         </div>
         <h3 class="sl-highlight-card__title">Receptr - AI Agent Platform for Non-Technical Businesses</h3>
         <p class="sl-highlight-card__desc">Receptr is an AI platform designed to help non-technical founders deploy intelligent agents that can perform operational tasks such as customer support, marketing assistance, and business data analysis. The system focuses on simplifying AI adoption for small businesses by providing an orchestration layer that allows agents to understand business context and execute tasks autonomously. This project explores how agent architectures can reduce operational overhead for small companies.</p>
@@ -102,7 +101,6 @@ redirect_from:
       <h2 class="sl-headline sl-headline--sm">About Me</h2>
       <p class="sl-subtext sl-mb-32">Building practical AI systems that combine reasoning models, structured retrieval, and autonomous agents.</p>
     </div>
-
     <div class="sl-prose sl-reveal">
       <p>
         I am Phrugsa (Pruk-sa), an AI Systems Engineer specialising in large language model infrastructure, retrieval-augmented generation, and agent-based AI systems.
@@ -114,7 +112,6 @@ redirect_from:
         I hold an MSc in Artificial Intelligence (Distinction) from the University of Essex, where I worked on predictive modelling, generative modelling, and large language models. I currently work as an Analyst Developer at the University of Bedfordshire, contributing to AI-driven cloud systems that support the digital transformation of enterprise platforms. In parallel, I am a founder building AI agent infrastructure, an open-source contributor, and a technical writer publishing in-depth articles for leading AI publications.
       </p>
     </div>
-
     <!-- Impact Highlights -->
     <div class="sl-reveal sl-mt-32">
       <h3 class="sl-section-label">Impact Highlights</h3>
@@ -128,7 +125,6 @@ redirect_from:
         </ul>
       </div>
     </div>
-
     <div class="sl-stats sl-stats--profile sl-reveal sl-mt-32">
       <a href="#education" class="sl-stats__item">
         <span class="sl-stats__number">MSc</span>
@@ -159,7 +155,6 @@ redirect_from:
       <h2 class="sl-headline sl-headline--sm">Research Interests</h2>
       <p class="sl-subtext sl-mb-32">Exploring generative models, multimodal world models, and AI agents to push the boundaries of machine reasoning and out-of-distribution generalisation.</p>
     </div>
-
     <div class="sl-prose sl-reveal">
       <p>My current research interests include:</p>
       <ul>
@@ -190,7 +185,6 @@ redirect_from:
       <h2 class="sl-headline sl-headline--sm">Previous Research</h2>
       <p class="sl-subtext sl-mb-32">Key research projects and contributions.</p>
     </div>
-
     <div class="sl-reveal">
       <details class="sl-collapsible">
         <summary>SE-GAN: Sentiment-Enhanced GAN for Stock Price Forecasting</summary>
@@ -214,7 +208,6 @@ redirect_from:
         </div>
       </details>
     </div>
-
     <div class="sl-reveal">
       <details class="sl-collapsible">
         <summary>MANDY: Mandibular Fracture Classification & Localization on X-ray Images</summary>
@@ -248,7 +241,6 @@ redirect_from:
       <span class="sl-overline">04</span>
       <h2 class="sl-headline sl-headline--sm">Paper</h2>
     </div>
-
     <div class="sl-card-grid sl-card-grid--two sl-reveal sl-mt-32">
       <a href="https://doi.org/10.36227/techrxiv.175742717.74182135/v1" class="sl-card-link" target="_blank" rel="noopener">
         <div class="sl-card">
@@ -274,7 +266,6 @@ redirect_from:
       <h2 class="sl-headline sl-headline--sm">Technical Publications</h2>
       <p class="sl-subtext sl-mb-32">I regularly publish articles explaining advanced AI engineering topics including reasoning optimisation, multimodal model training, and retrieval-augmented generation. These articles focus on practical implementation techniques for modern AI systems and are read by developers interested in applied machine learning.</p>
     </div>
-
     <div class="sl-card-grid sl-reveal">
       <a href="https://medium.com/towards-artificial-intelligence/training-your-reasoning-model-with-grpo-a-practical-guide-for-vlms-post-training-with-trl-266411c0b844" class="sl-card-link" target="_blank" rel="noopener">
         <div class="sl-card">
@@ -295,7 +286,6 @@ redirect_from:
         </div>
       </a>
     </div>
-
     <div id="more-articles" style="display: none;">
       <div class="sl-card-grid sl-reveal" style="margin-top: 20px;">
         <a href="https://phrugsa-limbunlom.medium.com/a-straightforward-method-for-creating-auto-tool-calling-agents-bcbef40bf505" class="sl-card-link" target="_blank" rel="noopener">
@@ -324,7 +314,6 @@ redirect_from:
         </a>
       </div>
     </div>
-
     <div style="text-align: center; margin-top: 32px;" class="sl-reveal">
       <a href="javascript:void(0)" id="toggle-more-articles" class="sl-btn sl-btn--secondary" onclick="var el=document.getElementById('more-articles');var btn=this;if(el.style.display==='none'){el.style.display='block';btn.textContent='Show Less';el.querySelectorAll('.sl-reveal').forEach(function(r){r.classList.add('is-visible');})}else{el.style.display='none';btn.textContent='Show More';}">Show More</a>
     </div>
@@ -340,17 +329,14 @@ redirect_from:
       <h2 class="sl-headline sl-headline--sm">AI Systems & Platforms</h2>
       <p class="sl-subtext sl-mb-32">Production AI systems, agent architectures, and scalable LLM infrastructure.</p>
     </div>
-
     <div style="text-align: center; margin-bottom: 32px;" class="sl-reveal">
       <img src="https://github.com/user-attachments/assets/1bf2a44d-06b2-4599-8b1e-9403e0684424" style="max-width: 600px; width: 100%; height: auto; border-radius: 12px; border: 1px solid #e8e8ec;" alt="PickSmart Architecture">
     </div>
-
     <div class="sl-prose sl-reveal sl-mb-32">
       <p>
         I develop AI systems that combine retrieval-augmented generation, multi-agent reasoning, and scalable LLM inference to solve real-world problems. Featured below is <a href="https://github.com/phrugsa-limbunlom/PickSmart" target="_blank">PickSmart</a>, an agentic AI product search platform that uses retrieval-augmented generation and LLM agents to analyse product reviews and generate personalised recommendations.
       </p>
     </div>
-
     <div class="sl-card-grid sl-reveal">
       <a href="https://github.com/phrugsa-limbunlom/vlm-grpo" class="sl-card-link" target="_blank" rel="noopener">
         <div class="sl-card">
@@ -371,7 +357,6 @@ redirect_from:
         </div>
       </a>
     </div>
-
     <div id="more-projects" style="display: none;">
       <div class="sl-card-grid sl-reveal" style="margin-top: 20px;">
         <a href="https://github.com/phrugsa-limbunlom/DressMe.AI" class="sl-card-link" target="_blank" rel="noopener">
@@ -418,7 +403,6 @@ redirect_from:
         </a>
       </div>
     </div>
-
     <div style="text-align: center; margin-top: 32px;" class="sl-reveal">
       <a href="javascript:void(0)" id="toggle-more-projects" class="sl-btn sl-btn--secondary" onclick="var el=document.getElementById('more-projects');var btn=this;if(el.style.display==='none'){el.style.display='block';btn.textContent='Show Less';el.querySelectorAll('.sl-reveal').forEach(function(r){r.classList.add('is-visible');})}else{el.style.display='none';btn.textContent='Show More';}">Show More</a>
     </div>
@@ -434,7 +418,6 @@ redirect_from:
       <h2 class="sl-headline sl-headline--sm">Education & Credentials</h2>
       <p class="sl-subtext sl-mb-32">Academic foundation and professional certifications.</p>
     </div>
-
     <div class="sl-split">
       <div class="sl-reveal">
         <h3 class="sl-section-label">Education</h3>
@@ -444,7 +427,6 @@ redirect_from:
           <li><strong>Certificate, Artificial Intelligence (87%)</strong><br>ISS 2019, Sungkyunkwan University<br><span class="sl-timeline-label">2019</span></li>
         </ul>
       </div>
-
       <div class="sl-reveal">
         <h3 class="sl-section-label">Certifications</h3>
         <ul class="sl-cert-list">
@@ -455,7 +437,6 @@ redirect_from:
           <li><svg><use href="#ico-check"/></svg> Deep Learning Specialization</li>
           <li><svg><use href="#ico-check"/></svg> AWS Cloud Practitioner</li>
         </ul>
-
         <div class="sl-certs">
           <a href="https://www.credly.com/badges/3c9d4fda-e1e2-4bf1-b0a5-1fcf91ca3d71" target="_blank"><img src="/images/AWS-ML.png" alt="AWS ML"></a>
           <a href="https://www.credly.com/badges/aec100a4-3112-4f1b-9616-0eac251071d6" target="_blank"><img src="/images/AWS-CLOUD.png" alt="AWS Cloud"></a>
@@ -474,7 +455,6 @@ redirect_from:
       <span class="sl-overline">08</span>
       <h2 class="sl-headline sl-headline--sm">Awards</h2>
     </div>
-
     <ul class="sl-award-list sl-reveal sl-mt-32">
       <li><svg><use href="#ico-star"/></svg> <span>Academic Excellence International Master Scholarship from University of Essex</span></li>
       <li><svg><use href="#ico-star"/></svg> <span>The Big Essex Bronze Award 2024 from University of Essex</span></li>
@@ -491,7 +471,6 @@ redirect_from:
       <span class="sl-overline">09</span>
       <h2 class="sl-headline sl-headline--sm">More About Me</h2>
     </div>
-
     <div class="sl-prose sl-reveal sl-mt-24">
       <p>
         I am particularly interested in building AI systems that bridge the gap between cutting-edge research and real-world applications. My goal is to design infrastructure and platforms that make advanced AI capabilities accessible to organisations and developers.
