@@ -128,7 +128,7 @@ redirect_from:
     <div class="sl-stats sl-stats--profile sl-reveal sl-mt-32">
       <a href="#education" class="sl-stats__item">
         <span class="sl-stats__number">MSc</span>
-        <span class="sl-stats__label">AI â€” Essex</span>
+        <span class="sl-stats__label">AI - UofEssex</span>
       </a>
       <a href="#education" class="sl-stats__item">
         <span class="sl-stats__number">6+</span>
@@ -329,12 +329,12 @@ redirect_from:
       <h2 class="sl-headline sl-headline--sm">AI Systems & Platforms</h2>
       <p class="sl-subtext sl-mb-32">Production AI systems, agent architectures, and scalable LLM infrastructure.</p>
     </div>
-    <div style="text-align: center; margin-bottom: 32px;" class="sl-reveal">
+    <!-- <div style="text-align: center; margin-bottom: 32px;" class="sl-reveal">
       <img src="https://github.com/user-attachments/assets/1bf2a44d-06b2-4599-8b1e-9403e0684424" style="max-width: 600px; width: 100%; height: auto; border-radius: 12px; border: 1px solid #e8e8ec;" alt="PickSmart Architecture">
-    </div>
+    </div> -->
     <div class="sl-prose sl-reveal sl-mb-32">
       <p>
-        I develop AI systems that combine retrieval-augmented generation, multi-agent reasoning, and scalable LLM inference to solve real-world problems. Featured below is <a href="https://github.com/phrugsa-limbunlom/PickSmart" target="_blank">PickSmart</a>, an agentic AI product search platform that uses retrieval-augmented generation and LLM agents to analyse product reviews and generate personalised recommendations.
+        I develop AI systems that combine retrieval-augmented generation, multi-agent reasoning, and scalable LLM inference to solve real-world problems. A project example is <a href="https://github.com/phrugsa-limbunlom/PickSmart" target="_blank">PickSmart</a> (open source), an agentic AI product search platform that uses retrieval-augmented generation and LLM agents to analyse product reviews and generate personalised recommendations.
       </p>
     </div>
     <div class="sl-card-grid sl-reveal">
@@ -377,30 +377,6 @@ redirect_from:
             <div class="sl-card__body"><span class="sl-card__tag sl-card__tag--project">Project</span><h3 class="sl-card__title">Sagemaker LLM</h3><p class="sl-card__desc">Scalable LLM Inference Pipeline on AWS SageMaker</p><span class="sl-card__link-arrow">View System</span></div>
           </div>
         </a>
-        <a href="https://github.com/phrugsa-limbunlom/densenet201-classifier" class="sl-card-link" target="_blank" rel="noopener">
-          <div class="sl-card">
-            <img class="sl-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/densenet201-classifier" alt="DenseNet201">
-            <div class="sl-card__body"><span class="sl-card__tag sl-card__tag--project">Project</span><h3 class="sl-card__title">DenseNet201 Classifier</h3><p class="sl-card__desc">Satellite Image Classification System for Wildfire Detection</p><span class="sl-card__link-arrow">View System</span></div>
-          </div>
-        </a>
-        <a href="https://github.com/phrugsa-limbunlom/multi-regressor-ann" class="sl-card-link" target="_blank" rel="noopener">
-          <div class="sl-card">
-            <img class="sl-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/multi-regressor-ann" alt="Multi-Regressor ANN">
-            <div class="sl-card__body"><span class="sl-card__tag sl-card__tag--project">Project</span><h3 class="sl-card__title">Multi-Regressor ANN</h3><p class="sl-card__desc">2D-landing Control Architecture with Neural Networks</p><span class="sl-card__link-arrow">View System</span></div>
-          </div>
-        </a>
-        <a href="https://github.com/phrugsa-limbunlom/mimo-regressor" class="sl-card-link" target="_blank" rel="noopener">
-          <div class="sl-card">
-            <img class="sl-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/mimo-regressor" alt="MIMO Regressor">
-            <div class="sl-card__body"><span class="sl-card__tag sl-card__tag--project">Project</span><h3 class="sl-card__title">MIMO Regressor</h3><p class="sl-card__desc">Feature-Driven Optimisation Framework for Syngas Production</p><span class="sl-card__link-arrow">View System</span></div>
-          </div>
-        </a>
-        <a href="https://github.com/phrugsa-limbunlom/transformer-machine-translation" class="sl-card-link" target="_blank" rel="noopener">
-          <div class="sl-card">
-            <img class="sl-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/transformer-machine-translation" alt="Transformer MT">
-            <div class="sl-card__body"><span class="sl-card__tag sl-card__tag--project">Project</span><h3 class="sl-card__title">Transformer MT</h3><p class="sl-card__desc">Machine Translation System with Transformer Architecture</p><span class="sl-card__link-arrow">View System</span></div>
-          </div>
-        </a>
       </div>
     </div>
     <div style="text-align: center; margin-top: 32px;" class="sl-reveal">
@@ -422,8 +398,8 @@ redirect_from:
       <div class="sl-reveal">
         <h3 class="sl-section-label">Education</h3>
         <ul class="sl-edu-list">
-          <li><strong>MSc, Artificial Intelligence and its Applications</strong><br>CSEE, University of Essex â€” Distinction<br><span class="sl-timeline-label">2023 â€“ 2024</span></li>
-          <li><strong>BSc, Major Computer Science</strong><br>Faculty of ICT, Mahidol University â€” 3.62/4.00<br><span class="sl-timeline-label">2016 â€“ 2020</span></li>
+          <li><strong>MSc, Artificial Intelligence and its Applications</strong><br>CSEE, University of Essex (Distinction)<br><span class="sl-timeline-label">2023 - 2024</span></li>
+          <li><strong>BSc, Major Computer Science</strong><br>Faculty of ICT, Mahidol University â€” 3.62/4.00<br><span class="sl-timeline-label">2016 - 2020</span></li>
           <li><strong>Certificate, Artificial Intelligence (87%)</strong><br>ISS 2019, Sungkyunkwan University<br><span class="sl-timeline-label">2019</span></li>
         </ul>
       </div>
