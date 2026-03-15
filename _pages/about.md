@@ -216,14 +216,14 @@ redirect_from:
             <a href="https://github.com/phrugsa-limbunlom/GradCAM/tree/master" target="_blank">(GradCAM)</a>
           </p>
           <div style="text-align: center;">
-            <img src="../Mandy.png" style="max-width: 600px; width: 100%; height: auto;" alt="MANDY">
+            <img src="/images/Mandy.png" style="max-width: 600px; width: 100%; height: auto;" alt="MANDY">
           </div>
           <p>
             This research investigates relevant models for X-ray image classification using convolutional neural networks (CNNs) and transfer learning to identify mandibular fractures, and employs Gradient-weighted Class Activation Mapping (GradCAM) to localize fracture locations. The trained model was deployed as a diagnostic system to assist non-specialist doctors.
           </p>
           <div style="text-align: center;">
             <video style="max-width: 360px; width: 100%; height: auto;" controls>
-              <source src="Mandy.mp4" type="video/mp4">
+              <source src="/video/Mandy.mp4" type="video/mp4">
             </video>
           </div>
           <p><strong>Keywords:</strong> CNN, GradCAM, Mandibular Fracture, Classification, Localization, X-ray</p>
@@ -336,6 +336,12 @@ redirect_from:
       <p>
         I develop AI systems that combine retrieval-augmented generation, multi-agent reasoning, and scalable LLM inference to solve real-world problems. A project example is <a href="https://github.com/phrugsa-limbunlom/PickSmart" target="_blank">PickSmart</a> (open source), an agentic AI product search platform that uses retrieval-augmented generation and LLM agents to analyse product reviews and generate personalised recommendations.
       </p>
+    </div>
+    <div class="sl-reveal" style="text-align: center; margin-bottom: 32px;">
+      <video controls width="70%" poster="/images/picksmart.png" preload="metadata" style="border-radius: 8px;">
+        <source src="/video/picksmart-demo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
     </div>
     <div class="sl-card-grid sl-reveal">
       <a href="https://github.com/phrugsa-limbunlom/vlm-grpo" class="sl-card-link" target="_blank" rel="noopener">
