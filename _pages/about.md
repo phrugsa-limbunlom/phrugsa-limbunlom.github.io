@@ -45,15 +45,17 @@ redirect_from:
         </p>
         <div class="sl-hero__actions" style="opacity:0; animation: sl-fadeUp 0.7s ease 0.5s forwards;">
           <a href="#research" class="sl-btn sl-btn--primary">Research</a>
-          <a href="https://www.linkedin.com/in/phrugsa-limbunlom-5b8995117/" class="sl-btn sl-btn--secondary" target="_blank"><svg style="width:16px;height:16px"><use href="#ico-linkedin"/></svg> LinkedIn</a>
           <a href="https://github.com/phrugsa-limbunlom" class="sl-btn sl-btn--secondary" target="_blank"><svg style="width:16px;height:16px"><use href="#ico-github"/></svg> GitHub</a>
+          <a href="https://twitter.com/PhrugsaL" class="sl-btn sl-btn--secondary" target="_blank"><svg style="width:16px;height:16px"><use href="#ico-twitter"/></svg> Twitter</a>
+          <a href="https://www.linkedin.com/in/phrugsa-limbunlom-5b8995117/" class="sl-btn sl-btn--secondary" target="_blank"><svg style="width:16px;height:16px"><use href="#ico-linkedin"/></svg> LinkedIn</a>
           <a href="https://phrugsa-limbunlom.medium.com/" class="sl-btn sl-btn--secondary" target="_blank"><svg style="width:16px;height:16px"><use href="#ico-medium"/></svg> Medium</a>
         </div>
         <div class="sl-badges" style="opacity:0; animation: sl-fadeUp 0.7s ease 0.65s forwards;">
           <span class="sl-badge sl-badge--accent">Agentic AI Systems</span>
-          <span class="sl-badge sl-badge--accent">RAG Architectures</span>
+          <!-- <span class="sl-badge sl-badge--accent">RAG Architectures</span> -->
           <span class="sl-badge sl-badge--accent">LLM Infrastructure</span>
           <span class="sl-badge sl-badge--accent">Multimodal Reasoning</span>
+          <span class="sl-badge sl-badge--accent">Generative Modelling</span>
         </div>
       </div>
       <div class="sl-hero__avatar">
@@ -99,12 +101,12 @@ redirect_from:
     <div class="sl-reveal">
       <span class="sl-overline">01</span>
       <h2 class="sl-headline sl-headline--sm">About Me</h2>
-      <p class="sl-subtext sl-mb-32">Building practical AI systems that combine reasoning models, structured retrieval, and autonomous agents.</p>
+      <!-- <p class="sl-subtext sl-mb-32">Building practical AI systems that combine reasoning models, structured retrieval, and autonomous agents.</p> -->
     </div>
     <div class="sl-prose sl-reveal">
-      <p>
+      <!-- <p>
         I am Phrugsa (Pruk-sa), an AI Systems Engineer specialising in large language model infrastructure, retrieval-augmented generation, and agent-based AI systems.
-      </p>
+      </p> -->
       <p>
         My work focuses on building practical AI systems that combine reasoning models, structured retrieval, and autonomous agents to solve real-world problems. I have developed multiple LLM applications including research assistants, agentic product search systems, and scalable inference pipelines. I also publish technical articles exploring modern AI engineering topics such as GRPO training, LoRA fine-tuning, and production RAG architectures.
       </p>
@@ -153,25 +155,22 @@ redirect_from:
     <div class="sl-reveal">
       <span class="sl-overline">02</span>
       <h2 class="sl-headline sl-headline--sm">Research Interests</h2>
-      <p class="sl-subtext sl-mb-32">Exploring generative models, multimodal world models, and AI agents to push the boundaries of machine reasoning and out-of-distribution generalisation.</p>
+      <!-- <p class="sl-subtext sl-mb-32">Exploring generative models, multimodal world models, and AI agents to push the boundaries of machine reasoning and out-of-distribution generalisation.</p> -->
     </div>
     <div class="sl-prose sl-reveal">
-      <p>My current research interests include:</p>
+      <!-- <p>My current research interests include:</p> -->
       <ul>
         <li>Agentic AI systems</li>
-        <li>Retrieval-augmented generation architectures</li>
         <li>Multimodal reasoning architectures</li>
-        <li>Scalable inference for large language models</li>
-        <li>AI systems engineering</li>
         <li>Generative world models</li>
         <li>Out-of-distribution generalisation</li>
       </ul>
       <p>
-        My broader research direction focuses on <em>multimodal intelligence and world models</em> as a path toward more robust and data-efficient machine learning systems. This direction was shaped by my earlier work, where I observed that many state-of-the-art models rely heavily on large-scale labeled datasets and often fail to generalise when faced with out-of-distribution scenarios.
+        My research direction focuses on <em>multimodal intelligence and world models</em> as a path toward more robust and data-efficient machine learning systems. This direction was shaped by my earlier work, where I observed that many state-of-the-art models rely heavily on large-scale labeled datasets and often fail to generalise when faced with out-of-distribution scenarios.I am particularly interested in building predictive world models that capture the underlying structure, dynamics, and causal relationships of environments across modalities such as vision, language, and action.
       </p>
-      <p>
+      <!-- <p>
         Inspired by <a href="https://openreview.net/pdf?id=BZ5a1r-kVsf" target="_blank"><em>A Path Towards Autonomous Machine Intelligence by Yann LeCun</em></a>, I am particularly interested in building predictive world models that capture the underlying structure, dynamics, and causal relationships of environments across modalities such as vision, language, and action. I am exploring the feasibility of leveraging Joint-Embedding Predictive Architectures (JEPA) and energy-based models to learn structured representations that are invariant, predictive, and semantically meaningful.
-      </p>
+      </p> -->
     </div>
   </div>
 </section>
@@ -264,7 +263,7 @@ redirect_from:
     <div class="sl-reveal">
       <span class="sl-overline">05</span>
       <h2 class="sl-headline sl-headline--sm">Technical Publications</h2>
-      <p class="sl-subtext sl-mb-32">I regularly publish articles explaining advanced AI engineering topics including reasoning optimisation, multimodal model training, and retrieval-augmented generation. These articles focus on practical implementation techniques for modern AI systems and are read by developers interested in applied machine learning.</p>
+      <p class="sl-subtext sl-mb-32">I regularly publish articles explaining AI-related topics including reasoning optimisation, multimodal model training, and retrieval-augmented generation. These articles focus on practical implementation techniques for modern AI systems and are read by developers interested in applied machine learning.</p>
     </div>
     <div class="sl-card-grid sl-reveal">
       <a href="https://medium.com/towards-artificial-intelligence/training-your-reasoning-model-with-grpo-a-practical-guide-for-vlms-post-training-with-trl-266411c0b844" class="sl-card-link" target="_blank" rel="noopener">
@@ -327,7 +326,7 @@ redirect_from:
     <div class="sl-reveal">
       <span class="sl-overline">06</span>
       <h2 class="sl-headline sl-headline--sm">AI Systems & Platforms</h2>
-      <p class="sl-subtext sl-mb-32">Production AI systems, agent architectures, and scalable LLM infrastructure.</p>
+      <!-- <p class="sl-subtext sl-mb-32">Production AI systems, agent architectures, and scalable LLM infrastructure.</p> -->
     </div>
     <!-- <div style="text-align: center; margin-bottom: 32px;" class="sl-reveal">
       <img src="https://github.com/user-attachments/assets/1bf2a44d-06b2-4599-8b1e-9403e0684424" style="max-width: 600px; width: 100%; height: auto; border-radius: 12px; border: 1px solid #e8e8ec;" alt="PickSmart Architecture">
@@ -465,47 +464,15 @@ redirect_from:
 </section>
 
 
-<!-- â•â•â•â•â•â•â• FOOTER â•â•â•â•â•â•â• -->
+<!--Footer-->
 <footer class="sl-footer">
   <div class="sl-container">
-    <div class="sl-footer__grid">
-      <div class="sl-footer__brand">
-        <div class="sl-footer__logo">Phrugsa Limbunlom</div>
-        <p>AI & Software Engineer specialising in agentic architectures, retrieval-augmented generation, and multimodal model optimisation.</p>
-      </div>
-      <div class="sl-footer__col">
-        <h4>Navigate</h4>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#research">Research</a></li>
-          <li><a href="#articles">Publications</a></li>
-          <li><a href="#projects">Projects</a></li>
-        </ul>
-      </div>
-      <div class="sl-footer__col">
-        <h4>Connect</h4>
-        <ul>
-          <li><a href="https://www.linkedin.com/in/phrugsa-limbunlom-5b8995117/" target="_blank">LinkedIn</a></li>
-          <li><a href="https://github.com/phrugsa-limbunlom" target="_blank">GitHub</a></li>
-          <li><a href="https://phrugsa-limbunlom.medium.com/" target="_blank">Medium</a></li>
-        </ul>
-      </div>
-      <div class="sl-footer__col">
-        <h4>More</h4>
-        <ul>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#awards">Awards</a></li>
-          <li><a href="#highlight">Receptr</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="sl-footer__bottom">
       <span>&copy; 2026 Phrugsa Limbunlom. All rights reserved.</span>
       <div class="sl-footer__social">
         <a href="https://github.com/phrugsa-limbunlom" target="_blank" aria-label="GitHub"><svg><use href="#ico-github"/></svg></a>
+        <a href="https://twitter.com/PhrugsaL" target="_blank" aria-label="Twitter"><svg><use href="#ico-twitter"/></svg></a>
         <a href="https://www.linkedin.com/in/phrugsa-limbunlom-5b8995117/" target="_blank" aria-label="LinkedIn"><svg><use href="#ico-linkedin"/></svg></a>
         <a href="https://phrugsa-limbunlom.medium.com/" target="_blank" aria-label="Medium"><svg><use href="#ico-medium"/></svg></a>
       </div>
-    </div>
   </div>
 </footer>
