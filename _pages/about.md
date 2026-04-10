@@ -70,31 +70,6 @@ redirect_from:
   </div>
 </section>
 
-
-<!-- â•â•â•â•â•â•â• FOUNDER WORK â•â•â•â•â•â•â• -->
-<section class="sl-section sl-section--border" id="highlight">
-  <div class="sl-container">
-    <div class="sl-section__header--left sl-reveal">
-      <h2 class="sl-headline sl-headline--sm">Highlight</h2>
-    </div>
-      <a href="https://receptr-ai.com/" class="sl-highlight-card sl-reveal" target="_blank" rel="noopener">
-      <div class="sl-highlight-card__body">
-        <div class="sl-highlight-card__meta">
-          <span class="sl-card__tag sl-card__tag--project">Founder</span>
-          <span class="sl-badge sl-badge--success">Live · Now in Beta</span>
-        </div>
-        <h3 class="sl-highlight-card__title">Receptr - AI Agent Platform for Non-Technical Businesses</h3>
-        <p class="sl-highlight-card__desc">Receptr is an AI platform designed to help non-technical founders deploy intelligent agents that can perform operational tasks such as customer support, marketing assistance, and business data analysis. The system focuses on simplifying AI adoption for small businesses by providing an orchestration layer that allows agents to understand business context and execute tasks autonomously. This project explores how agent architectures can reduce operational overhead for small companies.</p>
-        <span class="sl-btn sl-btn--primary" style="align-self: flex-start; pointer-events: none;">Visit Receptr</span>
-      </div>
-      <div class="sl-highlight-card__preview">
-        <img src="/images/Receptr.png?v=2" alt="Receptr” AI Agent Platform preview" loading="lazy">
-      </div>
-    </a>
-  </div>
-</section>
-
-
 <!-- â•â•â•â•â•â•â• 01 â€” ABOUT â•â•â•â•â•â•â• -->
 <section class="sl-section sl-section--border" id="about">
   <div class="sl-container">
@@ -111,7 +86,7 @@ redirect_from:
         My work focuses on building practical AI systems that combine reasoning models, structured retrieval, and autonomous agents to solve real-world problems. I have developed multiple LLM applications including research assistants, agentic product search systems, and scalable inference pipelines. I also publish technical articles exploring modern AI engineering topics such as GRPO training, LoRA fine-tuning, and production RAG architectures.
       </p>
       <p>
-        I hold an MSc in Artificial Intelligence (Distinction) from the University of Essex, where I worked on predictive modelling, generative modelling, and large language models. I currently work as an Analyst Developer at the University of Bedfordshire, contributing to AI-driven cloud systems that support the digital transformation of enterprise platforms. In parallel, I am a founder building AI agent infrastructure, an open-source contributor, and a technical writer publishing in-depth articles for leading AI publications.
+        I hold an MSc in Artificial Intelligence (Distinction) from the University of Essex, where I worked on predictive modelling, generative modelling, and large language models. I am currently working in the enterprise system where I develop AI-driven cloud development to support digital transformation of enterprise platforms. I am also building AI agents infrastructure, contributing to open-source projects, and writing in-depth technical articles published with leading AI publishers.
       </p>
     </div>
     <!-- Impact Highlights -->
@@ -133,8 +108,8 @@ redirect_from:
         <span class="sl-stats__label">AI - UofEssex</span>
       </a>
       <a href="#education" class="sl-stats__item">
-        <span class="sl-stats__number">6+</span>
-        <span class="sl-stats__label">Certifications</span>
+        <span class="sl-stats__number">3</span>
+        <span class="sl-stats__label">Professional Certifications</span>
       </a>
       <a href="#projects" class="sl-stats__item">
         <span class="sl-stats__number">10+</span>
@@ -148,26 +123,65 @@ redirect_from:
   </div>
 </section>
 
+<!-- Key Project -->
+<section class="sl-section sl-section--border" id="highlight">
+  <div class="sl-container">
+    <div class="sl-section__header--left sl-reveal">
+      <h2 class="sl-headline sl-headline--sm">Key Project</h2>
+    </div>
+      <a href="https://receptr-ai.com/" class="sl-highlight-card sl-reveal" target="_blank" rel="noopener">
+      <div class="sl-highlight-card__body">
+        <div class="sl-highlight-card__meta">
+          <!-- <span class="sl-card__tag sl-card__tag--project">Founder</span> -->
+          <span class="sl-badge sl-badge--success">Live · Now in Beta</span>
+        </div>
+        <h3 class="sl-highlight-card__title">Receptr - Intelligent Agent Orchestration for Small Business Operations</h3>
+          <p class="sl-highlight-card__desc">
+            Receptr is an AI-powered platform designed to lower the barrier to adaopt intelligent automation for non-technical founders — architected, developed, and deployed independently by me. The system provides an orchestration layer through which autonomous agents can acquire business context and execute operational tasks — including customer support, marketing assistance, and business data analysis — without requiring technical intervention. This project investigates how multi-agent architectures can meaningfully reduce operational overhead and accelerate AI adoption among resource-constrained organisations.
+          </p>
+          Key Functionalities:
+          <ul class="sl-highlight-card__desc">
+            <li>Conversational Chat Interface</li>
+            <li>Adaptive Personalised Feedback</li>
+            <li>Persistent Business & User Memory</li>
+            <li>Voice-Enabled Conversation with Appointment Scheduling</li>
+            <li>Image-to-Video Generation</li>
+          </ul>
+        <span class="sl-btn sl-btn--primary" style="align-self: flex-start; pointer-events: none;">Visit Receptr</span>
+      </div>
+      <div class="sl-highlight-card__preview">
+        <img src="/images/Receptr.png?v=2" alt="Receptr” AI Agent Platform preview" loading="lazy">
+      </div>
+    </a>
+  </div>
+</section>
 
-<!-- â•â•â•â•â•â•â• 02 â€” RESEARCH INTERESTS â•â•â•â•â•â•â• -->
+<!-- ═══════════ 02 – RESEARCH INTERESTS ═══════════ -->
 <section class="sl-section sl-section--gray sl-section--border" id="research">
   <div class="sl-container">
     <div class="sl-reveal">
       <span class="sl-overline">02</span>
       <h2 class="sl-headline sl-headline--sm">Research Interests</h2>
-      <!-- <p class="sl-subtext sl-mb-32">Exploring generative models, multimodal world models, and AI agents to push the boundaries of machine reasoning and out-of-distribution generalisation.</p> -->
     </div>
     <div class="sl-prose sl-reveal">
-      <!-- <p>My current research interests include:</p> -->
       <ul>
-        <li>Agentic AI systems</li>
-        <li>Multimodal reasoning architectures</li>
-        <li>Generative world models</li>
-        <li>Out-of-distribution generalisation</li>
+        <li>
+          <strong>Generative Modelling:</strong> Designing probabilistic models that capture complex data distributions through energy functions, diffusion processes, and flow matching — with a focus on scalable training and high-fidelity synthesis across continuous data modalities.
+        </li>
+        <li>
+          <strong>Multimodal Models:</strong> Developing architectures that integrate visual perception, natural language understanding, and other modalities to enable complex cross-modal reasoning tasks.
+        </li>
+        <li>
+          <strong>Action-Conditioned Predictive Models:</strong> Exploring predictive architectures that learn environment dynamics by conditioning on agent actions, enabling the development of world models that capture cause-and-effect relationships for planning and decision-making in abstract representatoin space.
+        </li>
+        <li>
+          <strong>Few-Shot Learning:</strong> Creating adaptive systems that generalise from minimal training examples using meta-learning and transfer learning techniques.
+        </li>
+        <li>
+          <strong>AI Agents & Automation:</strong> Building autonomous intelligent systems capable of complex decision-making and real-world problem solving through reinforcement learning and planning algorithms.
+        </li>
       </ul>
-      <p>
-        My research direction focuses on <em>multimodal intelligence and world models</em> as a path toward more robust and data-efficient machine learning systems. This direction was shaped by my earlier work, where I observed that many state-of-the-art models rely heavily on large-scale labeled datasets and often fail to generalise when faced with out-of-distribution scenarios.I am particularly interested in building predictive world models that capture the underlying structure, dynamics, and causal relationships of environments across modalities such as vision, language, and action.
-      </p>
+        My research direction centres on <em>multimodal intelligence and world models</em> as a pathway toward more robust and data-efficient machine learning systems. This direction was shaped by observations from earlier work, where state-of-the-art models revealed a pronounced dependency on large-scale labelled datasets while exhibiting limited capacity to generalise under out-of-distribution conditions. I am particularly interested in developing predictive world models that capture the underlying structure, dynamics, and causal relationships of complex environments across multiple modalities
       <!-- <p>
         Inspired by <a href="https://openreview.net/pdf?id=BZ5a1r-kVsf" target="_blank"><em>A Path Towards Autonomous Machine Intelligence by Yann LeCun</em></a>, I am particularly interested in building predictive world models that capture the underlying structure, dynamics, and causal relationships of environments across modalities such as vision, language, and action. I am exploring the feasibility of leveraging Joint-Embedding Predictive Architectures (JEPA) and energy-based models to learn structured representations that are invariant, predictive, and semantically meaningful.
       </p> -->
@@ -176,7 +190,7 @@ redirect_from:
 </section>
 
 
-<!-- â•â•â•â•â•â•â• 03 â€” PREVIOUS RESEARCH â•â•â•â•â•â•â• -->
+<!-- â•â•â•â•â•â•â• 03 â€” PREVIOUS RESEARCH â•â•â•â•â•â•â•
 <section class="sl-section sl-section--border" id="previous-research">
   <div class="sl-container">
     <div class="sl-reveal">
@@ -230,7 +244,7 @@ redirect_from:
       </details>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <!-- â•â•â•â•â•â•â• 04 â€” PAPER â•â•â•â•â•â•â• -->
@@ -238,7 +252,7 @@ redirect_from:
   <div class="sl-container">
     <div class="sl-reveal">
       <span class="sl-overline">04</span>
-      <h2 class="sl-headline sl-headline--sm">Paper</h2>
+      <h2 class="sl-headline sl-headline--sm">Preprint</h2>
     </div>
     <div class="sl-card-grid sl-card-grid--two sl-reveal sl-mt-32">
       <a href="https://doi.org/10.36227/techrxiv.175742717.74182135/v1" class="sl-card-link" target="_blank" rel="noopener">
@@ -325,7 +339,7 @@ redirect_from:
   <div class="sl-container">
     <div class="sl-reveal">
       <span class="sl-overline">06</span>
-      <h2 class="sl-headline sl-headline--sm">AI Systems & Platforms</h2>
+      <h2 class="sl-headline sl-headline--sm">AI Projects</h2>
       <!-- <p class="sl-subtext sl-mb-32">Production AI systems, agent architectures, and scalable LLM infrastructure.</p> -->
     </div>
     <!-- <div style="text-align: center; margin-bottom: 32px;" class="sl-reveal">
@@ -333,7 +347,7 @@ redirect_from:
     </div> -->
     <div class="sl-prose sl-reveal sl-mb-32">
       <p>
-        I develop AI systems that combine retrieval-augmented generation, multi-agent reasoning, and scalable LLM inference to solve real-world problems. A project example is <a href="https://github.com/phrugsa-limbunlom/PickSmart" target="_blank">PickSmart</a> (open source), an agentic AI product search platform that uses retrieval-augmented generation and LLM agents to analyse product reviews and generate personalised recommendations.
+        I develop AI systems that combine retrieval-augmented generation, multi-agent reasoning, and scalable LLM inference to solve real-world problems. A project example is <a href="https://github.com/phrugsa-limbunlom/PickSmart" target="_blank">PickSmart</a> (open source), an agentic AI product search platform that uses the agentic workflow to analyse product reviews and generate personalised recommendations.
       </p>
     </div>
     <div class="sl-reveal" style="text-align: center; margin-bottom: 32px;">
@@ -404,8 +418,8 @@ redirect_from:
         <h3 class="sl-section-label">Education</h3>
         <ul class="sl-edu-list">
           <li><strong>MSc, Artificial Intelligence and its Applications</strong><br>CSEE, University of Essex (Distinction)<br><span class="sl-timeline-label">2023 - 2024</span></li>
-          <li><strong>BSc, Major Computer Science</strong><br>Faculty of ICT, Mahidol University â€” 3.62/4.00<br><span class="sl-timeline-label">2016 - 2020</span></li>
-          <li><strong>Certificate, Artificial Intelligence (87%)</strong><br>ISS 2019, Sungkyunkwan University<br><span class="sl-timeline-label">2019</span></li>
+          <li><strong>BSc, Major Computer Science</strong><br>Faculty of ICT, Mahidol University <br><span class="sl-timeline-label">2016 - 2020</span></li>
+          <li><strong>Certificate, Artificial Intelligence</strong><br>ISS 2019, Sungkyunkwan University<br><span class="sl-timeline-label">2019</span></li>
         </ul>
       </div>
       <div class="sl-reveal">
@@ -429,7 +443,7 @@ redirect_from:
 </section>
 
 
-<!-- â•â•â•â•â•â•â• 08 â€” AWARDS â•â•â•â•â•â•â• -->
+<!-- Awards
 <section class="sl-section sl-section--gray sl-section--border" id="awards">
   <div class="sl-container">
     <div class="sl-reveal">
@@ -439,10 +453,10 @@ redirect_from:
     <ul class="sl-award-list sl-reveal sl-mt-32">
       <li><svg><use href="#ico-star"/></svg> <span>Academic Excellence International Master Scholarship from University of Essex</span></li>
       <li><svg><use href="#ico-star"/></svg> <span>The Big Essex Bronze Award 2024 from University of Essex</span></li>
-      <li><svg><use href="#ico-star"/></svg> <span>Winner Award for Outstanding Innovation in <em>Free smoking university project 2019</em> issued by The Medical Association of Thailand from <a href="https://github.com/phrugsa-limbunlom/Cigarless/tree/main" target="_blank">CIGARLESS</a> application</span></li>
+      <li><svg><use href="#ico-star"/></svg> <span>Winner Award for Outstanding Innovation in Application Development for<em>Free smoking university project 2019</em> issued by The Medical Association of Thailand </li>
     </ul>
   </div>
-</section>
+</section> -->
 
 
 <!-- â•â•â•â•â•â•â• 09 â€” MORE ABOUT ME â•â•â•â•â•â•â• -->
