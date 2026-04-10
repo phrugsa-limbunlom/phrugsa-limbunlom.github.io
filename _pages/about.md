@@ -41,7 +41,7 @@ redirect_from:
           Building <span class="sl-gradient-text">Intelligent Agent Infrastructure</span>
         </h1>
         <p class="sl-hero__subtitle" style="opacity:0; animation: sl-fadeUp 0.7s ease 0.35s forwards;">
-          AI & Software Engineer specialising in agentic architectures, retrieval-augmented generation, and multimodal model optimisation, with experience building production AI systems and publishing technical articles for the developer community.
+          AI & Software Engineer specializing in agentic architectures, retrieval-augmented generation, and multimodal models optimisation, with experience building production AI systems and publishing technical articles for the developer community.
         </p>
         <div class="sl-hero__actions" style="opacity:0; animation: sl-fadeUp 0.7s ease 0.5s forwards;">
           <a href="#research" class="sl-btn sl-btn--primary">Research</a>
@@ -59,7 +59,7 @@ redirect_from:
         </div>
       </div>
       <div class="sl-hero__avatar">
-        <img src="/images/profile.jpg" alt="Phrugsa Limbunlom">
+        <img src="/images/profile2.jpeg" alt="Phrugsa Limbunlom">
       </div>
     </div>
     <blockquote class="sl-quote sl-reveal" style="margin-top: 32px;">
