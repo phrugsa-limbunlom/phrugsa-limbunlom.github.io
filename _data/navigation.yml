@@ -6,7 +6,8 @@
 
 main:
   - title: "Research"
-    url: /#previous-research
+    # url: /#previous-research
+    url: /#paper
 
   - title: "Publications"
     url: /#articles
