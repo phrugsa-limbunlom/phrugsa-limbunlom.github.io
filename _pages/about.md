@@ -351,10 +351,13 @@ redirect_from:
       </p>
     </div>
     <div class="sl-reveal" style="text-align: center; margin-bottom: 32px;">
-      <video controls width="70%" poster="/images/picksmart.png" preload="metadata" style="border-radius: 8px;">
+      <!-- <video controls width="70%" poster="/images/picksmart.png" preload="metadata" style="border-radius: 8px;">
         <source src="/video/picksmart-demo.mp4" type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> -->
+      <a href="https://github.com/phrugsa-limbunlom/PickSmart" target="_blank" rel="noopener">
+        <img src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/PickSmart" alt="PickSmart thumbnail" style="border-radius: 8px; width: 70%; height: auto;" loading="lazy">
+      </a>
     </div>
     <div class="sl-card-grid sl-reveal">
       <a href="https://github.com/phrugsa-limbunlom/vlm-grpo" class="sl-card-link" target="_blank" rel="noopener">
