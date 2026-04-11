@@ -356,7 +356,7 @@ redirect_from:
         Your browser does not support the video tag.
       </video> -->
       <a href="https://github.com/phrugsa-limbunlom/PickSmart" target="_blank" rel="noopener">
-        <img src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/PickSmart" alt="PickSmart thumbnail" style="border-radius: 8px; width: 70%; height: auto;" loading="lazy">
+        <img src="/video/picksmart-demo.gif" alt="PickSmart thumbnail" style="border-radius: 8px; width: 60%; height: auto;" loading="lazy">
       </a>
     </div>
     <div class="sl-card-grid sl-reveal">
