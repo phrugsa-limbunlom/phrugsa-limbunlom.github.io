@@ -97,7 +97,7 @@ redirect_from:
           <li>Developed multiple LLM-powered systems including agentic RAG for research assistants and Agentic workflow for product search platforms</li>
           <li>Published technical AI articles covering GRPO training, RAG pipelines, and multimodal fine-tuning (LoRA)</li>
           <li>Built scalable LLM inference pipelines with VLLM using AWS SageMaker and modern ML infrastructure</li>
-          <li>Translated dissertation to a published preprint in TechArix (220+ views and 50+ downloads) about generative modelling (GANs) and adversarial training in the versatile financial domain
+          <li>Translated dissertation to a published preprint in TechArix (220+ views and 50+ downloads) about generative modelling (GANs) and adversarial training in the versatile financial domain</li>
           <li>Experience deploying AI systems within enterprise environments including work with IT consultanting services</li>
           <li>MSc Artificial Intelligence (Distinction) from University of Essex</li>
         </ul>
@@ -348,19 +348,19 @@ redirect_from:
       <img src="https://github.com/user-attachments/assets/1bf2a44d-06b2-4599-8b1e-9403e0684424" style="max-width: 600px; width: 100%; height: auto; border-radius: 12px; border: 1px solid #e8e8ec;" alt="PickSmart Architecture">
     </div> -->
     <div class="sl-prose sl-reveal sl-mb-32">
-      <div class="sl-reveal" style="text-align: center; margin-bottom: 32px;">
-      <!-- <video controls width="70%" poster="/images/picksmart.png" preload="metadata" style="border-radius: 8px;">
-        <source src="/video/picksmart-demo.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video> -->
-      <a href="https://github.com/phrugsa-limbunlom/PickSmart" target="_blank" rel="noopener">
-        <img src="/video/picksmart-demo.gif" alt="PickSmart thumbnail" style="border-radius: 8px; width: 60%; height: auto;" loading="lazy">
-      </a>
-    </div>
-      <p>
-        I develop AI systems that combine retrieval-augmented generation, multi-agent reasoning, and scalable LLM inference to solve real-world problems. A project example is <a href="https://github.com/phrugsa-limbunlom/PickSmart" target="_blank">PickSmart</a> (open source), an agentic AI product search platform that uses the agentic workflow to analyse product reviews and generate personalised recommendations. <br>
-        Additional projects include building an agentic RAG system (document summarization, retrieval, tool invocation, and MCP servers), multimodal model fine-tuning and post-training (LoRA, GRPO), 8-bit post-training quantization, and deploying open-source LLMs with vLLM on AWS SageMaker.
-      </p>
+        <div class="sl-reveal" style="text-align: center; margin-bottom: 32px;">
+          <!-- <video controls width="70%" poster="/images/picksmart.png" preload="metadata" style="border-radius: 8px;">
+            <source src="/video/picksmart-demo.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video> -->
+        <a href="https://github.com/phrugsa-limbunlom/PickSmart" target="_blank" rel="noopener">
+          <img src="/video/picksmart-demo.gif" alt="PickSmart thumbnail" style="border-radius: 8px; width: 60%; height: auto;" loading="lazy">
+        </a>
+      </div>
+        <p>
+          I develop AI systems that combine retrieval-augmented generation, multi-agent reasoning, and scalable LLM inference to solve real-world problems. A project example is <a href="https://github.com/phrugsa-limbunlom/PickSmart" target="_blank">PickSmart</a> (open source), an agentic AI product search platform that uses the agentic workflow to analyse product reviews and generate personalised recommendations. <br>
+          Additional projects include building an agentic RAG system (document summarization, retrieval, tool invocation, and MCP servers), multimodal model fine-tuning and post-training (LoRA, GRPO), 8-bit post-training quantization, and deploying open-source LLMs with vLLM on AWS SageMaker.
+        </p>
     </div>
     <div class="sl-card-grid sl-reveal">
       <a href="https://github.com/phrugsa-limbunlom/vlm-grpo" class="sl-card-link" target="_blank" rel="noopener">
