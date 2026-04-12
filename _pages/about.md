@@ -94,9 +94,10 @@ redirect_from:
       <h3 class="sl-section-label">Impact Highlights</h3>
       <div class="sl-prose">
         <ul>
-          <li>Developed multiple LLM-powered systems including agentic research assistants and product search platforms</li>
-          <li>Published technical AI articles covering GRPO training, RAG pipelines, and multimodal fine-tuning</li>
-          <li>Built scalable LLM inference pipelines using AWS SageMaker and modern ML infrastructure</li>
+          <li>Developed multiple LLM-powered systems including agentic RAG for research assistants and Agentic workflow for product search platforms</li>
+          <li>Published technical AI articles covering GRPO training, RAG pipelines, and multimodal fine-tuning (LoRA)</li>
+          <li>Built scalable LLM inference pipelines with VLLM using AWS SageMaker and modern ML infrastructure</li>
+          <li>Translated dissertation to a published preprint in TechArix (220+ views and 50+ downloads) about generative modelling (GANs) and adversarial training in the versatile financial domain
           <li>Experience deploying AI systems within enterprise environments including work with IT consultanting services</li>
           <li>MSc Artificial Intelligence (Distinction) from University of Essex</li>
         </ul>
@@ -137,7 +138,8 @@ redirect_from:
         </div>
         <h3 class="sl-highlight-card__title">Receptr - Intelligent Agent Orchestration for Small Business Operations</h3>
           <p class="sl-highlight-card__desc">
-            Receptr is an AI-powered platform designed to lower the barrier to adaopt intelligent automation for non-technical founders — architected, developed, and deployed independently by me. The system provides an orchestration layer through which autonomous agents can acquire business context and execute operational tasks — including customer support, marketing assistance, and business data analysis — without requiring technical intervention. This project investigates how multi-agent architectures can meaningfully reduce operational overhead and accelerate AI adoption among resource-constrained organisations.
+            <!-- Receptr is an AI-powered platform designed to lower the barrier to adaopt intelligent automation for non-technical founders — architected, developed, and deployed independently by me. The system provides an orchestration layer through which autonomous agents can acquire business context and execute operational tasks — including customer support, marketing assistance, and business data analysis — without requiring technical intervention. This project investigates how multi-agent architectures can meaningfully reduce operational overhead and accelerate AI adoption among resource-constrained organisations. -->
+            Receptr is an AI-powered platform that lowers the barrier to intelligent automation for non-technical founders — independently architected, developed, and deployed by me. It provides an orchestration layer where autonomous agents acquire business context and execute operational tasks (customer support, marketing, and data analysis) without technical intervention, exploring how multi-agent architectures can reduce overhead and accelerate AI adoption for resource-constrained organisations.
           </p>
           Key Functionalities:
           <ul class="sl-highlight-card__desc">
@@ -172,7 +174,7 @@ redirect_from:
           <strong>Multimodal Models:</strong> Developing architectures that integrate visual perception, natural language understanding, and other modalities to enable complex cross-modal reasoning tasks.
         </li>
         <li>
-          <strong>Action-Conditioned Predictive Models:</strong> Exploring predictive architectures that learn environment dynamics by conditioning on agent actions, enabling the development of world models that capture cause-and-effect relationships for planning and decision-making in abstract representatoin space.
+          <strong>Action-Conditioned Predictive Models:</strong> Exploring predictive architectures that learn environment dynamics by conditioning on agent actions, enabling the development of world models that capture causality for planning and decision-making in abstract representatoin space.
         </li>
         <li>
           <strong>Few-Shot Learning:</strong> Creating adaptive systems that generalise from minimal training examples using meta-learning and transfer learning techniques.
@@ -346,11 +348,7 @@ redirect_from:
       <img src="https://github.com/user-attachments/assets/1bf2a44d-06b2-4599-8b1e-9403e0684424" style="max-width: 600px; width: 100%; height: auto; border-radius: 12px; border: 1px solid #e8e8ec;" alt="PickSmart Architecture">
     </div> -->
     <div class="sl-prose sl-reveal sl-mb-32">
-      <p>
-        I develop AI systems that combine retrieval-augmented generation, multi-agent reasoning, and scalable LLM inference to solve real-world problems. A project example is <a href="https://github.com/phrugsa-limbunlom/PickSmart" target="_blank">PickSmart</a> (open source), an agentic AI product search platform that uses the agentic workflow to analyse product reviews and generate personalised recommendations.
-      </p>
-    </div>
-    <div class="sl-reveal" style="text-align: center; margin-bottom: 32px;">
+      <div class="sl-reveal" style="text-align: center; margin-bottom: 32px;">
       <!-- <video controls width="70%" poster="/images/picksmart.png" preload="metadata" style="border-radius: 8px;">
         <source src="/video/picksmart-demo.mp4" type="video/mp4" />
         Your browser does not support the video tag.
@@ -358,6 +356,11 @@ redirect_from:
       <a href="https://github.com/phrugsa-limbunlom/PickSmart" target="_blank" rel="noopener">
         <img src="/video/picksmart-demo.gif" alt="PickSmart thumbnail" style="border-radius: 8px; width: 60%; height: auto;" loading="lazy">
       </a>
+    </div>
+      <p>
+        I develop AI systems that combine retrieval-augmented generation, multi-agent reasoning, and scalable LLM inference to solve real-world problems. A project example is <a href="https://github.com/phrugsa-limbunlom/PickSmart" target="_blank">PickSmart</a> (open source), an agentic AI product search platform that uses the agentic workflow to analyse product reviews and generate personalised recommendations. <br>
+        Additional projects include building an agentic RAG system (document summarization, retrieval, tool invocation, and MCP servers), multimodal model fine-tuning and post-training (LoRA, GRPO), 8-bit post-training quantization, and deploying open-source LLMs with vLLM on AWS SageMaker.
+      </p>
     </div>
     <div class="sl-card-grid sl-reveal">
       <a href="https://github.com/phrugsa-limbunlom/vlm-grpo" class="sl-card-link" target="_blank" rel="noopener">
