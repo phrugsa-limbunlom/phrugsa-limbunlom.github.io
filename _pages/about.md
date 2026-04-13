@@ -94,15 +94,15 @@ redirect_from:
       <h3 class="sl-section-label">Impact Highlights</h3>
       <div class="sl-prose">
         <ul>
-          <li>Developed multiple LLM-powered systems including agentic RAG for research assistants and Agentic workflow for product search platforms</li>
+          <li>Developed multiple LLM-powered systems including Agentic RAG for research assistants and Agentic workflow for product search platforms</li>
           <li>Published technical AI articles covering GRPO training, RAG pipelines, and multimodal fine-tuning (LoRA)</li>
-          <li>Built scalable LLM inference pipelines with VLLM using AWS SageMaker and modern ML infrastructure</li>
-          <li>Translated dissertation to a published preprint in TechArix (220+ views and 50+ downloads) about generative modelling (GANs) and adversarial training in the versatile financial domain</li>
+          <li>Built scalable LLM inference pipelines with vLLM using AWS SageMaker and modern ML infrastructure</li>
+          <li>Translated dissertation to a published preprint in TechRxiv (220+ views and 50+ downloads) about generative modelling and adversarial training (GANs) in the volatile financial domain</li>
           <li>Experience deploying AI systems within enterprise environments including work with IT consultanting services</li>
           <li>MSc Artificial Intelligence (Distinction) from University of Essex</li>
         </ul>
       </div>
-    </div>
+    </div> 
     <div class="sl-stats sl-stats--profile sl-reveal sl-mt-32">
       <a href="#education" class="sl-stats__item">
         <span class="sl-stats__number">MSc</span>
