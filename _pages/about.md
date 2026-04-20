@@ -117,7 +117,7 @@ redirect_from:
         <span class="sl-stats__label">Projects</span>
       </a>
       <a href="#articles" class="sl-stats__item">
-        <span class="sl-stats__number">7+</span>
+        <span class="sl-stats__number">8</span>
         <span class="sl-stats__label">Articles</span>
       </a>
     </div>
@@ -282,6 +282,12 @@ redirect_from:
       <p class="sl-subtext sl-mb-32">I regularly publish articles explaining AI-related topics including reasoning optimisation, multimodal model training, and retrieval-augmented generation. These articles focus on practical implementation techniques for modern AI systems and are read by developers interested in applied machine learning.</p>
     </div>
     <div class="sl-card-grid sl-reveal">
+      <a href="https://pub.towardsai.net/physics-inspired-generative-modeling-diffusion-flow-matching-and-energy-based-models-9cbacb24488a" class="sl-card-link" target="_blank" rel="noopener">
+          <div class="sl-card">
+            <img class="sl-card__img" src="/images/medium/generative_models.webp" alt="Physics-inspired generative modeling">
+            <div class="sl-card__body"><span class="sl-card__tag sl-card__tag--article">Article</span><h3 class="sl-card__title">Physics-Inspired Generative Modeling</h3><p class="sl-card__desc">Diffusion, Flow Matching, and Energy-Based Models</p><span class="sl-card__link-arrow">Read Article</span></div>
+          </div>
+      </a>
       <a href="https://medium.com/towards-artificial-intelligence/training-your-reasoning-model-with-grpo-a-practical-guide-for-vlms-post-training-with-trl-266411c0b844" class="sl-card-link" target="_blank" rel="noopener">
         <div class="sl-card">
           <img class="sl-card__img" src="/images/medium/Grpo.webp" alt="GRPO">
@@ -294,15 +300,15 @@ redirect_from:
           <div class="sl-card__body"><span class="sl-card__tag sl-card__tag--article">Article</span><h3 class="sl-card__title">Choosing the right model size to your memory</h3><p class="sl-card__desc">Understanding bits & bytes and Model Quantization</p><span class="sl-card__link-arrow">Read Article</span></div>
         </div>
       </a>
-      <a href="https://medium.com/@phrugsa-limbunlom/lora-in-vision-language-models-efficient-fine-tuning-with-llava-c8948674d855" class="sl-card-link" target="_blank" rel="noopener">
+    </div>
+    <div id="more-articles" style="display: none;">
+      <div class="sl-card-grid sl-reveal" style="margin-top: 20px;">
+        <a href="https://medium.com/@phrugsa-limbunlom/lora-in-vision-language-models-efficient-fine-tuning-with-llava-c8948674d855" class="sl-card-link" target="_blank" rel="noopener">
         <div class="sl-card">
           <img class="sl-card__img" src="/images/medium/LoRa.webp" alt="LoRA">
           <div class="sl-card__body"><span class="sl-card__tag sl-card__tag--article">Article</span><h3 class="sl-card__title">LoRA in Vision Language Models</h3><p class="sl-card__desc">Efficient Fine-tuning with LLaVA</p><span class="sl-card__link-arrow">Read Article</span></div>
         </div>
       </a>
-    </div>
-    <div id="more-articles" style="display: none;">
-      <div class="sl-card-grid sl-reveal" style="margin-top: 20px;">
         <a href="https://phrugsa-limbunlom.medium.com/a-straightforward-method-for-creating-auto-tool-calling-agents-bcbef40bf505" class="sl-card-link" target="_blank" rel="noopener">
           <div class="sl-card">
             <img class="sl-card__img" src="/images/medium/ToolCalling.webp" alt="Tool Calling">
@@ -379,6 +385,12 @@ redirect_from:
         <div class="sl-card">
           <img class="sl-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/SEAD-agent" alt="SEAD-Agent">
           <div class="sl-card__body"><span class="sl-card__tag sl-card__tag--project">Project</span><h3 class="sl-card__title">SEAD-Agent</h3><p class="sl-card__desc">AI Research Assistant System with RAG and Contextual Reasoning</p><span class="sl-card__link-arrow">View System</span></div>
+        </div>
+      </a>
+      <a href="https://github.com/phrugsa-limbunlom/generative-modelling" class="sl-card-link" target="_blank" rel="noopener">
+        <div class="sl-card">
+          <img class="sl-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/generative-modelling" alt="Generative Modelling">
+          <div class="sl-card__body"><span class="sl-card__tag sl-card__tag--project">Project</span><h3 class="sl-card__title">Generative Modelling</h3><p class="sl-card__desc">Diffusion, flow matching, and energy-based modeling experiments</p><span class="sl-card__link-arrow">View System</span></div>
         </div>
       </a>
     </div>
