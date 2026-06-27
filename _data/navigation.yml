@@ -6,12 +6,14 @@
 
 main:
   - title: "Research"
-    # url: /#previous-research
-    url: /#paper
+    url: /#research
+
+  - title: "Open Source"
+    url: /#open-source
 
   - title: "Publications"
     url: /#articles
-  
+
   - title: "Projects"
     url: /#projects
 

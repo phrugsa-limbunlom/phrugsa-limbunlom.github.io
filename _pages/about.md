@@ -36,12 +36,12 @@ redirect_from:
   <div class="sl-container sl-hero__inner">
     <div class="sl-hero__row">
       <div class="sl-hero__text">
-        <span class="sl-overline" style="opacity:0; animation: sl-fadeUp 0.6s ease 0.1s forwards;">AI & Software Engineer</span>
+        <span class="sl-overline" style="opacity:0; animation: sl-fadeUp 0.6s ease 0.1s forwards;">AI Researcher &amp; Engineer</span>
         <h1 class="sl-hero__title" style="opacity:0; animation: sl-fadeUp 0.7s ease 0.2s forwards;">
-          Building <span class="sl-gradient-text">Intelligent Agent Infrastructure</span>
+          Generative <span class="sl-gradient-text"> Modelling &amp; Agentic AI</span>
         </h1>
         <p class="sl-hero__subtitle" style="opacity:0; animation: sl-fadeUp 0.7s ease 0.35s forwards;">
-          AI & Software Engineer specializing in agentic architectures, retrieval-augmented generation, and multimodal models optimisation, with experience building production AI systems and publishing technical articles for the developer community.
+          I study probabilistic generative modelling, including energy-based models, diffusion, and principled sampling, and translate that research into production AI systems and open-source scientific software, alongside in-depth technical writing for the developer community.
         </p>
         <div class="sl-hero__actions" style="opacity:0; animation: sl-fadeUp 0.7s ease 0.5s forwards;">
           <a href="#research" class="sl-btn sl-btn--primary">Research</a>
@@ -51,22 +51,16 @@ redirect_from:
           <a href="https://phrugsa-limbunlom.medium.com/" class="sl-btn sl-btn--secondary" target="_blank"><svg style="width:16px;height:16px"><use href="#ico-medium"/></svg> Medium</a>
         </div>
         <div class="sl-badges" style="opacity:0; animation: sl-fadeUp 0.7s ease 0.65s forwards;">
-          <span class="sl-badge sl-badge--accent">Agentic AI Systems</span>
-          <!-- <span class="sl-badge sl-badge--accent">RAG Architectures</span> -->
-          <span class="sl-badge sl-badge--accent">LLM Infrastructure</span>
-          <span class="sl-badge sl-badge--accent">Multimodal Reasoning</span>
           <span class="sl-badge sl-badge--accent">Generative Modelling</span>
+          <span class="sl-badge sl-badge--accent">Energy-Based Models</span>
+          <span class="sl-badge sl-badge--accent">Diffusion &amp; Flow Matching</span>
+          <span class="sl-badge sl-badge--accent">World Models</span>
         </div>
       </div>
       <div class="sl-hero__avatar">
         <img src="/images/profile2.jpeg" alt="Phrugsa Limbunlom">
       </div>
     </div>
-    <blockquote class="sl-quote sl-reveal" style="margin-top: 32px;">
-      <span class="sl-quote__icon" aria-hidden="true">"</span>
-      <p class="sl-quote__text">The only limit is your imagination.</p>
-      <footer class="sl-quote__footer"><cite>Hiro Hamada, Big Hero 6</cite></footer>
-    </blockquote>
   </div>
 </section>
 
@@ -83,7 +77,7 @@ redirect_from:
         I am Phrugsa (Pruk-sa), an AI Systems Engineer specialising in large language model infrastructure, retrieval-augmented generation, and agent-based AI systems.
       </p> -->
       <p>
-        My work focuses on building practical AI systems that combine reasoning models, structured retrieval, and autonomous agents to solve real-world problems. I have developed multiple LLM applications including research assistants, agentic product search systems, and scalable inference pipelines. I also publish technical articles exploring modern AI engineering topics such as GRPO training, LoRA fine-tuning, and production RAG architectures.
+        My work sits at the intersection of machine-learning research and engineering. On the research side, I study probabilistic generative models (energy-based models, diffusion, and flow matching) and principled sampling methods such as Hamiltonian and Riemannian-manifold Monte Carlo, contributing this work to open-source scientific libraries. On the engineering side, I build practical AI systems that combine reasoning models, structured retrieval, and autonomous agents to solve real-world problems, and I publish in-depth technical articles on modern AI engineering topics such as Physics-Inspired Generative Modelling, GRPO training, LoRA fine-tuning, and production RAG architectures.
       </p>
       <p>
         I hold an MSc in Artificial Intelligence (Distinction) from the University of Essex, where I worked on predictive modelling, generative modelling, and large language models. I am currently working in the enterprise system where I develop AI-driven cloud development to support digital transformation of enterprise platforms. I am also building AI agents infrastructure, contributing to open-source projects, and writing in-depth technical articles published with leading AI publishers.
@@ -94,10 +88,12 @@ redirect_from:
       <h3 class="sl-section-label">Impact Highlights</h3>
       <div class="sl-prose">
         <ul>
+          <li>Contributed Riemannian-manifold HMC and HMC samplers, with reproducible phase-space visualisations, to <a href="https://github.com/soran-ghaderi/torchebm" target="_blank" rel="noopener">TorchEBM</a>, an open-source energy-based modelling library (13K+ downloads)</li>
+          <li>Authored an article on generative modelling, <a href="https://pub.towardsai.net/physics-inspired-generative-modeling-diffusion-flow-matching-and-energy-based-models-9cbacb24488a" target="_blank" rel="noopener">Physics-Inspired Generative Modelling: Diffusion, Flow Matching, and Energy-Based Models</a>, published with Towards AI</li>
           <li>Developed multiple LLM-powered systems including Agentic RAG for research assistants and Agentic workflow for product search platforms</li>
           <li>Published technical AI articles covering GRPO training, RAG pipelines, and multimodal fine-tuning (LoRA)</li>
           <li>Built scalable LLM inference pipelines with vLLM using AWS SageMaker and modern ML infrastructure</li>
-          <li>Translated dissertation to a published preprint in TechRxiv (220+ views and 50+ downloads) about generative modelling and adversarial training (GANs) in the volatile financial domain</li>
+          <li>Translated dissertation to a published preprint in TechRxiv (280+ views and 100+ downloads) about generative modelling and adversarial training (GANs) in the volatile financial domain</li>
           <li>Experience deploying AI systems within enterprise environments including work with IT consultanting services</li>
           <li>MSc Artificial Intelligence (Distinction) from University of Essex</li>
         </ul>
@@ -124,40 +120,6 @@ redirect_from:
   </div>
 </section>
 
-<!-- Key Project -->
-<section class="sl-section sl-section--border" id="highlight">
-  <div class="sl-container">
-    <div class="sl-section__header--left sl-reveal">
-      <h2 class="sl-headline sl-headline--sm">Key Project</h2>
-    </div>
-      <a href="https://receptr-ai.com/" class="sl-highlight-card sl-reveal" target="_blank" rel="noopener">
-      <div class="sl-highlight-card__body">
-        <div class="sl-highlight-card__meta">
-          <!-- <span class="sl-card__tag sl-card__tag--project">Founder</span> -->
-          <span class="sl-badge sl-badge--success">Live · Now in Beta</span>
-        </div>
-        <h3 class="sl-highlight-card__title">Receptr - Intelligent Agent Orchestration for Small Business Operations</h3>
-          <p class="sl-highlight-card__desc">
-            <!-- Receptr is an AI-powered platform designed to lower the barrier to adaopt intelligent automation for non-technical founders — architected, developed, and deployed independently by me. The system provides an orchestration layer through which autonomous agents can acquire business context and execute operational tasks — including customer support, marketing assistance, and business data analysis — without requiring technical intervention. This project investigates how multi-agent architectures can meaningfully reduce operational overhead and accelerate AI adoption among resource-constrained organisations. -->
-            Receptr is an AI-native platform that lowers the barrier to intelligent automation for non-technical founders — independently architected, developed, and deployed by me. It provides an orchestration layer where autonomous agents acquire business context and execute operational tasks (customer support, marketing, and data analysis) without technical intervention, exploring how multi-agent architectures can reduce overhead and accelerate AI adoption for resource-constrained organisations.
-          </p>
-          Key Functionalities:
-          <ul class="sl-highlight-card__desc">
-            <li>Conversational Chat Interface</li>
-            <li>Adaptive Personalised Feedback</li>
-            <li>Persistent Business & User Memory</li>
-            <li>Voice-Enabled Conversation with Appointment Scheduling</li>
-            <li>Image-to-Video Generation</li>
-          </ul>
-        <span class="sl-btn sl-btn--primary" style="align-self: flex-start; pointer-events: none;">Visit Receptr</span>
-      </div>
-      <div class="sl-highlight-card__preview">
-        <img src="/images/Receptr.png?v=2" alt="Receptr” AI Agent Platform preview" loading="lazy">
-      </div>
-    </a>
-  </div>
-</section>
-
 <!-- ═══════════ 02 – RESEARCH INTERESTS ═══════════ -->
 <section class="sl-section sl-section--gray sl-section--border" id="research">
   <div class="sl-container">
@@ -168,7 +130,7 @@ redirect_from:
     <div class="sl-prose sl-reveal">
       <ul>
         <li>
-          <strong>Generative Modelling:</strong> Designing probabilistic models that capture complex data distributions through energy functions, diffusion processes, and flow matching — with a focus on scalable training and high-fidelity synthesis across continuous data modalities.
+          <strong>Generative Modelling:</strong> Designing probabilistic models that capture complex data distributions through energy functions, diffusion processes, and flow matching, with a focus on scalable training and high-fidelity synthesis across continuous data modalities.
         </li>
         <li>
           <strong>Multimodal Models:</strong> Developing architectures that integrate visual perception, natural language understanding, and other modalities to enable complex cross-modal reasoning tasks.
@@ -187,6 +149,71 @@ redirect_from:
       <!-- <p>
         Inspired by <a href="https://openreview.net/pdf?id=BZ5a1r-kVsf" target="_blank"><em>A Path Towards Autonomous Machine Intelligence by Yann LeCun</em></a>, I am particularly interested in building predictive world models that capture the underlying structure, dynamics, and causal relationships of environments across modalities such as vision, language, and action. I am exploring the feasibility of leveraging Joint-Embedding Predictive Architectures (JEPA) and energy-based models to learn structured representations that are invariant, predictive, and semantically meaningful.
       </p> -->
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════ 03 – RESEARCH & OPEN SOURCE ═══════════ -->
+<section class="sl-section sl-section--border" id="open-source">
+  <div class="sl-container">
+    <div class="sl-reveal">
+      <span class="sl-overline">03</span>
+      <h2 class="sl-headline sl-headline--sm">Research &amp; Open Source</h2>
+      <p class="sl-subtext sl-mb-32">Contributing principled sampling and generative-model research to open-source scientific libraries, with reproducible visualisations of the underlying mathematics.</p>
+    </div>
+    <!-- TorchEBM / RMHMC -->
+    <div class="sl-explainer sl-reveal sl-mt-32">
+      <div class="sl-explainer__content">
+        <span class="sl-card__tag sl-card__tag--project">Open Source · TorchEBM</span>
+        <h3 class="sl-headline sl-headline--sm" style="margin:0;">Geometry-Aware Sampling: HMC vs. RMHMC</h3>
+        <div class="sl-prose">
+          <p>
+            I contribute to <a href="https://github.com/soran-ghaderi/torchebm" target="_blank" rel="noopener">TorchEBM</a> (13K+ downloads), an open-source energy-based modelling library maintained by Soran Ghaderi that implements HMC, Riemannian-manifold HMC (RMHMC), Langevin, and flow-based samplers in PyTorch.
+          </p>
+          <p>
+            Standard <strong>HMC</strong> operates in flat Euclidean space with a constant mass matrix and uniform inertia. <strong>RMHMC</strong> instead samples on a Riemannian manifold whose metric \(G(q)\) is position-dependent and encodes the local curvature of the energy landscape, so the sampler adapts its dynamics to the shape of the distribution. Energy conservation is central to both: the Hamiltonian \(H\) must stay constant along each trajectory, and any drift signals integration error. RMHMC achieves this while respecting the underlying geometry.
+          </p>
+          <p style="text-align:center;">
+            \[ H = \tfrac{1}{2}q^{2} + \frac{p^{2}}{2\,G(q)} + \tfrac{1}{2}\log G(q), \qquad G(q) = 1 + q^{2} \]
+          </p>
+          <p>
+            The visualisation contrasts the phase-space geometry of the two samplers: circular orbits in flat space for HMC versus geometry-aware trajectories on the manifold for RMHMC, with energy-decomposition plots confirming conservation in both cases.
+          </p>
+        </div>
+        <div class="sl-hero__actions" style="opacity:1;">
+          <a href="https://github.com/soran-ghaderi/torchebm" class="sl-btn sl-btn--secondary" target="_blank" rel="noopener"><svg style="width:16px;height:16px"><use href="#ico-github"/></svg> GitHub</a>
+          <a href="https://soran-ghaderi.github.io/torchebm/latest/" class="sl-btn sl-btn--secondary" target="_blank" rel="noopener">Documentation</a>
+        </div>
+      </div>
+      <div class="sl-explainer__visual">
+        <img src="/images/visualization/hmc_vs_rmhmc_phase.gif" alt="HMC vs. RMHMC phase-space geometry and energy conservation" loading="lazy">
+      </div>
+    </div>
+    <!-- Classifier-Free Guidance -->
+    <div class="sl-explainer sl-explainer--reverse sl-reveal sl-mt-48">
+      <div class="sl-explainer__content">
+        <span class="sl-card__tag sl-card__tag--article">Research Note · Diffusion</span>
+        <h3 class="sl-headline sl-headline--sm" style="margin:0;">Classifier-Free Guidance: a Probability Perspective</h3>
+        <div class="sl-prose">
+          <p>
+            Where discriminative models learn a decision boundary \(P(Y\mid X)\), generative modelling learns the data distribution \(P(X)\), or the joint \(P(X,Y)=P(X\mid Y)\,P(Y)\), in order to synthesise new samples. Classifier-free guidance trains a single model to handle both unconditional and conditional denoising, then interpolates the two score estimates at inference with a guidance scale \(w\):
+          </p>
+          <p style="text-align:center;">
+            \[ \tilde{\varepsilon} = \varepsilon_{\text{uncond}} + w\,\bigl(\varepsilon_{\text{cond}} - \varepsilon_{\text{uncond}}\bigr) \]
+          </p>
+          <p>
+            Higher \(w\) pushes samples deeper into the conditional distribution, giving stronger condition alignment at the cost of diversity. The animation traces reverse diffusion on an 8-mode Gaussian mixture: from pure noise at \(t=1.0\), the unconditional model wanders while each class-conditioned model collapses toward its target mode.
+          </p>
+        </div>
+        <div class="sl-hero__actions" style="opacity:1;">
+          <a href="https://pub.towardsai.net/physics-inspired-generative-modeling-diffusion-flow-matching-and-energy-based-models-9cbacb24488a" class="sl-btn sl-btn--secondary" target="_blank" rel="noopener">Article</a>
+          <a href="https://github.com/phrugsa-limbunlom/generative-modelling" class="sl-btn sl-btn--secondary" target="_blank" rel="noopener"><svg style="width:16px;height:16px"><use href="#ico-github"/></svg>GitHub</a>
+        </div>
+      </div>
+      <div class="sl-explainer__visual">
+        <img src="/images/visualization/diffusion_cfg_reverse.gif" alt="Classifier-free guidance on an 8-mode Gaussian mixture" loading="lazy">
+      </div>
     </div>
   </div>
 </section>
@@ -256,18 +283,35 @@ redirect_from:
       <span class="sl-overline">04</span>
       <h2 class="sl-headline sl-headline--sm">Preprint</h2>
     </div>
-    <div class="sl-card-grid sl-card-grid--two sl-reveal sl-mt-32">
-      <a href="https://doi.org/10.36227/techrxiv.175742717.74182135/v1" class="sl-card-link" target="_blank" rel="noopener">
-        <div class="sl-card">
-          <img class="sl-card__img" src="/images/paper_sequential.jpg" alt="Sequential input and output prediction">
-          <div class="sl-card__body">
-            <span class="sl-card__tag sl-card__tag--paper">Preprint</span>
-            <h3 class="sl-card__title">Deep Adversarial Learning for Financial Time-Series Forecasting (SE-GAN)</h3>
-            <p class="sl-card__desc">P. Limbunlom, TechRxiv, Sep. 9, 2025</p>
-            <span class="sl-card__link-arrow">Read Paper</span>
-          </div>
+    <div class="sl-explainer sl-explainer--reverse sl-reveal sl-mt-32">
+      <div class="sl-explainer__content">
+        <span class="sl-card__tag sl-card__tag--paper">Preprint · TechRxiv</span>
+        <h3 class="sl-headline sl-headline--sm" style="margin:0;">Deep Adversarial Learning for Financial Time-Series Forecasting (SE-GAN)</h3>
+        <p class="sl-card__desc" style="margin:0;">
+          P. Limbunlom · <a href="https://doi.org/10.36227/techrxiv.175742717.74182135/v1" target="_blank" rel="noopener">TechRxiv</a>, Sep. 9, 2025 · <a href="https://doi.org/10.36227/techrxiv.175742717.74182135/v1" target="_blank" rel="noopener">doi:10.36227/techrxiv.175742717.74182135/v1</a>
+        </p>
+        <div class="sl-prose">
+          <p>
+            This preprint is adapted and extended from my master's degree dissertation from University of Essex. It introduces <strong>SE-GAN (Sentiment-Enhanced GAN)</strong>, a generative-adversarial framework for stock-price forecasting that conditions price dynamics on market sentiment.
+          </p>
+          <p>
+            Point-estimate regressors tend to struggle with the volatility and non-stationarity of financial markets. SE-GAN instead frames forecasting as adversarial sequence generation: a generator predicts future price trajectories while a discriminator distinguishes real from synthesised sequences, and a <strong>FinBERT</strong>-based sentiment signal extracted from financial news is fused into the generator so that predictions react to market mood, not just historical price.
+          </p>
+          <p>
+            Evaluated on real market data, SE-GAN achieves the lowest RMSE against LSTM, GRU, and TimeGPT baselines. The preprint has drawn 280+ views and 100+ downloads on TechRxiv since release.
+          </p>
+          <p style="margin-bottom:0;">
+            <strong>Keywords:</strong> Stock Price Prediction · Sentiment Analysis · Generative Adversarial Networks · FinBERT · Financial Time Series
+          </p>
         </div>
-      </a>
+        <div class="sl-hero__actions" style="opacity:1;">
+          <a href="https://doi.org/10.36227/techrxiv.175742717.74182135/v1" class="sl-btn sl-btn--primary" target="_blank" rel="noopener">Preprint</a>
+          <a href="https://github.com/phrugsa-limbunlom/SeGAN" class="sl-btn sl-btn--secondary" target="_blank" rel="noopener"><svg style="width:16px;height:16px"><use href="#ico-github"/></svg>GitHub</a>
+        </div>
+      </div>
+      <div class="sl-explainer__visual">
+        <img src="/images/paper_sequential.jpg" alt="SE-GAN sequential input and output prediction" loading="lazy">
+      </div>
     </div>
   </div>
 </section>
@@ -279,7 +323,7 @@ redirect_from:
     <div class="sl-reveal">
       <span class="sl-overline">05</span>
       <h2 class="sl-headline sl-headline--sm">Technical Publications</h2>
-      <p class="sl-subtext sl-mb-32">I regularly publish articles explaining AI-related topics including reasoning optimisation, multimodal model training, and retrieval-augmented generation. These articles focus on practical implementation techniques for modern AI systems and are read by developers interested in applied machine learning.</p>
+      <p class="sl-subtext sl-mb-32">I regularly publish articles explaining AI-related topics including generative modelling, reasoning optimisation, multimodal model training, and retrieval-augmented generation. These articles focus on practical implementation techniques for modern AI systems and are read by developers interested in applied machine learning.</p>
     </div>
     <div class="sl-card-grid sl-reveal">
       <a href="https://pub.towardsai.net/physics-inspired-generative-modeling-diffusion-flow-matching-and-energy-based-models-9cbacb24488a" class="sl-card-link" target="_blank" rel="noopener">
@@ -343,6 +387,39 @@ redirect_from:
 
 
 <!-- â•â•â•â•â•â•â• 06 â€” PROJECTS â•â•â•â•â•â•â• -->
+<!-- Key Project -->
+<section class="sl-section sl-section--border" id="highlight">
+  <div class="sl-container">
+    <div class="sl-section__header--left sl-reveal">
+      <h2 class="sl-headline sl-headline--sm">Key Project</h2>
+    </div>
+      <a href="https://receptr-ai.com/" class="sl-highlight-card sl-reveal" target="_blank" rel="noopener">
+      <div class="sl-highlight-card__body">
+        <div class="sl-highlight-card__meta">
+          <span class="sl-badge sl-badge--success">Live · Now in Beta</span>
+        </div>
+        <h3 class="sl-highlight-card__title">Receptr - Intelligent Agent Orchestration for Small Business Operations</h3>
+          <p class="sl-highlight-card__desc">
+            Receptr is an AI-native platform that lowers the barrier to intelligent automation for non-technical founders, independently architected, developed, and deployed by me. It provides an orchestration layer where autonomous agents acquire business context and execute operational tasks (customer support, marketing, and data analysis) without technical intervention, exploring how multi-agent architectures can reduce overhead and accelerate AI adoption for resource-constrained organisations.
+          </p>
+          Key Functionalities:
+          <ul class="sl-highlight-card__desc">
+            <li>Conversational Chat Interface</li>
+            <li>Adaptive Personalised Feedback</li>
+            <li>Persistent Business & User Memory</li>
+            <li>Voice-Enabled Conversation with Appointment Scheduling</li>
+            <li>Image-to-Video Generation</li>
+          </ul>
+        <span class="sl-btn sl-btn--primary" style="align-self: flex-start; pointer-events: none;">Visit Receptr</span>
+      </div>
+      <div class="sl-highlight-card__preview">
+        <img src="/images/Receptr.png?v=2" alt="Receptr” AI Agent Platform preview" loading="lazy">
+      </div>
+    </a>
+  </div>
+</section>
+
+
 <section class="sl-section sl-section--gray sl-section--border" id="projects">
   <div class="sl-container">
     <div class="sl-reveal">
@@ -369,6 +446,12 @@ redirect_from:
         </p>
     </div>
     <div class="sl-card-grid sl-reveal">
+      <a href="https://github.com/phrugsa-limbunlom/generative-modelling" class="sl-card-link" target="_blank" rel="noopener">
+        <div class="sl-card">
+          <img class="sl-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/generative-modelling" alt="Generative Modelling">
+          <div class="sl-card__body"><span class="sl-card__tag sl-card__tag--project">Project</span><h3 class="sl-card__title">Generative Modelling</h3><p class="sl-card__desc">Diffusion, flow matching, and energy-based modeling experiments</p><span class="sl-card__link-arrow">View System</span></div>
+        </div>
+      </a>
       <a href="https://github.com/phrugsa-limbunlom/vlm-grpo" class="sl-card-link" target="_blank" rel="noopener">
         <div class="sl-card">
           <img class="sl-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/vlm-grpo" alt="VLM GRPO">
@@ -381,21 +464,15 @@ redirect_from:
           <div class="sl-card__body"><span class="sl-card__tag sl-card__tag--project">Project</span><h3 class="sl-card__title">VLM LoRA</h3><p class="sl-card__desc">Efficient Fine-Tuning Framework for Vision-Language Models</p><span class="sl-card__link-arrow">View System</span></div>
         </div>
       </a>
-      <a href="https://github.com/phrugsa-limbunlom/SEAD-agent" class="sl-card-link" target="_blank" rel="noopener">
-        <div class="sl-card">
-          <img class="sl-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/SEAD-agent" alt="SEAD-Agent">
-          <div class="sl-card__body"><span class="sl-card__tag sl-card__tag--project">Project</span><h3 class="sl-card__title">SEAD-Agent</h3><p class="sl-card__desc">AI Research Assistant System with RAG and Contextual Reasoning</p><span class="sl-card__link-arrow">View System</span></div>
-        </div>
-      </a>
-      <a href="https://github.com/phrugsa-limbunlom/generative-modelling" class="sl-card-link" target="_blank" rel="noopener">
-        <div class="sl-card">
-          <img class="sl-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/generative-modelling" alt="Generative Modelling">
-          <div class="sl-card__body"><span class="sl-card__tag sl-card__tag--project">Project</span><h3 class="sl-card__title">Generative Modelling</h3><p class="sl-card__desc">Diffusion, flow matching, and energy-based modeling experiments</p><span class="sl-card__link-arrow">View System</span></div>
-        </div>
-      </a>
     </div>
     <div id="more-projects" style="display: none;">
       <div class="sl-card-grid sl-reveal" style="margin-top: 20px;">
+        <a href="https://github.com/phrugsa-limbunlom/SEAD-agent" class="sl-card-link" target="_blank" rel="noopener">
+          <div class="sl-card">
+            <img class="sl-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/SEAD-agent" alt="SEAD-Agent">
+            <div class="sl-card__body"><span class="sl-card__tag sl-card__tag--project">Project</span><h3 class="sl-card__title">SEAD-Agent</h3><p class="sl-card__desc">AI Research Assistant System with RAG and Contextual Reasoning</p><span class="sl-card__link-arrow">View System</span></div>
+          </div>
+        </a>
         <a href="https://github.com/phrugsa-limbunlom/DressMe.AI" class="sl-card-link" target="_blank" rel="noopener">
           <div class="sl-card">
             <img class="sl-card__img" src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/DressMe.AI" alt="DressMe.AI">
@@ -435,7 +512,7 @@ redirect_from:
       <div class="sl-reveal">
         <h3 class="sl-section-label">Education</h3>
         <ul class="sl-edu-list">
-          <li><strong>MSc, Artificial Intelligence and its Applications</strong><br>CSEE, University of Essex (Distinction)<br><span class="sl-timeline-label">2023 - 2024</span></li>
+          <li><strong>MSc, Artificial Intelligence and its Applications</strong><br>CSEE, University of Essex (Distinction)<br><em>Dissertation: Sentiment-Enhanced GAN for Financial Time-Series Forecasting</em><br><span class="sl-timeline-label">2023 - 2024</span></li>
           <li><strong>BSc, Major Computer Science</strong><br>Faculty of ICT, Mahidol University <br><span class="sl-timeline-label">2016 - 2020</span></li>
           <li><strong>Certificate, Artificial Intelligence</strong><br>ISS 2019, Sungkyunkwan University<br><span class="sl-timeline-label">2019</span></li>
         </ul>
