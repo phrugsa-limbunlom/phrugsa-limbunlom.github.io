@@ -55,12 +55,22 @@ redirect_from:
           <span class="sl-badge sl-badge--accent">Energy-Based Models</span>
           <span class="sl-badge sl-badge--accent">Diffusion &amp; Flow Matching</span>
           <span class="sl-badge sl-badge--accent">World Models</span>
+          <span style="display:inline-flex; gap:6px; flex-wrap:nowrap;">
+            <span class="sl-badge sl-badge--accent">Agentic AI Systems</span>
+            <span class="sl-badge sl-badge--accent">LLM Infrastructure</span>
+          </span>
+          <span class="sl-badge sl-badge--accent">Multimodal Reasoning</span>
         </div>
       </div>
       <div class="sl-hero__avatar">
         <img src="/images/profile2.jpeg" alt="Phrugsa Limbunlom">
       </div>
     </div>
+    <blockquote class="sl-quote sl-reveal" style="margin-top: 32px;">
+      <span class="sl-quote__icon" aria-hidden="true">"</span>
+      <p class="sl-quote__text">The only limit is your imagination.</p>
+      <footer class="sl-quote__footer"><cite>Hiro Hamada, Big Hero 6</cite></footer>
+    </blockquote>
   </div>
 </section>
 
