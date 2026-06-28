@@ -38,10 +38,10 @@ redirect_from:
       <div class="sl-hero__text">
         <span class="sl-overline" style="opacity:0; animation: sl-fadeUp 0.6s ease 0.1s forwards;">AI Researcher &amp; Engineer</span>
         <h1 class="sl-hero__title" style="opacity:0; animation: sl-fadeUp 0.7s ease 0.2s forwards;">
-          Generative <span class="sl-gradient-text"> Modelling &amp; Agentic AI</span>
+          Phrugsa <span class="sl-gradient-text">Limbunlom</span>
         </h1>
         <p class="sl-hero__subtitle" style="opacity:0; animation: sl-fadeUp 0.7s ease 0.35s forwards;">
-          I study probabilistic generative modelling, including energy-based models, diffusion, and principled sampling, and translate that research into production AI systems and open-source scientific software, alongside in-depth technical writing for the developer community.
+          Researching generative modelling and agentic AI — including energy-based models, diffusion, and principled sampling — and translating that research into production AI systems and open-source scientific software, alongside in-depth technical writing for the developer community.
         </p>
         <div class="sl-hero__actions" style="opacity:0; animation: sl-fadeUp 0.7s ease 0.5s forwards;">
           <a href="#research" class="sl-btn sl-btn--primary">Research</a>
@@ -87,10 +87,10 @@ redirect_from:
         I am Phrugsa (Pruk-sa), an AI Systems Engineer specialising in large language model infrastructure, retrieval-augmented generation, and agent-based AI systems.
       </p> -->
       <p>
-        My work sits at the intersection of machine-learning research and engineering. On the research side, I study probabilistic generative models (energy-based models, diffusion, and flow matching) and principled sampling methods such as Hamiltonian and Riemannian-manifold Monte Carlo, contributing this work to open-source scientific libraries. On the engineering side, I build practical AI systems that combine reasoning models, structured retrieval, and autonomous agents to solve real-world problems, and I publish in-depth technical articles on modern AI engineering topics such as Physics-Inspired Generative Modelling, GRPO training, LoRA fine-tuning, and production RAG architectures.
+        My work sits at the intersection of machine-learning research and engineering. I research probabilistic generative models (energy-based models, diffusion, flow matching) and principled sampling methods. I also build practical AI systems combining reasoning models, structured retrieval, and autonomous agents, and write in-depth technical articles on modern AI topics.
       </p>
       <p>
-        I hold an MSc in Artificial Intelligence (Distinction) from the University of Essex, where I worked on predictive modelling, generative modelling, and large language models. I am currently working in the enterprise system where I develop AI-driven cloud development to support digital transformation of enterprise platforms. I am also building AI agents infrastructure, contributing to open-source projects, and writing in-depth technical articles published with leading AI publishers.
+        I hold an MSc in Artificial Intelligence (Distinction) from the University of Essex. I currently develop AI-driven cloud solutions for enterprise digital transformation, while building AI agent infrastructure, contributing to open-source projects, and publishing with leading AI publishers.
       </p>
     </div>
     <!-- Impact Highlights -->
@@ -105,14 +105,13 @@ redirect_from:
           <li>Built scalable LLM inference pipelines with vLLM using AWS SageMaker and modern ML infrastructure</li>
           <li>Translated dissertation to a published preprint in TechRxiv (280+ views and 100+ downloads) about generative modelling and adversarial training (GANs) in the volatile financial domain</li>
           <li>Experience deploying AI systems within enterprise environments including work with IT consultanting services</li>
-          <li>MSc Artificial Intelligence (Distinction) from University of Essex</li>
         </ul>
       </div>
     </div> 
     <div class="sl-stats sl-stats--profile sl-reveal sl-mt-32">
       <a href="#education" class="sl-stats__item">
         <span class="sl-stats__number">MSc</span>
-        <span class="sl-stats__label">AI - UofEssex</span>
+        <span class="sl-stats__label">AI (Distinction) - UofEssex</span>
       </a>
       <a href="#education" class="sl-stats__item">
         <span class="sl-stats__number">3</span>
@@ -155,7 +154,7 @@ redirect_from:
           <strong>AI Agents & Automation:</strong> Building autonomous intelligent systems capable of complex decision-making and real-world problem solving through reinforcement learning and planning algorithms.
         </li>
       </ul>
-        My research direction centres on <em>multimodal intelligence and world models</em> as a pathway toward more robust and data-efficient machine learning systems. This direction was shaped by observations from earlier work, where state-of-the-art models revealed a pronounced dependency on large-scale labelled datasets while exhibiting limited capacity to generalise under out-of-distribution conditions. I am particularly interested in developing predictive world models that capture the underlying structure, dynamics, and causal relationships of complex environments across multiple modalities
+        My research direction centres on <em>multimodal models and world models</em> as a pathway toward more robust and data-efficient machine learning systems. This direction was shaped by observations from earlier work, where state-of-the-art models revealed a pronounced dependency on large-scale labelled datasets while exhibiting limited capacity to generalise under out-of-distribution conditions. I am particularly interested in developing predictive world models that capture the underlying structure, dynamics, and causal relationships of complex environments across multiple modalities
       <!-- <p>
         Inspired by <a href="https://openreview.net/pdf?id=BZ5a1r-kVsf" target="_blank"><em>A Path Towards Autonomous Machine Intelligence by Yann LeCun</em></a>, I am particularly interested in building predictive world models that capture the underlying structure, dynamics, and causal relationships of environments across modalities such as vision, language, and action. I am exploring the feasibility of leveraging Joint-Embedding Predictive Architectures (JEPA) and energy-based models to learn structured representations that are invariant, predictive, and semantically meaningful.
       </p> -->
