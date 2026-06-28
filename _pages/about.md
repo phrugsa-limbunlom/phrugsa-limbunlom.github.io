@@ -41,7 +41,7 @@ redirect_from:
           Phrugsa <span class="sl-gradient-text">Limbunlom</span>
         </h1>
         <p class="sl-hero__subtitle" style="opacity:0; animation: sl-fadeUp 0.7s ease 0.35s forwards;">
-          Researching generative modelling and agentic AI — including energy-based models, diffusion, and principled sampling — and translating that research into production AI systems and open-source scientific software, alongside in-depth technical writing for the developer community.
+          Researching generative modelling and agentic AI, including energy-based models, diffusion models, flow matching, and principled sampling, and translating that research into production AI systems and open-source scientific software, alongside in-depth technical writing for the developer community.
         </p>
         <div class="sl-hero__actions" style="opacity:0; animation: sl-fadeUp 0.7s ease 0.5s forwards;">
           <a href="#research" class="sl-btn sl-btn--primary">Research</a>
@@ -87,10 +87,10 @@ redirect_from:
         I am Phrugsa (Pruk-sa), an AI Systems Engineer specialising in large language model infrastructure, retrieval-augmented generation, and agent-based AI systems.
       </p> -->
       <p>
-        My work sits at the intersection of machine-learning research and engineering. I research probabilistic generative models (energy-based models, diffusion, flow matching) and principled sampling methods. I also build practical AI systems combining reasoning models, structured retrieval, and autonomous agents, and write in-depth technical articles on modern AI topics.
+        My work sits at the intersection of machine-learning research and engineering. On the research side, I study probabilistic generative models (energy-based models, diffusion, flow matching) and principled sampling methods. On the engineering side, I build practical AI systems combining reasoning models, structured retrieval, and autonomous agents, and share what I learn through in-depth technical articles.
       </p>
       <p>
-        I hold an MSc in Artificial Intelligence (Distinction) from the University of Essex. I currently develop AI-driven cloud solutions for enterprise digital transformation, while building AI agent infrastructure, contributing to open-source projects, and publishing with leading AI publishers.
+        I hold a master's degree in AI from the University of Essex,where I worked on predictive modelling, generative modelling, and large language models. I currently develop AI-driven cloud solutions for enterprise digital transformation and contribute to open-source scientific libraries, bridging the research I care about with the systems that put it to work.
       </p>
     </div>
     <!-- Impact Highlights -->
