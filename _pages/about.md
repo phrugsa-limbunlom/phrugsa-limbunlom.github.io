@@ -290,7 +290,7 @@ redirect_from:
   <div class="sl-container">
     <div class="sl-reveal">
       <span class="sl-overline">04</span>
-      <h2 class="sl-headline sl-headline--sm">Preprint</h2>
+      <h2 class="sl-headline sl-headline--sm">Preprint &amp; Thesis</h2>
     </div>
     <div class="sl-explainer sl-explainer--reverse sl-reveal sl-mt-32">
       <div class="sl-explainer__content">
@@ -320,6 +320,29 @@ redirect_from:
       </div>
       <div class="sl-explainer__visual">
         <img src="/images/paper_sequential.jpg" alt="SE-GAN sequential input and output prediction" loading="lazy">
+      </div>
+    </div>
+    <div class="sl-explainer sl-reveal sl-mt-48">
+      <div class="sl-explainer__content">
+        <span class="sl-card__tag sl-card__tag--paper">Thesis · MANDY</span>
+        <h3 class="sl-headline sl-headline--sm" style="margin:0;">MANDY: Mandibular Fracture Classification &amp; Localization on X-ray Images</h3>
+        <div class="sl-prose">
+          <p>
+            This thesis investigates relevant models for X-ray image classification using convolutional neural networks (CNNs) and transfer learning to identify mandibular fractures, and employs <strong>Gradient-weighted Class Activation Mapping (GradCAM)</strong> to localize fracture locations.
+          </p>
+          <p>
+            The trained model was deployed as a diagnostic system to assist non-specialist doctors, surfacing both a fracture classification and a visual heatmap that highlights the affected region of the mandible.
+          </p>
+          <p style="margin-bottom:0;">
+            <strong>Keywords:</strong> CNN · GradCAM · Mandibular Fracture · Classification · Localization · X-ray
+          </p>
+        </div>
+        <div class="sl-hero__actions" style="opacity:1;">
+          <a href="https://github.com/phrugsa-limbunlom/GradCAM/tree/master" class="sl-btn sl-btn--secondary" target="_blank" rel="noopener"><svg style="width:16px;height:16px"><use href="#ico-github"/></svg>GitHub</a>
+        </div>
+      </div>
+      <div class="sl-explainer__visual">
+        <img src="/images/Mandy.png" alt="MANDY mandibular fracture classification and localization" loading="lazy">
       </div>
     </div>
   </div>
