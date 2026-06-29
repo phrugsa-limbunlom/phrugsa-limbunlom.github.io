@@ -56,10 +56,10 @@ redirect_from:
           <span class="sl-badge sl-badge--accent">Diffusion &amp; Flow Matching</span>
           <span class="sl-badge sl-badge--accent">World Models</span>
           <span style="display:inline-flex; gap:6px; flex-wrap:nowrap;">
+            <span class="sl-badge sl-badge--accent">Multimodal Reasoning</span>
             <span class="sl-badge sl-badge--accent">Agentic AI Systems</span>
             <span class="sl-badge sl-badge--accent">LLM Infrastructure</span>
           </span>
-          <span class="sl-badge sl-badge--accent">Multimodal Reasoning</span>
         </div>
       </div>
       <div class="sl-hero__avatar">
@@ -154,7 +154,7 @@ redirect_from:
           <strong>AI Agents & Automation:</strong> Building autonomous intelligent systems capable of complex decision-making and real-world problem solving through reinforcement learning and planning algorithms.
         </li>
       </ul>
-        My research direction centres on <em>multimodal models and world models</em> as a pathway toward more robust and data-efficient machine learning systems. This direction was shaped by observations from earlier work, where state-of-the-art models revealed a pronounced dependency on large-scale labelled datasets while exhibiting limited capacity to generalise under out-of-distribution conditions. I am particularly interested in developing predictive world models that capture the underlying structure, dynamics, and causal relationships of complex environments across multiple modalities
+        My research direction centres on <em>Generative World Models</em> as a pathway toward more robust and data-efficient machine learning systems. This direction was shaped by observations from earlier work, where state-of-the-art models revealed a pronounced dependency on large-scale labelled datasets while exhibiting limited capacity to generalise under out-of-distribution conditions. I am particularly interested in developing predictive world models that capture the underlying structure, dynamics, and causal relationships of complex environments across multiple modalities
       <!-- <p>
         Inspired by <a href="https://openreview.net/pdf?id=BZ5a1r-kVsf" target="_blank"><em>A Path Towards Autonomous Machine Intelligence by Yann LeCun</em></a>, I am particularly interested in building predictive world models that capture the underlying structure, dynamics, and causal relationships of environments across modalities such as vision, language, and action. I am exploring the feasibility of leveraging Joint-Embedding Predictive Architectures (JEPA) and energy-based models to learn structured representations that are invariant, predictive, and semantically meaningful.
       </p> -->
