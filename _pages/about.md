@@ -36,7 +36,7 @@ redirect_from:
   <div class="sl-container sl-hero__inner">
     <div class="sl-hero__row">
       <div class="sl-hero__text">
-        <span class="sl-overline" style="opacity:0; animation: sl-fadeUp 0.6s ease 0.1s forwards;">AI Researcher &amp;Developer</span>
+        <span class="sl-overline" style="opacity:0; animation: sl-fadeUp 0.6s ease 0.1s forwards;">AI Researcher &amp; Developer</span>
         <h1 class="sl-hero__title" style="opacity:0; animation: sl-fadeUp 0.7s ease 0.2s forwards;">
           Phrugsa <span class="sl-gradient-text">Limbunlom</span>
         </h1>
