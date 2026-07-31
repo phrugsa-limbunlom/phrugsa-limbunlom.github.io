@@ -171,8 +171,33 @@ redirect_from:
       <h2 class="sl-headline sl-headline--sm">Research &amp; Open Source</h2>
       <p class="sl-subtext sl-mb-32">Contributing principled sampling and generative-model research to open-source scientific libraries, with reproducible visualisations of the underlying mathematics.</p>
     </div>
-    <!-- TorchEBM / RMHMC -->
+    <!-- DeltaFlow -->
     <div class="sl-explainer sl-reveal sl-mt-32">
+      <div class="sl-explainer__content">
+        <span class="sl-card__tag sl-card__tag--project">Open Source · DeltaFlow</span>
+        <h3 class="sl-headline sl-headline--sm" style="margin:0;">DeltaFlow: Flow Matching &amp; Anatomy-Invariant Guidance Alignment</h3>
+        <div class="sl-prose">
+          <p>
+            <a href="https://github.com/phrugsa-limbunlom/deltaflow" target="_blank" rel="noopener">DeltaFlow</a> is a PyTorch library I authored for radiograph generative pretraining. It provides composable primitives for two ideas that are usually bundled together in ad-hoc research code like <strong>flow matching</strong>, a simulation-free objective that regresses a velocity field onto the conditional velocity of a probability path (Lipman et al., 2023), and <strong>delta alignment</strong>, a multi-scale loss that aligns the guidance-difference feature across augmented views instead of the raw, anatomy-entangled features.
+          </p>
+          <p style="text-align:center;">
+            \[ \Delta h = h_{\text{cond}} - h_{\text{uncond}}, \qquad \mathcal{L} = \lambda_{\text{flow}}\,\mathcal{L}_{\text{FM}} + \lambda_{\text{align}}\,\mathcal{L}_{\Delta} \]
+          </p>
+          <p>
+            The name captures the mechanism: <em>Delta</em> is the guidance-difference feature that cancels shared anatomy, and <em>Flow</em> is the flow-matching engine that consumes it. The library targets 2D radiography (chest X-ray, cephalometric, hand), but the core modules including <code>interpolants</code>, <code>samplers</code>, <code>losses</code>, and <code>models.projector</code> are domain-agnostic and reusable for any flow-matching workflow.
+          </p>
+        </div>
+        <div class="sl-hero__actions" style="opacity:1;">
+          <a href="https://github.com/phrugsa-limbunlom/deltaflow" class="sl-btn sl-btn--secondary" target="_blank" rel="noopener"><svg style="width:16px;height:16px"><use href="#ico-github"/></svg> GitHub</a>
+          <a href="https://pypi.org/project/torchdeltaflow/" class="sl-btn sl-btn--secondary" target="_blank" rel="noopener">PyPI</a>
+        </div>
+      </div>
+      <div class="sl-explainer__visual">
+        <img src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/deltaflow" alt="DeltaFlow repository preview" loading="lazy">
+      </div>
+    </div>
+    <!-- TorchEBM / RMHMC -->
+    <div class="sl-explainer sl-explainer--reverse sl-reveal sl-mt-48">
       <div class="sl-explainer__content">
         <span class="sl-card__tag sl-card__tag--project">Open Source · TorchEBM</span>
         <h3 class="sl-headline sl-headline--sm" style="margin:0;">Geometry-Aware Sampling: HMC vs. RMHMC</h3>
@@ -200,7 +225,7 @@ redirect_from:
       </div>
     </div>
     <!-- Classifier-Free Guidance -->
-    <div class="sl-explainer sl-explainer--reverse sl-reveal sl-mt-48">
+    <div class="sl-explainer sl-reveal sl-mt-48">
       <div class="sl-explainer__content">
         <span class="sl-card__tag sl-card__tag--article">Research Note · Diffusion</span>
         <h3 class="sl-headline sl-headline--sm" style="margin:0;">Classifier-Free Guidance: a Probability Perspective</h3>
