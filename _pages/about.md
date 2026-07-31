@@ -444,39 +444,6 @@ redirect_from:
 
 
 <!-- â•â•â•â•â•â•â• 06 â€” PROJECTS â•â•â•â•â•â•â• -->
-<!-- Key Project -->
-<section class="sl-section sl-section--border" id="highlight">
-  <div class="sl-container">
-    <div class="sl-section__header--left sl-reveal">
-      <h2 class="sl-headline sl-headline--sm">Key Project</h2>
-    </div>
-      <a href="https://receptr-ai.com/" class="sl-highlight-card sl-reveal" target="_blank" rel="noopener">
-      <div class="sl-highlight-card__body">
-        <div class="sl-highlight-card__meta">
-          <span class="sl-badge sl-badge--success">Live · Now in Beta</span>
-        </div>
-        <h3 class="sl-highlight-card__title">Receptr - Intelligent Agent Orchestration for Small Business Operations</h3>
-          <p class="sl-highlight-card__desc">
-            Receptr is an AI-native platform that lowers the barrier to intelligent automation for non-technical founders, independently architected, developed, and deployed by me. It provides an orchestration layer where autonomous agents acquire business context and execute operational tasks (customer support, marketing, and data analysis) without technical intervention, exploring how multi-agent architectures can reduce overhead and accelerate AI adoption for resource-constrained organisations.
-          </p>
-          Key Functionalities:
-          <ul class="sl-highlight-card__desc">
-            <li>Conversational Chat Interface</li>
-            <li>Adaptive Personalised Feedback</li>
-            <li>Persistent Business & User Memory</li>
-            <li>Voice-Enabled Conversation with Appointment Scheduling</li>
-            <li>Image-to-Video Generation</li>
-          </ul>
-        <span class="sl-btn sl-btn--primary" style="align-self: flex-start; pointer-events: none;">Visit Receptr</span>
-      </div>
-      <div class="sl-highlight-card__preview">
-        <img src="/images/Receptr.png?v=2" alt="Receptr” AI Agent Platform preview" loading="lazy">
-      </div>
-    </a>
-  </div>
-</section>
-
-
 <section class="sl-section sl-section--gray sl-section--border" id="projects">
   <div class="sl-container">
     <div class="sl-reveal">
@@ -552,8 +519,33 @@ redirect_from:
     </div>
     <div style="text-align: center; margin-top: 32px;" class="sl-reveal">
       <a href="javascript:void(0)" id="toggle-more-projects" class="sl-btn sl-btn--secondary" onclick="var el=document.getElementById('more-projects');var btn=this;if(el.style.display==='none'){el.style.display='block';btn.textContent='Show Less';el.querySelectorAll('.sl-reveal').forEach(function(r){r.classList.add('is-visible');})}else{el.style.display='none';btn.textContent='Show More';}">Show More</a>
+    </div>    <!-- Key Project -->
+    <div class="sl-section__header--left sl-reveal sl-mt-48" id="highlight">
+      <h2 class="sl-headline sl-headline--sm">Key Project</h2>
     </div>
-  </div>
+    <a href="https://receptr-ai.com/" class="sl-highlight-card sl-reveal" target="_blank" rel="noopener">
+      <div class="sl-highlight-card__body">
+        <div class="sl-highlight-card__meta">
+          <span class="sl-badge sl-badge--success">Live · Now in Beta</span>
+        </div>
+        <h3 class="sl-highlight-card__title">Receptr - Intelligent Agent Orchestration for Small Business Operations</h3>
+        <p class="sl-highlight-card__desc">
+          Receptr is an AI-native platform that lowers the barrier to intelligent automation for non-technical founders, independently architected, developed, and deployed by me. It provides an orchestration layer where autonomous agents acquire business context and execute operational tasks (customer support, marketing, and data analysis) without technical intervention, exploring how multi-agent architectures can reduce overhead and accelerate AI adoption for resource-constrained organisations.
+        </p>
+        Key Functionalities:
+        <ul class="sl-highlight-card__desc">
+          <li>Conversational Chat Interface</li>
+          <li>Adaptive Personalised Feedback</li>
+          <li>Persistent Business & User Memory</li>
+          <li>Voice-Enabled Conversation with Appointment Scheduling</li>
+          <li>Image-to-Video Generation</li>
+        </ul>
+        <span class="sl-btn sl-btn--primary" style="align-self: flex-start; pointer-events: none;">Visit Receptr</span>
+      </div>
+      <div class="sl-highlight-card__preview">
+        <img src="/images/Receptr.png?v=2" alt="Receptr” AI Agent Platform preview" loading="lazy">
+      </div>
+    </a>  </div>
 </section>
 
 
