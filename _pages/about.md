@@ -193,7 +193,7 @@ redirect_from:
         </div>
       </div>
       <div class="sl-explainer__visual">
-        <img src="https://opengraph.githubassets.com/1/phrugsa-limbunlom/deltaflow" alt="DeltaFlow repository preview" loading="lazy">
+        <img src="images/visualization/flow.gif" alt="DeltaFlow repository preview" loading="lazy">
       </div>
     </div>
     <!-- TorchEBM / RMHMC -->
