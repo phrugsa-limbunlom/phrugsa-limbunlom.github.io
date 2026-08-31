@@ -68,8 +68,8 @@ redirect_from:
     </div>
     <blockquote class="sl-quote sl-reveal" style="margin-top: 32px;">
       <span class="sl-quote__icon" aria-hidden="true">"</span>
-      <p class="sl-quote__text">The only limit is your imagination.</p>
-      <footer class="sl-quote__footer"><cite>Hiro Hamada, Big Hero 6</cite></footer>
+      <p class="sl-quote__text">Imagination is more important than knowledge.</p>
+      <footer class="sl-quote__footer"><cite>Albert Einstein</cite></footer>
     </blockquote>
   </div>
 </section>
