@@ -14,7 +14,7 @@ redirect_from:
   <img class="ac-header__photo" src="/images/profile2.jpeg" alt="Phrugsa Limbunlom">
   <div>
     <h1 class="ac-header__name">Phrugsa Limbunlom</h1>
-    <p class="ac-header__title">AI Researcher and Developer &middot; Generative Modelling &amp; Probabilistic Sampling</p>
+    <p class="ac-header__title">AI Researcher and Developer</p>
     <p class="ac-header__links">
       <a href="mailto:phrugsa.lim@gmail.com"><i class="fas fa-envelope"></i>Email</a>
       <a href="https://github.com/phrugsa-limbunlom" target="_blank" rel="noopener"><i class="fab fa-github"></i>GitHub</a>
