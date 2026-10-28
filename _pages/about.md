@@ -86,7 +86,7 @@ redirect_from:
     <div>
       <p class="ac-entry__title"><a href="https://github.com/phrugsa-limbunlom/deltaflow" target="_blank" rel="noopener">DeltaFlow</a></p>
       <p class="ac-entry__venue">Author &middot; PyTorch</p>
-      <p class="ac-entry__desc">Flow matching with anatomy-invariant guidance alignment for radiograph generative pretraining. Domain-agnostic interpolants, samplers and losses.</p>
+      <p class="ac-entry__desc">PyTorch library for flow matching: composable interpolants, mini-batch optimal-transport coupling, ODE samplers and losses, plus a delta-alignment objective for representation learning in generative pretraining.</p>
       <p class="ac-links">
         <a href="https://github.com/phrugsa-limbunlom/deltaflow" target="_blank" rel="noopener">GitHub</a>
         <a href="https://pypi.org/project/torchdeltaflow/" target="_blank" rel="noopener">PyPI</a>
