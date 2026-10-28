@@ -1,0 +1,45 @@
+---
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+      html { scroll-behavior: smooth; }
+    </style>
+  </head>
+
+  <body class="saas-landing academic">
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <main class="ac-main">
+      {{ content }}
+    </main>
+
+    <footer class="ac-footer">
+      <div class="ac-container ac-footer__inner">
+        <span>&copy; {{ site.time | date: '%Y' }} Phrugsa Limbunlom</span>
+        <span class="ac-footer__links">
+          <a href="mailto:{{ site.author.email }}" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="{{ site.author.orcid }}" target="_blank" rel="noopener" aria-label="ORCID"><i class="fab fa-orcid"></i></a>
+          <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="{{ site.author.medium }}" target="_blank" rel="noopener" aria-label="Medium"><i class="fab fa-medium"></i></a>
+          <a href="#" aria-label="Back to top">Back to top &uarr;</a>
+        </span>
+      </div>
+    </footer>
+
+    {% include scripts.html %}
+
+  </body>
+</html>
