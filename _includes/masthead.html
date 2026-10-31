@@ -19,5 +19,11 @@
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    {% if page.layout == 'academic' %}
+    <button type="button" class="ac-theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle theme">
+      <i class="fas fa-sun ac-theme-toggle__light" aria-hidden="true"></i>
+      <i class="fas fa-moon ac-theme-toggle__dark" aria-hidden="true"></i>
+    </button>
+    {% endif %}
   </div>
 </div>

@@ -4,17 +4,45 @@
    Inherits the masthead/nav from body.saas-landing.
    ========================================================================== */
 
-$ac-text:      #1d1d1f;
-$ac-muted:     #6e6e73;
-$ac-border:    #e8e8ec;
-$ac-accent:    #2563eb;
-$ac-bg-soft:   #f7f7f9;
+/* Theme tokens: dark is the default; light applies via html[data-theme="light"]. */
+html {
+  --ac-bg:          #0f1115;
+  --ac-bg-soft:     #1a1d23;
+  --ac-text:        #e6e6e9;
+  --ac-muted:       #a1a1aa;
+  --ac-border:      #2a2e36;
+  --ac-accent:      #60a5fa;
+  --ac-accent-soft: rgba(96, 165, 250, 0.14);
+  --ac-glass:       rgba(15, 17, 21, 0.75);
+  color-scheme: dark;
+}
+
+html[data-theme="light"] {
+  --ac-bg:          #ffffff;
+  --ac-bg-soft:     #f7f7f9;
+  --ac-text:        #1d1d1f;
+  --ac-muted:       #6e6e73;
+  --ac-border:      #e8e8ec;
+  --ac-accent:      #2563eb;
+  --ac-accent-soft: rgba(37, 99, 235, 0.08);
+  --ac-glass:       rgba(255, 255, 255, 0.72);
+  color-scheme: light;
+}
+
+$ac-bg:          var(--ac-bg);
+$ac-text:        var(--ac-text);
+$ac-muted:       var(--ac-muted);
+$ac-border:      var(--ac-border);
+$ac-accent:      var(--ac-accent);
+$ac-accent-soft: var(--ac-accent-soft);
+$ac-bg-soft:     var(--ac-bg-soft);
 $ac-serif:     'Source Serif 4', Georgia, 'Times New Roman', serif;
 $ac-sans:      'Inter', -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 
 body.academic {
-  background: #fff;
+  background: $ac-bg;
   color: $ac-text;
+  transition: background-color 0.2s ease, color 0.2s ease;
   font-family: $ac-sans;
   font-size: 15.5px;
   line-height: 1.6;
@@ -26,6 +54,63 @@ body.academic {
 .ac-main {
   padding-top: 88px;
 }
+
+/* ---------- Masthead (theme-aware) ---------- */
+body.saas-landing.academic .masthead {
+  background: var(--ac-glass);
+  border-bottom-color: $ac-border;
+
+  .masthead__menu {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .masthead__menu-item a { color: $ac-muted; }
+  .masthead__menu-item a:hover,
+  .masthead__menu-item--lg a { color: $ac-text; }
+
+  .hidden-links {
+    background: $ac-bg;
+    border-color: $ac-border;
+
+    &::before { border-color: $ac-border transparent !important; }
+    &::after { border-color: $ac-bg transparent !important; }
+
+    li a { color: $ac-muted; }
+    li a:hover { color: $ac-text; background: $ac-bg-soft; }
+  }
+
+  button .navicon,
+  button .navicon::before,
+  button .navicon::after { background: $ac-text; }
+}
+
+.ac-theme-toggle {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin-left: 8px;
+  padding: 0;
+  border: 1px solid $ac-border;
+  border-radius: 50%;
+  background: transparent;
+  color: $ac-muted;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+
+  &:hover,
+  &:focus-visible { color: $ac-accent; border-color: $ac-accent; }
+
+  .ac-theme-toggle__light { display: none; }
+}
+
+/* Show the icon of the theme the button switches to. */
+html:not([data-theme="light"]) .ac-theme-toggle__light { display: inline; }
+html:not([data-theme="light"]) .ac-theme-toggle__dark { display: none; }
 
 .ac-container {
   max-width: 920px;
@@ -231,7 +316,7 @@ body.academic {
   padding: 0 6px;
   margin-right: 6px;
   border-radius: 3px;
-  background: rgba(37, 99, 235, 0.08);
+  background: $ac-accent-soft;
   color: $ac-accent;
   vertical-align: 1px;
 }
